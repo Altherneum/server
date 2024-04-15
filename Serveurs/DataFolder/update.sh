@@ -108,7 +108,7 @@ wget -O /Serveurs/DataFolder/start.sh 'https://raw.githubusercontent.com/Althern
 chmod +x /Serveurs/DataFolder/start.sh
 
 # start-auto
-wget -O /Serveurs/DataFolder/start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/start-auto.sh'
+wget -O /Serveurs/DataFolder/start-auto.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/start-auto.sh'
 chmod +x /Serveurs/DataFolder/start-auto.sh
 
 # running servers
