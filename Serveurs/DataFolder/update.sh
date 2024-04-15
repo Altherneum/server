@@ -106,6 +106,11 @@ wget -O /Serveurs/DataFolder/structures/mine.yml 'https://raw.githubusercontent.
 # start
 wget -O /Serveurs/DataFolder/start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/start.sh'
 chmod +x /Serveurs/DataFolder/start.sh
-#
+
+# start-auto
+wget -O /Serveurs/DataFolder/start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/start-auto.sh'
+chmod +x /Serveurs/DataFolder/start-auto.sh
+
+# running servers
 echo ~ Starting Minecraft servers
-/Serveurs/DataFolder/start.sh
+/Serveurs/DataFolder/start-auto.sh
