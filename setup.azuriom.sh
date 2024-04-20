@@ -8,6 +8,7 @@ useradd www-data
 chmod -R 755 /var/www/html && chown -R www-data:www-data /var/www/html
 #
 a2enmod rewrite
+#
 wget -O /etc/apache2/sites-available/altherneum.fr.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/apache2/sites-available/altherneum.fr.conf'
 a2ensite altherneum.fr.conf
 a2dissite 000-default.conf
