@@ -1,7 +1,7 @@
 # MySql
 DB_PWD="PASSWORD"
 DB_NAME="site"
-DB_USER="root"
+DB_USER="Azuriom"
 #
 mysql -e "CREATE USER '${DB_USER}'@'127.0.0.1' IDENTIFIED BY '${DB_PWD}';"
 mysql -e "CREATE DATABASE ${DB_NAME};"
