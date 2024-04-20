@@ -12,7 +12,3 @@ a2enmod rewrite
 wget -O /etc/apache2/sites-available/altherneum.fr.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/apache2/sites-available/altherneum.fr.conf'
 a2ensite altherneum.fr.conf
 a2dissite 000-default.conf
-#
-# Check default behavior of PhpMyAdmin first
-# wget -O /etc/apache2/sites-available/phpmyadmin.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/apache2/sites-available/phpmyadmin.conf'
-# a2ensite phpmyadmin.conf
