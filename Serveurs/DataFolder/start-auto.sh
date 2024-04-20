@@ -1,8 +1,8 @@
 cd /Serveurs/Waterfall
 /Serveurs/Waterfall/start.sh
 
-# cd /Serveurs/Hub
-# /Serveurs/Hub/start.sh
+cd /Serveurs/Hub
+/Serveurs/Hub/start.sh
 
 # cd /Serveurs/SkyBlock
 # /Serveurs/SkyBlock/start.sh
