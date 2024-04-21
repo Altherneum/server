@@ -18,5 +18,5 @@ mysql -e "CREATE DATABASE ${DB_NAME};"
 mysql -e "GRANT ALL PRIVILEGES ON ${DB_NAME}.* TO '${DB_USER}'@'127.0.0.1' WITH GRANT OPTION;"
 
 # PHPMyAdmin
-mysql -e "ALTER USER '${PHP_MA_USER}'@'localhost' IDENTIFIED BY '${PHP_MA_PWD}';"
+# mysql -e "ALTER USER '${PHP_MA_USER}'@'localhost' IDENTIFIED BY '${PHP_MA_PWD}';"
 mysql -e "GRANT ALL PRIVILEGES ON *.* TO '${PHP_MA_USER}'@'localhost' WITH GRANT OPTION;"
