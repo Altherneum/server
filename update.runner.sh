@@ -20,6 +20,10 @@ wget -O /var/www/html/storage/app/public/img/background.jpg 'https://raw.githubu
 wget -O /var/www/html/storage/app/public/img/gif.gif 'https://raw.githubusercontent.com/Altherneum/server/main/var/www/html/storage/app/public/img/gif.gif'
 wget -O /var/www/html/storage/app/public/img/icone.png 'https://raw.githubusercontent.com/Altherneum/server/main/var/www/html/storage/app/public/img/icone.png'
 wget -O /var/www/html/storage/app/public/img/small.gif 'https://raw.githubusercontent.com/Altherneum/server/main/var/www/html/storage/app/public/img/small.gif'
+# azuriom database config
+wget -O /setup.azuriom-db.sh 'https://raw.githubusercontent.com/Altherneum/server/main/setup.azuriom-db.sh'
+chmod +x /setup.azuriom-db.sh
+/setup.azuriom-db.sh
 
 # certbot 
 wget -O /setup.certbot.sh 'https://raw.githubusercontent.com/Altherneum/server/main/setup.certbot.sh'
