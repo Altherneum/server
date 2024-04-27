@@ -15,6 +15,7 @@ CREATE TABLE `images` (
 INSERT INTO `images` (`id`, `name`, `file`, `type`, `created_at`, `updated_at`) VALUES
 (1, 'background', 'background.jpg', 'image/jpeg', '2024-01-01 00:00:00', '2024-01-01 00:00:00'),
 (2, 'gif', 'gif.gif', 'image/gif', '2024-01-01 00:00:00', '2024-01-01 00:00:00'),
+(2, 'logo', 'small.gif', 'image/gif', '2024-01-01 00:00:00', '2024-01-01 00:00:00'),
 (3, 'icone', 'icone.png', 'image/png', '2024-01-01 00:00:00', '2024-01-01 00:00:00');
 
 ALTER TABLE `images`
@@ -22,5 +23,5 @@ ALTER TABLE `images`
   ADD UNIQUE KEY `images_file_unique` (`file`);
 
 ALTER TABLE `images`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
