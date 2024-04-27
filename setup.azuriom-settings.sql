@@ -3,7 +3,7 @@ START TRANSACTION;
 SET time_zone = "+00:00";
 
 
-CREATE TABLE `settings` (
+CREATE TABLE IF NOT EXISTS `settings` (
   `id` int UNSIGNED NOT NULL,
   `name` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
   `value` text COLLATE utf8mb4_unicode_ci NOT NULL

@@ -3,7 +3,7 @@ START TRANSACTION;
 SET time_zone = "+00:00";
 
 
-CREATE TABLE `images` (
+CREATE TABLE IF NOT EXISTS `images` (
   `id` int UNSIGNED NOT NULL,
   `name` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
   `file` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
