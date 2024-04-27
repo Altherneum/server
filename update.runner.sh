@@ -11,10 +11,6 @@ chmod +x /install.sh
 # azuriom
 wget -O /setup.azuriom.sh 'https://raw.githubusercontent.com/Altherneum/server/main/setup.azuriom.sh'
 chmod +x /setup.azuriom.sh
-# azuriom database config
-wget -O /setup.azuriom-db.sh 'https://raw.githubusercontent.com/Altherneum/server/main/setup.azuriom-db.sh'
-chmod +x /setup.azuriom-db.sh
-/setup.azuriom-db.sh
 # azuriom files for copyright
 mkdir -p /var/www/html/resources/views/custom
 wget -O /var/www/html/resources/views/custom/body.blade.php 'https://raw.githubusercontent.com/Altherneum/server/main/var/www/html/resources/views/custom/body.blade.php'
