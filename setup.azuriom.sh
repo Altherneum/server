@@ -9,6 +9,10 @@ chmod -R 755 /var/www/html && chown -R www-data:www-data /var/www/html
 #
 a2enmod rewrite
 #
+wget -O /var/www/html/resources/views/custom/body.blade.php 'https://raw.githubusercontent.com/Altherneum/server/main/var/www/html/resources/views/custom/body.blade.php'
+#
 wget -O /etc/apache2/sites-available/altherneum.fr.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/apache2/sites-available/altherneum.fr.conf'
 a2ensite altherneum.fr.conf
+#
 a2dissite 000-default.conf
+#
