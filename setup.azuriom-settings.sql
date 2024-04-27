@@ -21,12 +21,13 @@ INSERT INTO `settings` (`id`, `name`, `value`) VALUES
 (9, 'keywords', 'Minecraft, Altherneum, Hub, SkyBlock, Survie, Anarchie, RPG, Serveur, Serveurs'),
 (10, 'icon', 'icone.png'),
 (11, 'logo', 'icone.png'),
-(12, 'background', 'background.jpg');
+(12, 'background', 'background.jpg'),
+(13, 'description', 'Serveurs Minecraft open source, rejoins-nous sur un Skyblock, OP-Prison, Anarchie, ... faits maison !');
 
 ALTER TABLE `settings`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `settings_name_unique` (`name`);
 
 ALTER TABLE `settings`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 COMMIT;
