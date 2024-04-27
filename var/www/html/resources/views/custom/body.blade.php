@@ -1,5 +1,5 @@
 <style>
-div.copyright {
+div.copyright>.container>p {
 display:none;
 }
 </style>

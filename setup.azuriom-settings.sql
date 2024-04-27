@@ -4,8 +4,8 @@ SET time_zone = "+00:00";
 
 
 CREATE TABLE IF NOT EXISTS `settings` (
-  `id` int UNSIGNED NOT NULL,
-  `name` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `id` int UNSIGNED NOT NULL PRIMARY,
+  `name` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL UNIQUE,
   `value` text COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
@@ -22,11 +22,9 @@ INSERT INTO `settings` (`id`, `name`, `value`) VALUES
 (10, 'icon', 'icone.png'),
 (11, 'logo', 'icone.png'),
 (12, 'background', 'background.jpg'),
-(13, 'description', 'Serveurs Minecraft open source, rejoins-nous sur un Skyblock, OP-Prison, Anarchie, ... faits maison !');
-
-ALTER TABLE `settings`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `settings_name_unique` (`name`);
+(13, 'description', 'Serveurs Minecraft open source, rejoins-nous sur un Skyblock, OP-Prison, Anarchie, ... faits maison !') ON DUPLICATE KEY UPDATE
+  name=VALUES(name),
+  value=VALUES(value);
 
 ALTER TABLE `settings`
   MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;

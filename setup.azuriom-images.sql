@@ -4,9 +4,9 @@ SET time_zone = "+00:00";
 
 
 CREATE TABLE IF NOT EXISTS `images` (
-  `id` int UNSIGNED NOT NULL,
+  `id` int UNSIGNED NOT NULL PRIMARY,
   `name` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `file` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `file` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL UNIQUE,
   `type` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
@@ -16,11 +16,12 @@ INSERT INTO `images` (`id`, `name`, `file`, `type`, `created_at`, `updated_at`) 
 (1, 'background', 'background.jpg', 'image/jpeg', '2024-01-01 00:00:00', '2024-01-01 00:00:00'),
 (2, 'gif', 'gif.gif', 'image/gif', '2024-01-01 00:00:00', '2024-01-01 00:00:00'),
 (3, 'logo', 'small.gif', 'image/gif', '2024-01-01 00:00:00', '2024-01-01 00:00:00'),
-(4, 'icone', 'icone.png', 'image/png', '2024-01-01 00:00:00', '2024-01-01 00:00:00');
-
-ALTER TABLE `images`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `images_file_unique` (`file`);
+(4, 'icone', 'icone.png', 'image/png', '2024-01-01 00:00:00', '2024-01-01 00:00:00') ON DUPLICATE KEY UPDATE
+  name=VALUES(name),
+  file=VALUES(file),
+  type=VALUES(type),
+  created_at=VALUES(created_at),
+  updated_at=VALUES(updated_at);
 
 ALTER TABLE `images`
   MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
