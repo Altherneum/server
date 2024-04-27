@@ -14,7 +14,7 @@ INSERT INTO `settings` (`id`, `name`, `value`) VALUES
 (2, 'money', 'points'),
 (3, 'register', '0'),
 (4, 'name', 'Altherneum'),
-(5, 'url', 'http://Altherneum'),
+(5, 'url', 'https://Altherneum'),
 (6, 'timezone', 'UTC'),
 (7, 'locale', 'fr'),
 (8, 'users.money_transfer', '1'),
