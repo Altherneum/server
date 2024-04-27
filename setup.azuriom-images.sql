@@ -13,10 +13,10 @@ CREATE TABLE IF NOT EXISTS `images` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 INSERT INTO `images` (`id`, `name`, `file`, `type`, `created_at`, `updated_at`) VALUES
-(1, 'background', 'background.jpg', 'image/jpeg', '2024-01-01 00:00:00', '2024-01-01 00:00:00'),
-(2, 'gif', 'gif.gif', 'image/gif', '2024-01-01 00:00:00', '2024-01-01 00:00:00'),
-(2, 'logo', 'small.gif', 'image/gif', '2024-01-01 00:00:00', '2024-01-01 00:00:00'),
-(3, 'icone', 'icone.png', 'image/png', '2024-01-01 00:00:00', '2024-01-01 00:00:00');
+(1, 'background', 'background.jpg', 'image/jpeg', '2024-01-01 00:00:00', '2024-01-01 00:00:00') ON DUPLICATE KEY UPDATE ID = 1,
+(2, 'gif', 'gif.gif', 'image/gif', '2024-01-01 00:00:00', '2024-01-01 00:00:00') ON DUPLICATE KEY UPDATE ID = 2,
+(3, 'logo', 'small.gif', 'image/gif', '2024-01-01 00:00:00', '2024-01-01 00:00:00') ON DUPLICATE KEY UPDATE ID = 3,
+(4 'icone', 'icone.png', 'image/png', '2024-01-01 00:00:00', '2024-01-01 00:00:00') ON DUPLICATE KEY UPDATE ID = 4;
 
 ALTER TABLE `images`
   ADD PRIMARY KEY (`id`),
