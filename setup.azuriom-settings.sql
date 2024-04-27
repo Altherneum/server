@@ -17,12 +17,13 @@ INSERT INTO `settings` (`id`, `name`, `value`) VALUES
 (5, 'url', 'http://Altherneum'),
 (6, 'timezone', 'UTC'),
 (7, 'locale', 'fr'),
-(8, 'users.money_transfer', '1');
+(8, 'users.money_transfer', '1'),
+(9, 'keywords', 'Minecraft, Altherneum, Hub, SkyBlock, Survie, Anarchie, RPG, Serveur, Serveurs');
 
 ALTER TABLE `settings`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `settings_name_unique` (`name`);
 
 ALTER TABLE `settings`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
