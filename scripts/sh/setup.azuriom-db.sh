@@ -15,4 +15,10 @@ mysql site < /scripts/database/images.sql
 wget -O '/scripts/database/shop_categories.sql' 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/database/shop_categories.sql'
 mysql site < /scripts/database/shop_categories.sql
 #
+# wget -O '/scripts/database/servers.sql' 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/database/servers.sql'
+mysql site < /scripts/database/servers.sql
+#
+# wget -O '/scripts/database/users.sql' 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/database/users.sql'
+mysql site < /scripts/database/users.sql
+#
 # Clean Azuriom cache after this to update website
