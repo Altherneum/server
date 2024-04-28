@@ -56,6 +56,9 @@ wget -O /Serveurs/DataFolder/serverTypeFile.yml 'https://raw.githubusercontent.c
 wget -O /Serveurs/DataFolder/spigot.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/spigot.yml'
 wget -O /Serveurs/DataFolder/bukkit.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/bukkit.yml'
 
+# Server tick & build
+wget -O /Serveurs/DataFolder/hub.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/hub.yml'
+
 # Admin files
 mkdir -p /Serveurs/DataFolder/players/d0a8d68a-69b6-4dfc-bc03-9679841e7199
 wget -O /Serveurs/DataFolder/players/d0a8d68a-69b6-4dfc-bc03-9679841e7199/tag.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/players/d0a8d68a-69b6-4dfc-bc03-9679841e7199/tag.yml'
