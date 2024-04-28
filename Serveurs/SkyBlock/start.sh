@@ -1,2 +1,3 @@
+cd /Serveurs/SkyBlock/
 screen -dmS SkyBlock java -Xms512M -Xmx2048M -XX:SoftMaxHeapSize=256M -Dterminal.jline=false -Dterminal.ansi=true -DIReallyKnowWhatIAmDoingISwear -Dcom.mojang.eula.agree=true -jar /Serveurs/SkyBlock/paper.jar nogui
 echo screen SkyBlock
