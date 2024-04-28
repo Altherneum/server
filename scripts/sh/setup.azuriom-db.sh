@@ -1,3 +1,5 @@
+mkdir -p /scripts/database
+#
 wget -O '/scripts/database/settings.sql' 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/database/settings.sql'
 mysql site < /scripts/database/settings.sql
 #
