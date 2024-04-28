@@ -80,10 +80,6 @@ wget -O /Serveurs/DataFolder/paper-config/paper-global.yml 'https://raw.githubus
 # wget -O /Serveurs/Survie/server.properties 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Survie/server.properties'
 # wget -O /Serveurs/OPPrison/server.properties 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/OPPrison/server.properties'
 
-# ResourcePack update
-mkdir -p /var/www/html/storage/app/public/zip
-wget -O /var/www/html/storage/app/public/zip/resourcePack.zip 'https://github.com/Altherneum/resourcePack/releases/latest/download/resourcePack.zip'
-
 # jars
 mkdir -p /Serveurs/DataFolder/plugins
 wget -O /Serveurs/DataFolder/plugins/plugin.jar 'https://github.com/Altherneum/plugin/releases/latest/download/plugin-1.0-fat.jar'

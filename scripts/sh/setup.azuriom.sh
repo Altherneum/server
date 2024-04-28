@@ -2,7 +2,10 @@ rm /var/www/html/index.html
 # Azuriom
 wget -O /var/www/html/AzuriomInstaller.zip 'https://github.com/Azuriom/AzuriomInstaller/releases/latest/download/AzuriomInstaller.zip'
 unzip /var/www/html/AzuriomInstaller.zip -d /var/www/html
-rm /var/www/html/AzuriomInstaller.zip
+rm /var/www/html/AzuriomInstaller.zip # dont seem to work ?
+# ResourcePack update
+mkdir -p /var/www/html/storage/app/public/zip
+wget -O /var/www/html/storage/app/public/zip/resourcePack.zip 'https://github.com/Altherneum/resourcePack/releases/latest/download/resourcePack.zip'
 #
 useradd www-data
 chmod -R 755 /var/www/html && chown -R www-data:www-data /var/www/html
