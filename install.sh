@@ -8,7 +8,10 @@ mkdir -p /scripts/sh
 wget -O /scripts/sh/setup.azuriom.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.azuriom.sh'
 chmod +x /scripts/sh/setup.azuriom.sh
 /scripts/sh/setup.azuriom.sh
-
+# azuriom database config
+wget -O /scripts/sh/setup.azuriom-db.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.azuriom-db.sh'
+chmod +x /scripts/sh/setup.azuriom-db.sh
+# /scripts/sh/setup.azuriom-db.sh
 
 # certbot
 wget -O /scripts/sh/setup.certbot.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.certbot.sh'
