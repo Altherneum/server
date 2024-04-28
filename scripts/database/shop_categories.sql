@@ -2,7 +2,7 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 ALTER TABLE `shop_categories`
-  DROP CONSTRAINT `shop_categories_parent_id_foreign`;
+  DROP CONSTRAINT `shop_packages_category_id_foreign`;
 
 DROP TABLE IF EXISTS `shop_categories`;
 CREATE TABLE IF NOT EXISTS `shop_categories` (
