@@ -1,6 +1,7 @@
 apt update
 apt install -y wget
 
+mkdir -p /scripts/sh
 
 wget -O /scripts/sh/setup.mysql.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.mysql.sh'
 #
