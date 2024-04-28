@@ -4,20 +4,20 @@ apt install -y mysql-server screen vsftpd openjdk-17-jdk curl wget unzip php php
 
 
 # azuriom
-wget -O /setup.azuriom.sh 'https://raw.githubusercontent.com/Altherneum/server/main/setup.azuriom.sh'
-chmod +x /setup.azuriom.sh
-/setup.azuriom.sh
+wget -O /scripts/sh/setup.azuriom.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.azuriom.sh'
+chmod +x /scripts/sh/setup.azuriom.sh
+/scripts/sh/setup.azuriom.sh
 
 
 # certbot
-wget -O /setup.certbot.sh 'https://raw.githubusercontent.com/Altherneum/server/main/setup.certbot.sh'
-chmod +x /setup.certbot.sh
-/setup.certbot.sh
+wget -O /scripts/sh/setup.certbot.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.certbot.sh'
+chmod +x /scripts/sh/setup.certbot.sh
+/scripts/sh/setup.certbot.sh
 
 
 # mysql
-chmod +x /setup.mysql.sh
-/setup.mysql.sh
+chmod +x /scripts/sh/setup.mysql.sh
+/scripts/sh/setup.mysql.sh
 
 #
 service apache2 restart

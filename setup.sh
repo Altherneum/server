@@ -2,7 +2,7 @@ apt update
 apt install -y wget
 
 
-wget -O /setup.mysql.sh 'https://raw.githubusercontent.com/Altherneum/server/main/setup.mysql.sh'
+wget -O /scripts/sh/setup.mysql.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.mysql.sh'
 #
 mkdir -p /DiscordBot/data
 wget -O /DiscordBot/data/tokens.yml 'https://raw.githubusercontent.com/Altherneum/server/main/DiscordBot/data/tokens.yml'

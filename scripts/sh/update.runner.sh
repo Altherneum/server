@@ -9,8 +9,8 @@ wget -O /install.sh 'https://raw.githubusercontent.com/Altherneum/server/main/in
 chmod +x /install.sh
 
 # azuriom
-wget -O /setup.azuriom.sh 'https://raw.githubusercontent.com/Altherneum/server/main/setup.azuriom.sh'
-chmod +x /setup.azuriom.sh
+wget -O /scripts/sh/setup.azuriom.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.azuriom.sh'
+chmod +x /scripts/sh/setup.azuriom.sh
 # azuriom files for copyright
 mkdir -p /var/www/html/resources/views/custom
 wget -O /var/www/html/resources/views/custom/body.blade.php 'https://raw.githubusercontent.com/Altherneum/server/main/var/www/html/resources/views/custom/body.blade.php'
@@ -21,17 +21,17 @@ wget -O /var/www/html/storage/app/public/img/gif.gif 'https://raw.githubusercont
 wget -O /var/www/html/storage/app/public/img/icone.png 'https://raw.githubusercontent.com/Altherneum/server/main/var/www/html/storage/app/public/img/icone.png'
 wget -O /var/www/html/storage/app/public/img/small.gif 'https://raw.githubusercontent.com/Altherneum/server/main/var/www/html/storage/app/public/img/small.gif'
 # azuriom database config
-wget -O /setup.azuriom-db.sh 'https://raw.githubusercontent.com/Altherneum/server/main/setup.azuriom-db.sh'
-chmod +x /setup.azuriom-db.sh
-/setup.azuriom-db.sh
+wget -O /scripts/sh/setup.azuriom-db.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.azuriom-db.sh'
+chmod +x /scripts/sh/setup.azuriom-db.sh
+/scripts/sh/setup.azuriom-db.sh
 
 # certbot 
-wget -O /setup.certbot.sh 'https://raw.githubusercontent.com/Altherneum/server/main/setup.certbot.sh'
-chmod +x /setup.certbot.sh
+wget -O /scripts/sh/setup.certbot.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.certbot.sh'
+chmod +x /scripts/sh/setup.certbot.sh
 
 # mysql
-wget -O /setup.mysql.sh 'https://raw.githubusercontent.com/Altherneum/server/main/setup.mysql.sh'
-chmod +x /setup.mysql.sh
+wget -O /scripts/sh/setup.mysql.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.mysql.sh'
+chmod +x /scripts/sh/setup.mysql.sh
 
 # Discord
 mkdir -p /DiscordBot

@@ -1,3 +1,3 @@
-wget -O /update.runner.sh 'https://raw.githubusercontent.com/Altherneum/server/main/update.runner.sh'
-chmod +x /update.runner.sh
-/update.runner.sh
+wget -O /scripts/sh/update.runner.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/update.runner.sh'
+chmod +x /scripts/sh/update.runner.sh
+/scripts/sh/update.runner.sh
