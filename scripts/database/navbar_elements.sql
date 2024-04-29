@@ -1,7 +1,10 @@
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
+SET FOREIGN_KEY_CHECKS = 0;
 DROP TABLE IF EXISTS `navbar_elements`;
+SET FOREIGN_KEY_CHECKS = 1;
+
 CREATE TABLE IF NOT EXISTS `navbar_elements` (
   `id` int UNSIGNED NOT NULL AUTO_INCREMENT,
   `name` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,

@@ -1,10 +1,10 @@
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
-ALTER TABLE `shop_categories`
-  DROP CONSTRAINT `shop_packages_category_id_foreign`;
-
+SET FOREIGN_KEY_CHECKS = 0;
 DROP TABLE IF EXISTS `shop_categories`;
+SET FOREIGN_KEY_CHECKS = 1;
+
 CREATE TABLE IF NOT EXISTS `shop_categories` (
   `id` int UNSIGNED NOT NULL AUTO_INCREMENT,
   `name` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
