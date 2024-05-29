@@ -87,7 +87,8 @@ wget -O /Serveurs/DataFolder/paper.jar 'https://api.papermc.io/v2/projects/paper
 wget -O /Serveurs/Waterfall/waterfall.jar 'https://api.papermc.io/v2/projects/waterfall/versions/1.20/builds/536/downloads/waterfall-1.20-536.jar'
 wget -O /Serveurs/DataFolder/plugins/ViaBackwards.jar 'https://github.com/ViaVersion/ViaBackwards/releases/download/4.8.1/ViaBackwards-4.8.1.jar'
 wget -O /Serveurs/DataFolder/plugins/ViaVersion.jar 'https://github.com/ViaVersion/ViaVersion/releases/download/4.8.1/ViaVersion-4.8.1.jar'
-wget -O /Serveurs/DataFolder/plugins/WorldEdit.jar 'https://dev.bukkit.org/projects/worldedit/files/latest'
+wget -O /Serveurs/DataFolder/plugins/WorldEdit.jar 'https://mediafilez.forgecdn.net/files/4586/220/worldedit-bukkit-7.2.15.jar'
+# wget -O /Serveurs/DataFolder/plugins/WorldEdit.jar 'https://dev.bukkit.org/projects/worldedit/files/latest'
 
 # LN-S
 wget -O /Serveurs/DataFolder/ln-s.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/ln-s.sh'
