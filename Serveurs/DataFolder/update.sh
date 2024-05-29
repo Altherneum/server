@@ -97,11 +97,27 @@ chmod +x /Serveurs/DataFolder/ln-s.sh
 
 # structures
 mkdir -p /Serveurs/DataFolder/structures
+#
 wget -O /Serveurs/DataFolder/structures/spawn.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn.yml' # Spawn
+wget -O /Serveurs/Hub/Spawn.zip 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Hub/Spawn.zip'
+unzip -o /Serveurs/Hub/Spawn.zip -d /Serveurs/Hub
+#
 wget -O /Serveurs/DataFolder/structures/spawn_OPPrison.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn_OPPrison.yml'
+#
 wget -O /Serveurs/DataFolder/structures/spawn_Survie.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn_Survie.yml'
+wget -O /Serveurs/Survie/Spawn.zip 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Survie/Spawn.zip'
+unzip -o /Serveurs/Survie/Spawn.zip -d /Serveurs/Survie
+#
+wget -O /Serveurs/DataFolder/structures/spawn_Anarchie.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn_Survie.yml'
+wget -O /Serveurs/Anarchie/Spawn.zip 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Survie/Spawn.zip'
+unzip -o /Serveurs/Anarchie/Spawn.zip -d /Serveurs/Anarchie
+#
 wget -O /Serveurs/DataFolder/structures/spawn_SB.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn_SB.yml'
+wget -O /Serveurs/SkyBlock/Spawn.zip 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/SkyBlock/Spawn.zip'
+unzip -o /Serveurs/SkyBlock/Spawn.zip -d /Serveurs/SkyBlock
+#
 wget -O /Serveurs/DataFolder/structures/Island.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/Island.yml' # Île SkyBlock
+#
 wget -O /Serveurs/DataFolder/structures/mine.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/mine.yml' # Mine
 
 # start
