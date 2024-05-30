@@ -1,6 +1,6 @@
 enforce_secure_profile: false
 listeners:
-- query_port: 25565
+- query_port: 25500
   motd: §r[ §2§lAltherneum§r.fr §r] §6Hub §r! §rAltherneum.fr/§2discord
   tab_list: GLOBAL_PING
   query_enabled: true
@@ -9,12 +9,12 @@ listeners:
   priorities:
   - hub
   bind_local_address: true
-  host: 0.0.0.0:25565
+  host: 0.0.0.0:25500
   max_players: 0
   tab_size: 50
   force_default_server: true
   forced_hosts: &id006
-- query_port: 25564
+- query_port: 25505
   motd: §r[ §2§lAltherneum§r.fr §r] §6Survie §r! §rAltherneum.fr/§2discord
   tab_list: SERVER
   query_enabled: true
@@ -24,12 +24,12 @@ listeners:
   - survie
   - hub
   bind_local_address: true
-  host: 0.0.0.0:25564
+  host: 0.0.0.0:25505
   max_players: 0
   tab_size: 50
   force_default_server: true
   forced_hosts: *id006
-- query_port: 25563
+- query_port: 25504
   motd: §r[ §2§lAltherneum§r.fr §r] §6Anarchie §r! §rAltherneum.fr/§2discord
   tab_list: SERVER
   query_enabled: true
@@ -39,12 +39,12 @@ listeners:
   - anarchie
   - hub
   bind_local_address: true
-  host: 0.0.0.0:25563
+  host: 0.0.0.0:25504
   max_players: 0
   tab_size: 50
   force_default_server: true
   forced_hosts: *id006
-- query_port: 25562
+- query_port: 25502
   motd: §r[ §2§lAltherneum§r.fr §r] §6RPG §r! §rAltherneum.fr/§2discord
   tab_list: SERVER
   query_enabled: true
@@ -54,12 +54,12 @@ listeners:
   - rpg
   - hub
   bind_local_address: true
-  host: 0.0.0.0:25562
+  host: 0.0.0.0:25502
   max_players: 0
   tab_size: 50
   force_default_server: true
   forced_hosts: *id006
-- query_port: 25561
+- query_port: 25503
   motd: §r[ §2§lAltherneum§r.fr §r] §6SkyBlock §r! §rAltherneum.fr/§2discord
   tab_list: SERVER
   query_enabled: true
@@ -69,12 +69,12 @@ listeners:
   - skyblock
   - hub
   bind_local_address: true
-  host: 0.0.0.0:25561
+  host: 0.0.0.0:25503
   max_players: 0
   tab_size: 50
   force_default_server: true
   forced_hosts: *id006
-- query_port: 25560
+- query_port: 25501
   motd: §r[ §2§lAltherneum§r.fr §r] §6Creatif §r! §rAltherneum.fr/§2discord
   tab_list: SERVER
   query_enabled: true
@@ -84,12 +84,12 @@ listeners:
   - creatif
   - hub
   bind_local_address: true
-  host: 0.0.0.0:25560
+  host: 0.0.0.0:25501
   max_players: 0
   tab_size: 50
   force_default_server: true
   forced_hosts: *id006
-- query_port: 25566
+- query_port: 25506
   motd: §r[ §2§lAltherneum§r.fr §r] §6OPPrison §r! §rAltherneum.fr/§2discord
   tab_list: SERVER
   query_enabled: true
@@ -99,7 +99,7 @@ listeners:
   - opprison
   - hub
   bind_local_address: true
-  host: 0.0.0.0:25566
+  host: 0.0.0.0:25506
   max_players: 0
   tab_size: 50
   force_default_server: true
