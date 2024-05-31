@@ -120,6 +120,10 @@ wget -O /Serveurs/DataFolder/structures/Island.yml 'https://raw.githubuserconten
 #
 wget -O /Serveurs/DataFolder/structures/mine.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/mine.yml' # Mine
 
+# ResourcePack update
+mkdir -p /var/www/html/storage/app/public/zip
+wget -O /var/www/html/storage/app/public/zip/resourcePack.zip 'https://github.com/Altherneum/resourcePack/releases/latest/download/resourcePack.zip'
+
 # start
 wget -O /Serveurs/DataFolder/start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/start.sh'
 chmod +x /Serveurs/DataFolder/start.sh
