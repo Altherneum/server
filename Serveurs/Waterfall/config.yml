@@ -132,29 +132,29 @@ disabled_commands:
 servers:
   hub:
     motd: §r[ §2§lAltherneum§r.fr §r] §6Hub §r!
-    address: localhost:25500
+    address: localhost:25560
     restricted: false
   survie:
     motd: §r[ §2§lAltherneum§r.fr §r] §6Survie §r!
-    address: localhost:25505
+    address: localhost:25565
     restricted: false
   anarchie:
     motd: §r[ §2§lAltherneum§r.fr §r] §6Anarchie §r!
-    address: localhost:25504
+    address: localhost:25564
     restricted: false
   rpg:
     motd: §r[ §2§lAltherneum§r.fr §r] §6RPG §r!
-    address: localhost:25502
+    address: localhost:25562
     restricted: false
   skyblock:
     motd: §r[ §2§lAltherneum§r.fr §r] §6SkyBlock §r!
-    address: localhost:25503
+    address: localhost:25563
     restricted: false
   creatif:
     motd: §r[ §2§lAltherneum§r.fr §r] §6Creatif §r!
-    address: localhost:25501
+    address: localhost:25561
     restricted: false
   opprison:
     motd: §r[ §2§lAltherneum§r.fr §r] §6OPPrison §r!
-    address: localhost:25506
+    address: localhost:25566
     restricted: false
