@@ -12,6 +12,7 @@ Server configuration files
 <a href=""><img src="https://img.shields.io/github/repo-size/Altherneum/server?color=red"></a>
 
 # Liens
+- [Repository](https://github.com/Altherneum/server)
 - [Tableau](https://github.com/orgs/Altherneum/projects/5/)
 - [Issues](https://github.com/Altherneum/server/issues)
 - [Commits](https://github.com/Altherneum/server/commits/main)
