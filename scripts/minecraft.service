@@ -20,7 +20,7 @@ InaccessibleDirectories=/root /sys /srv -/opt /media -/lost+found /DiscordBot
 ReadWriteDirectories=/Serveurs
 WorkingDirectory=/Serveurs
 
-ExecStart=/bin/bash /Serveurs/DataFolder/update.sh
+ExecStart=/bin/bash /Serveurs/DataFolder/start.sh
 ExecStop=/bin/bash /Serveurs/DataFolder/stop.sh
 
 [Install]

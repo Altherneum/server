@@ -20,7 +20,7 @@ InaccessibleDirectories=/root /sys /srv -/opt /media -/lost+found /Serveurs
 ReadWriteDirectories=/DiscordBot
 WorkingDirectory=/DiscordBot
 
-ExecStart=/bin/bash /DiscordBot/update.sh
+ExecStart=/bin/bash /DiscordBot/start.sh
 ExecStop=/bin/bash /DiscordBot/stop.sh
 
 [Install]
