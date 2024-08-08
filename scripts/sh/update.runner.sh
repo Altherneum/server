@@ -23,6 +23,11 @@ chmod +x /scripts/sh/setup.certbot.sh
 wget -O /scripts/sh/setup.mysql.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.mysql.sh'
 chmod +x /scripts/sh/setup.mysql.sh
 
+# systemctl
+wget -O /scripts/sh/setup.systemd.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.systemd.sh'
+chmod +x /scripts/sh/setup.systemd.sh
+/scripts/sh/setup.systemd.sh
+
 # Discord
 mkdir -p /DiscordBot
 wget -O /DiscordBot/update.sh 'https://raw.githubusercontent.com/Altherneum/server/main/DiscordBot/update.sh'

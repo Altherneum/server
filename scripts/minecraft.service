@@ -1,0 +1,29 @@
+[Unit]
+Description=Minecraft Server
+Documentation=
+
+Wants=network.target
+After=network.target
+
+[Service]
+User=minecraft
+Group=minecraft
+Nice=5
+KillMode=none
+SuccessExitStatus=0 1
+
+ProtectHome=true
+ProtectSystem=full
+PrivateDevices=true
+NoNewPrivileges=true
+PrivateTmp=true
+
+InaccessibleDirectories=/root /sys /srv -/opt /media -/lost+found /DiscordBot
+ReadWriteDirectories=/Serveurs
+WorkingDirectory=/Serveurs
+
+ExecStart=/Serveurs/DataFolder/update.sh
+ExecStop=/Serveurs/DataFolder/stop.sh
+
+[Install]
+WantedBy=multi-user.target

@@ -1,8 +1,16 @@
 # Update + APT
 apt update
-apt install -y mysql-server screen vsftpd openjdk-21-jdk curl wget unzip php php-fpm php-mysql php-pgsql php-sqlite3 php-bcmath php-mbstring php-xml php-curl php-zip php-gd apache2 sendmail phpmyadmin
+apt install -y mysql-server screen vsftpd openjdk-21-jdk curl wget unzip php php-fpm php-mysql php-pgsql php-sqlite3 php-bcmath php-mbstring php-xml php-curl php-zip php-gd apache2 sendmail
+
+# For backuping Azuriom
+apt install -y phpmyadmin
 
 mkdir -p /scripts/sh
+
+# user creation
+wget -O /scripts/sh/setup.system.user.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.system.user.sh'
+chmod +x /scripts/sh/setup.system.user.sh
+/scripts/sh/setup.system.user.sh
 
 # azuriom
 wget -O /scripts/sh/setup.azuriom.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.azuriom.sh'

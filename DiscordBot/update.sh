@@ -1,7 +1,11 @@
-screen -XS bot quit
-
-
 mkdir -p /DiscordBot
+
+
+wget -O /DiscordBot/stop.sh 'https://github.com/Altherneum/server/main/DiscordBot/stop.sh'
+chmod +x /DiscordBot/stop.sh
+/DiscordBot/stop.sh
+
+
 wget -O /DiscordBot/bot.jar 'https://github.com/Altherneum/bot/releases/latest/download/bot-1.0-fat.jar'
 
 
@@ -14,9 +18,11 @@ mkdir -p /DiscordBot/Data # bot data
 
 
 # start
-mkdir -p /DiscordBot
 wget -O /DiscordBot/start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/DiscordBot/start.sh'
 chmod +x /DiscordBot/start.sh
-#
+
+# running discord bot
 echo ~ Starting Discord Bot
-/DiscordBot/start.sh
+# /DiscordBot/start.sh
+systemctl enable discord
+systemctl start discord

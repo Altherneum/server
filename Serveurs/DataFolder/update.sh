@@ -1,40 +1,40 @@
 # Minecraft - StartFiles
-screen -S waterfall -X stuff 'end'$'\n'
+mkdir -p /Serveurs/DataFolder
+
+
+wget -O /Serveurs/DataFolder/stop.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/stop.sh'
+chmod +x /Serveurs/DataFolder/stop.sh
+/Serveurs/DataFolder/stop.sh
+
+
 mkdir -p /Serveurs/Waterfall
 wget -O /Serveurs/Waterfall/start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Waterfall/start.sh'
 chmod +x /Serveurs/Waterfall/start.sh
 #
-screen -S creatif -X stuff 'stop'$'\n'
 mkdir -p /Serveurs/Creatif
 wget -O /Serveurs/Creatif/start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Creatif/start.sh'
 chmod +x /Serveurs/Creatif/start.sh
 #
-screen -S hub -X stuff 'stop'$'\n'
 mkdir -p /Serveurs/Hub
 wget -O /Serveurs/Hub/start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Hub/start.sh'
 chmod +x /Serveurs/Hub/start.sh
 #
-screen -S RPG -X stuff 'stop'$'\n'
 mkdir -p /Serveurs/RPG
 wget -O /Serveurs/RPG/start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/RPG/start.sh'
 chmod +x /Serveurs/RPG/start.sh
 #
-screen -S SkyBlock -X stuff 'stop'$'\n'
 mkdir -p /Serveurs/SkyBlock
 wget -O /Serveurs/SkyBlock/start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/SkyBlock/start.sh'
 chmod +x /Serveurs/SkyBlock/start.sh
 #
-screen -S anarchie -X stuff 'stop'$'\n'
 mkdir -p /Serveurs/Anarchie
 wget -O /Serveurs/Anarchie/start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Anarchie/start.sh'
 chmod +x /Serveurs/Anarchie/start.sh
 #
-screen -S survie -X stuff 'stop'$'\n'
 mkdir -p /Serveurs/Survie
 wget -O /Serveurs/Survie/start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Survie/start.sh'
 chmod +x /Serveurs/Survie/start.sh
 #
-screen -S OPPrison -X stuff 'stop'$'\n'
 mkdir -p /Serveurs/OPPrison
 wget -O /Serveurs/OPPrison/start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/OPPrison/start.sh'
 chmod +x /Serveurs/OPPrison/start.sh
@@ -133,6 +133,8 @@ chmod +x /Serveurs/DataFolder/start.sh
 wget -O /Serveurs/DataFolder/start-auto.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/start-auto.sh'
 chmod +x /Serveurs/DataFolder/start-auto.sh
 
-# running servers
+# running minecraft servers
 echo ~ Starting Minecraft servers
-/Serveurs/DataFolder/start-auto.sh
+# /Serveurs/DataFolder/start-auto.sh
+systemctl enable minecraft
+systemctl start minecraft
