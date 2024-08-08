@@ -1,7 +1,7 @@
 mkdir -p /DiscordBot
 
 
-wget -O /DiscordBot/stop.sh 'https://github.com/Altherneum/server/main/DiscordBot/stop.sh'
+wget -O /DiscordBot/stop.sh 'https://raw.githubusercontent.com/Altherneum/server/main/DiscordBot/stop.sh'
 chmod +x /DiscordBot/stop.sh
 /DiscordBot/stop.sh
 
