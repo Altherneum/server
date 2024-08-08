@@ -22,8 +22,8 @@ InaccessibleDirectories=/root /sys /srv -/opt /media -/lost+found /DiscordBot
 ReadWriteDirectories=/Serveurs
 WorkingDirectory=/Serveurs
 
-ExecStart=/Serveurs/DataFolder/update.sh
-ExecStop=/Serveurs/DataFolder/stop.sh
+ExecStart=/bin/bash /Serveurs/DataFolder/update.sh
+ExecStop=/bin/bash /Serveurs/DataFolder/stop.sh
 
 [Install]
 WantedBy=multi-user.target

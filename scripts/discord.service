@@ -22,8 +22,8 @@ InaccessibleDirectories=/root /sys /srv -/opt /media -/lost+found /Serveurs
 ReadWriteDirectories=/DiscordBot
 WorkingDirectory=/DiscordBot
 
-ExecStart=/DiscordBot/update.sh
-ExecStop=/DiscordBot/stop.sh
+ExecStart=/bin/bash /DiscordBot/update.sh
+ExecStop=/bin/bash /DiscordBot/stop.sh
 
 [Install]
 WantedBy=multi-user.target
