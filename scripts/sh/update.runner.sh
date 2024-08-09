@@ -1,12 +1,21 @@
 # Global update shell
 wget -O /update.sh 'https://raw.githubusercontent.com/Altherneum/server/main/update.sh'
 chmod +x /update.sh
+# update & start
+wget -O /update-start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/update-start.sh'
+chmod +x /update-start.sh
 # Setup update
 wget -O /setup.sh 'https://raw.githubusercontent.com/Altherneum/server/main/setup.sh'
 chmod +x /setup.sh
 # installer update
 wget -O /install.sh 'https://raw.githubusercontent.com/Altherneum/server/main/install.sh'
 chmod +x /install.sh
+# stop all service
+wget -O /stop.sh 'https://raw.githubusercontent.com/Altherneum/server/main/stop.sh'
+chmod +x /stop.sh
+# start all service
+wget -O /start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/start.sh'
+chmod +x /start.sh
 
 # azuriom
 wget -O /scripts/sh/setup.azuriom.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.azuriom.sh'
