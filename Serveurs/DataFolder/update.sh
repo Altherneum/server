@@ -58,6 +58,12 @@ wget -O /Serveurs/DataFolder/bukkit.yml 'https://raw.githubusercontent.com/Althe
 
 # Server tick & build
 wget -O /Serveurs/DataFolder/hub.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/hub.yml'
+wget -O /Serveurs/DataFolder/survie.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/survie.yml'
+wget -O /Serveurs/DataFolder/anarchie.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/anarchie.yml'
+wget -O /Serveurs/DataFolder/skyblock.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/skyblock.yml'
+wget -O /Serveurs/DataFolder/rpg.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/rpg.yml'
+wget -O /Serveurs/DataFolder/opprison.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/opprison.yml'
+wget -O /Serveurs/DataFolder/creatif.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/creatif.yml'
 
 # Admin files
 mkdir -p /Serveurs/DataFolder/players/d0a8d68a-69b6-4dfc-bc03-9679841e7199
