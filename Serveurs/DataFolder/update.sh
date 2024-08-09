@@ -133,8 +133,10 @@ chmod +x /Serveurs/DataFolder/start.sh
 wget -O /Serveurs/DataFolder/start-auto.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/start-auto.sh'
 chmod +x /Serveurs/DataFolder/start-auto.sh
 
+# Give owner to minecraft:minecraft
+chown -R minecraft:minecraft /Serveurs
+
 # running minecraft servers
-echo ~ Starting Minecraft servers
+# echo ~ Starting Minecraft servers
 # /Serveurs/DataFolder/start-auto.sh
-systemctl enable minecraft
-systemctl start minecraft
+# systemctl start minecraft

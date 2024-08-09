@@ -22,7 +22,7 @@ wget -O /DiscordBot/start.sh 'https://raw.githubusercontent.com/Altherneum/serve
 chmod +x /DiscordBot/start.sh
 
 # running discord bot
-echo ~ Starting Discord Bot
+# echo ~ Starting Discord Bot
 # /DiscordBot/start.sh
-systemctl enable discord
-systemctl start discord
+# systemctl enable discord
+# systemctl start discord
