@@ -3,8 +3,8 @@ mkdir -p /DiscordBot
 
 wget -O /DiscordBot/stop.sh 'https://raw.githubusercontent.com/Altherneum/server/main/DiscordBot/stop.sh'
 chmod +x /DiscordBot/stop.sh
-/DiscordBot/stop.sh
-
+#/DiscordBot/stop.sh
+service discord stop
 
 wget -O /DiscordBot/bot.jar 'https://github.com/Altherneum/bot/releases/latest/download/bot-1.0-fat.jar'
 

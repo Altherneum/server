@@ -4,7 +4,8 @@ mkdir -p /Serveurs/DataFolder
 
 wget -O /Serveurs/DataFolder/stop.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/stop.sh'
 chmod +x /Serveurs/DataFolder/stop.sh
-/Serveurs/DataFolder/stop.sh
+# /Serveurs/DataFolder/stop.sh
+service minecraft stop
 
 
 mkdir -p /Serveurs/Waterfall
