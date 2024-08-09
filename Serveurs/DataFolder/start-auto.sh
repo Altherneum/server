@@ -4,7 +4,7 @@
 
 /Serveurs/SkyBlock/start.sh
 
-# /Serveurs/Survie/start.sh
+/Serveurs/Survie/start.sh
 
 # /Serveurs/Creatif/start.sh
 
