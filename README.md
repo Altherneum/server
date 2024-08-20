@@ -47,7 +47,9 @@ Connectez vous à la page HTTP de votre serveur en tapant l'adresse IP
 - **Mot de passe** complexe définit dans la partie [#Configuration](#Configuration)
 - Utilisation de comptes Microsoft pour se connecter
 ## Mettre à jour la base de donnée MySQL d'azuriom
-`/scripts/sh/setup.azuriom-db.sh`
+```
+/scripts/sh/setup.azuriom-db.sh
+```
 
 # Force update
 ```
