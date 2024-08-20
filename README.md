@@ -77,5 +77,20 @@ chmod +x /update.sh
 
 # Lancer un service
 ## Discord
+```
+service discord start
+```
 ## Apache2
+(Lancé par défaut)
+```
+service apache2 start
+```
 ## Minecraft
+```
+service minecraft start
+```
+
+# Screen
+```
+sudo -u minecraft screen -ls
+```
