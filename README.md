@@ -39,6 +39,14 @@ chmod +x /setup.sh
 /install.sh  
 ```
 
+# Installer Azuriom
+Connectez vous à la page HTTP de votre serveur en tapant l'adresse IP
+## Configuration Azuriom conseillé
+- **IP** : 127.0.0.1
+- **Base de donnée** : site
+- **Mot de passe** complexe définit dans la partie [#Configuration](#Configuration)
+- Utilisation de comptes Microsoft pour se connecter
+
 # Force update
 ```
 wget -O /update.sh -L 'https://raw.githubusercontent.com/Altherneum/server/main/update.sh'  
