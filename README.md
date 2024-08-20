@@ -94,3 +94,129 @@ service minecraft start
 ```
 sudo -u minecraft screen -ls
 ```
+
+# DNS routing
+```
+_gh-Altherneum-o
+3600
+TXT
+2bdece4caf
+```
+
+```
+_github-pages-challenge-Altherneum
+3600
+TXT
+9c22d2141475847bf5ec793a131c9b
+```
+
+```
+_gh-Altherneum-o.doc
+3600
+TXT
+060d5899eb
+```
+
+```
+_github-pages-challenge-Altherneum.doc
+3600
+TXT
+f9a588a7a48398e4fd0b367f822131
+```
+
+```
+mc
+3600
+A
+45.159.229.139
+```
+
+```
+doc
+3600
+CNAME
+Altherneum.github.io.
+```
+
+```
+_minecraft._tcp.hub
+3600
+SRV
+0 5 25500 mc.Altherneum.fr.
+```
+
+```
+_minecraft._tcp.creatif
+3600
+SRV
+0 5 25501 mc.Altherneum.fr.
+```
+
+```
+_minecraft._tcp.anarchie
+3600
+SRV
+0 5 25504 mc.Altherneum.fr.
+```
+
+```
+_minecraft._tcp.survie
+3600
+SRV
+0 5 25505 mc.Altherneum.fr.
+```
+
+```
+_minecraft._tcp.rpg
+3600
+SRV
+0 5 25502 mc.Altherneum.fr.
+```
+
+```
+_minecraft._tcp.skyblock
+3600
+SRV
+0 5 25503 mc.Altherneum.fr.
+```
+
+```
+_minecraft._tcp.opprison
+3600
+SRV
+0 5 25506 mc.Altherneum.fr.
+```
+_minecraft._tcp.@
+3600
+SRV
+0 5 25500 mc.Altherneum.fr.
+```
+
+```
+_minecraft._tcp.play
+3600
+SRV
+0 5 25500 mc.Altherneum.fr.
+```
+
+```
+_minecraft._tcp.mc
+3600
+SRV
+0 5 25500 mc.Altherneum.fr.
+```
+
+(Celui-ci n'est pas utile)
+```
+@
+3600
+A
+45.159.229.139
+```
+
+```
+_minecraft._tcp.
+3600
+SRV
+0 5 25500 mc.Altherneum.fr.
+```
