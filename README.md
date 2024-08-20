@@ -67,3 +67,11 @@ wget -O /update.sh -L 'https://raw.githubusercontent.com/Altherneum/server/main/
 chmod +x /update.sh  
 /update.sh  
 ```
+## update
+## Discord update
+## Minecraft update
+
+# Lancer un service
+## Discord
+## Apache2
+## Minecraft
