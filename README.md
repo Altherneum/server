@@ -50,6 +50,10 @@ Connectez vous à la page HTTP de votre serveur en tapant l'adresse IP
 ```
 /scripts/sh/setup.azuriom-db.sh
 ```
+## Nettoyer le cache
+- Connectez vous au CMS Azuriom
+- Rendez vous dans les paramètres : [SITE.WEB/admin/settings/performance](https://SITE.WEB/admin/settings/performance)
+- Cliquer sur " Vider le cache"
 
 # Force update
 ```
