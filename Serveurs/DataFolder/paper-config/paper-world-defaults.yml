@@ -52,7 +52,7 @@ anticheat:
       hide-itemmeta-with-visual-effects: false
 chunks:
   auto-save-interval: default
-  delay-chunk-unloads-by: 10s
+  delay-chunk-unloads-by: 5s
   entity-per-chunk-save-limit:
     arrow: -1
     ender_pearl: -1
@@ -61,7 +61,7 @@ chunks:
     small_fireball: -1
     snowball: -1
   fixed-chunk-inhabited-time: -1
-  max-auto-save-chunks-per-tick: 24
+  max-auto-save-chunks-per-tick: 12
   prevent-moving-into-unloaded-chunks: true
 collisions:
   allow-player-cramming-damage: false
