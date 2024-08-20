@@ -39,9 +39,58 @@ chmod +x /setup.sh
 /install.sh  
 ```
 
+# Installer Azuriom
+Connectez vous à la page HTTP de votre serveur en tapant l'adresse IP
+## Configuration Azuriom conseillé
+- **IP** : 127.0.0.1
+- **Base de donnée** : site
+- **Mot de passe** complexe définit dans la partie [#Configuration](#Configuration)
+- Utilisation de comptes Microsoft pour se connecter
+## Ajouter le thème et plugins
+- [altherneum.fr/admin/themes](https://altherneum.fr/admin/themes)
+  - Prism
+- [altherneum.fr/admin/plugins](https://altherneum.fr/admin/plugins)
+  - Shop
+  - DedipassPayment
+## Mettre à jour la base de donnée MySQL d'azuriom
+```
+/scripts/sh/setup.azuriom-db.sh
+```
+## Nettoyer le cache
+- Connectez vous au CMS Azuriom
+- Rendez vous dans les paramètres : [altherneum.fr/admin/settings/performance](https://altherneum.fr/admin/settings/performance)
+- Cliquer sur "Vider le cache"
+
+# Utilisation de PhPMyAdmin
+- [altherneum.fr/phpmyadmin](https://altherneum.fr/phpmyadmin)
+- Utilisateur et mot de passe configuré lors de l'installation  dans le fichier de [#Configuration](#Configuration)
+
 # Force update
 ```
 wget -O /update.sh -L 'https://raw.githubusercontent.com/Altherneum/server/main/update.sh'  
 chmod +x /update.sh  
 /update.sh  
+```
+## update
+## Discord update
+## Minecraft update
+
+# Lancer un service
+## Discord
+```
+service discord start
+```
+## Apache2
+(Lancé par défaut)
+```
+service apache2 start
+```
+## Minecraft
+```
+service minecraft start
+```
+
+# Screen
+```
+sudo -u minecraft screen -ls
 ```
