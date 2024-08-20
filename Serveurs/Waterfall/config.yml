@@ -1,4 +1,4 @@
-enforce_secure_profile: false
+enforce_secure_profile: true
 listeners:
 - query_port: 25500
   motd: §r[ §2§lAltherneum§r.fr §r] §6Hub §r! §rAltherneum.fr/§2discord
