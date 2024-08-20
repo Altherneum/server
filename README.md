@@ -58,7 +58,7 @@ Connectez vous à la page HTTP de votre serveur en tapant l'adresse IP
 ```
 ## Nettoyer le cache
 - Connectez vous au CMS Azuriom
-- Rendez vous dans les paramètres : [SITE.WEB/admin/settings/performance](https://altherneum.fr/admin/settings/performance)
+- Rendez vous dans les paramètres : [altherneum.fr/admin/settings/performance](https://altherneum.fr/admin/settings/performance)
 - Cliquer sur "Vider le cache"
 
 # Utilisation de PhPMyAdmin
