@@ -61,6 +61,10 @@ Connectez vous à la page HTTP de votre serveur en tapant l'adresse IP
 - Rendez vous dans les paramètres : [SITE.WEB/admin/settings/performance](https://altherneum.fr/admin/settings/performance)
 - Cliquer sur "Vider le cache"
 
+# Utilisation de PhPMyAdmin
+- [altherneum.fr/phpmyadmin](https://altherneum.fr/phpmyadmin)
+- Utilisateur et mot de passe configuré lors de l'installation  dans le fichier de [#Configuration](#Configuration)
+
 # Force update
 ```
 wget -O /update.sh -L 'https://raw.githubusercontent.com/Altherneum/server/main/update.sh'  
