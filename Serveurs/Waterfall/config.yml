@@ -5,7 +5,7 @@ listeners:
   tab_list: GLOBAL_PING
   query_enabled: true
   proxy_protocol: false
-  ping_passthrough: false
+  ping_passthrough: true
   priorities:
   - hub
   bind_local_address: true

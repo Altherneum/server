@@ -186,6 +186,8 @@ _minecraft._tcp.opprison
 SRV
 0 5 25506 mc.Altherneum.fr.
 ```
+
+```
 _minecraft._tcp.@
 3600
 SRV
