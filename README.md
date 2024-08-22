@@ -217,7 +217,7 @@ A
 ```
 
 ```
-_minecraft._tcp.
+_minecraft._tcp
 3600
 SRV
 0 5 25500 mc.Altherneum.fr.
