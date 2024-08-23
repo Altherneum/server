@@ -140,6 +140,10 @@ chmod +x /Serveurs/DataFolder/start.sh
 wget -O /Serveurs/DataFolder/start-auto.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/start-auto.sh'
 chmod +x /Serveurs/DataFolder/start-auto.sh
 
+# update-start
+wget -O /Serveurs/DataFolder/update-start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/update-start.sh'
+chmod +x /Serveurs/DataFolder/update-start.sh
+
 # Give owner to minecraft:minecraft
 chown -R minecraft:minecraft /Serveurs
 
