@@ -21,6 +21,10 @@ mkdir -p /DiscordBot/Data # bot data
 wget -O /DiscordBot/start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/DiscordBot/start.sh'
 chmod +x /DiscordBot/start.sh
 
+# update-start
+wget -O /DiscordBot/update-start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/DiscordBot/update-start.sh'
+chmod +x /DiscordBot/update-start.sh
+
 # running discord bot
 # echo ~ Starting Discord Bot
 # /DiscordBot/start.sh
