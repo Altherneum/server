@@ -25,6 +25,8 @@ chmod +x /DiscordBot/start.sh
 wget -O /DiscordBot/update-start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/DiscordBot/update-start.sh'
 chmod +x /DiscordBot/update-start.sh
 
+chown -R discord:discord /DiscordBot
+
 # running discord bot
 # echo ~ Starting Discord Bot
 # /DiscordBot/start.sh
