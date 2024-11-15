@@ -17,83 +17,90 @@ Server configuration files
 - [Issues](https://github.com/Altherneum/server/issues)
 - [Commits](https://github.com/Altherneum/server/commits/main)
 
-# Applications  
-Apache2 + HTTPS/SSL,  
-Discord bot, Minecraft servers & plugin  
+# Applications
+- Apache2 + HTTPS/SSL
+- Discord bot, Minecraft servers & plugin
 
-# Setup  
+# Setup
 ```
-wget -O /setup.sh -L 'https://raw.githubusercontent.com/Altherneum/server/main/setup.sh'  
-chmod +x /setup.sh  
-/setup.sh  
+wget -O /setup.sh -L 'https://raw.githubusercontent.com/Altherneum/server/main/setup.sh'
+chmod +x /setup.sh
+/setup.sh
 ```
 
-# Configuration  
+## Configuration
 - [MySQL password](/scripts/sh/setup.mysql.sh)
 - [Discord token](/DiscordBot/data/tokens.yml)
 - [Minecraft Discord token](/Serveurs/DataFolder/tokens.yml)
 - [Minecraft RCON Password](/Serveurs/SERVERNAME/server.properties) | [exemple](/Serveurs/Hub/server.properties)
 
-# Start  
-```
-/install.sh  
-```
+## Lancer l'installation
+`/install.sh`
 
-# Installer Azuriom
+## Installer Azuriom
 Connectez vous à la page HTTP de votre serveur en tapant l'adresse IP
-## Configuration Azuriom conseillé
+### Configuration Azuriom conseillé
 - **IP** : 127.0.0.1
 - **Base de donnée** : site
 - **Mot de passe** complexe définit dans la partie [#Configuration](#Configuration)
 - Utilisation de comptes Microsoft pour se connecter
-## Ajouter le thème et plugins
+### Ajouter le thème et plugins
 - [altherneum.fr/admin/themes](https://altherneum.fr/admin/themes)
   - Prism
 - [altherneum.fr/admin/plugins](https://altherneum.fr/admin/plugins)
   - Shop
   - DedipassPayment
-## Mettre à jour la base de donnée MySQL d'azuriom
-```
-/scripts/sh/setup.azuriom-db.sh
-```
-## Nettoyer le cache
+### Mettre à jour la base de donnée MySQL d'azuriom
+`/scripts/sh/setup.azuriom-db.sh`
+### Nettoyer le cache
 - Connectez vous au CMS Azuriom
 - Rendez vous dans les paramètres : [altherneum.fr/admin/settings/performance](https://altherneum.fr/admin/settings/performance)
 - Cliquer sur "Vider le cache"
 
-# Utilisation de PhPMyAdmin
+## Utilisation de PhPMyAdmin
 - [altherneum.fr/phpmyadmin](https://altherneum.fr/phpmyadmin)
-- Utilisateur et mot de passe configuré lors de l'installation  dans le fichier de [#Configuration](#Configuration)
+- Utilisateur et mot de passe configuré lors de l'installation dans le fichier de [#Configuration](#Configuration)
 
-# Force update
+# Update
+## Force update
 ```
-wget -O /update.sh -L 'https://raw.githubusercontent.com/Altherneum/server/main/update.sh'  
-chmod +x /update.sh  
-/update.sh  
+wget -O /update.sh -L 'https://raw.githubusercontent.com/Altherneum/server/main/update.sh'
+chmod +x /update.sh
+/update.sh
 ```
-## update
+
+## Update script
+`/update.sh`
+
 ## Discord update
+`/DiscordBot/update.sh`
+
 ## Minecraft update
+`/Serveurs/DataFolder/update.sh`
 
 # Lancer un service
 ## Discord
-```
-service discord start
-```
+`service discord start`
+
 ## Apache2
 (Lancé par défaut)
-```
-service apache2 start
-```
+`service apache2 start`
+
 ## Minecraft
-```
-service minecraft start
-```
+`service minecraft start`
+
+# Update et lancer le service
+## Tout mettre à jour et lancer
+`/update-start.sh`
+
+## Discord
+`DiscordBot/update-start.sh`
+
+## Minecraft
+`Serveurs/DataFolder/update-start.sh`
 
 # Screen
-```
-sudo -u minecraft screen -ls
-```
+`sudo -u minecraft screen -ls`
 
 # DNS routing
 ```
