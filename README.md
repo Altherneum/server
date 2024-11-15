@@ -18,8 +18,7 @@ Server configuration files
 - [Commits](https://github.com/Altherneum/server/commits/main)
 
 # Applications
-- Apache2 + HTTPS/SSL
-- Discord bot, Minecraft servers & plugin
+- [Github.com /.github /profile /README.md #libs-externes](https://github.com/Altherneum/.github/blob/main/profile/README.md#libs-externes)
 
 # Setup
 ```
