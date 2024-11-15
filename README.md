@@ -61,33 +61,30 @@ Connectez vous à la page HTTP de votre serveur en tapant l'adresse IP
 - [altherneum.fr/phpmyadmin](https://altherneum.fr/phpmyadmin)
 - Utilisateur et mot de passe configuré lors de l'installation dans le fichier de [#Configuration](#Configuration)
 
-# Update
-## Force update
-```
-wget -O /update.sh -L 'https://raw.githubusercontent.com/Altherneum/server/main/update.sh'
-chmod +x /update.sh
-/update.sh
-```
+# Start
+## Lancer via le script
+### Tout lancer
+`start.sh`
 
-## Update script
-`/update.sh`
+### Discord
+`DiscordBot/start.sh`
 
-## Discord update
-`/DiscordBot/update.sh`
+### Minecraft
+#### Lancer tout les serveurs
+- `Serveurs/DataFolder/start.sh`
+#### Lancer les serveurs par défaut
+- `Serveurs/DataFolder/start-auto.sh`
 
-## Minecraft update
-`/Serveurs/DataFolder/update.sh`
-
-# Lancer un service
-## Discord
-`service discord start`
-
-## Apache2
+## Lancer via un service
+### Apache2
 (Lancé par défaut)
-`service apache2 start`
-
-## Minecraft
-`service minecraft start`
+- `service apache2 start`
+### Discord
+- [/scripts/discord.service](https://github.com/Altherneum/server/blob/main/scripts/discord.service)
+- `service discord start`
+### Minecraft
+- [scripts/minecraft.service](https://github.com/Altherneum/server/blob/main/scripts/minecraft.service)
+- `service minecraft start`
 
 # Update et lancer le service
 ## Tout mettre à jour et lancer
@@ -98,6 +95,33 @@ chmod +x /update.sh
 
 ## Minecraft
 `Serveurs/DataFolder/update-start.sh`
+
+# Update
+## Force update all
+```
+wget -O /update.sh -L 'https://raw.githubusercontent.com/Altherneum/server/main/update.sh'
+chmod +x /update.sh
+/update.sh
+```
+
+## Update all
+`/update.sh`
+
+## Discord update
+`/DiscordBot/update.sh`
+
+## Minecraft update
+`/Serveurs/DataFolder/update.sh`
+
+# Stop
+## Tout arrêter
+`stop.sh`
+
+## Discord stop
+`DiscordBot/stop.sh`
+
+## Minecraft stop
+`Serveurs/DataFolder/stop.sh`
 
 # Screen
 `sudo -u minecraft screen -ls`
