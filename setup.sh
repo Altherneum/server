@@ -31,3 +31,6 @@ wget -O /Serveurs/Survie/server.properties 'https://raw.githubusercontent.com/Al
 #
 wget -O /install.sh 'https://raw.githubusercontent.com/Altherneum/server/main/install.sh'
 chmod +x /install.sh
+#
+wget -O /scripts/sh/setup.system.user.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.system.user.sh'
+chmod +x /scripts/sh/setup.system.user.sh
