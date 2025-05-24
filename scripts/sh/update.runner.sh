@@ -17,6 +17,14 @@ chmod +x /stop.sh
 wget -O /start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/start.sh'
 chmod +x /start.sh
 
+# user creation
+wget -O /scripts/sh/setup.system.user.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.system.user.sh'
+chmod +x /scripts/sh/setup.system.user.sh
+
+# SSH configuration
+wget -O /scripts/sh/setup.system.ssh.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.system.ssh.sh'
+chmod +x /scripts/sh/setup.system.ssh.sh
+
 # azuriom
 wget -O /scripts/sh/setup.azuriom.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.azuriom.sh'
 chmod +x /scripts/sh/setup.azuriom.sh
