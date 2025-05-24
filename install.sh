@@ -12,6 +12,11 @@ wget -O /scripts/sh/setup.system.user.sh 'https://raw.githubusercontent.com/Alth
 chmod +x /scripts/sh/setup.system.user.sh
 /scripts/sh/setup.system.user.sh
 
+# SSH configuration
+wget -O /scripts/sh/setup.system.ssh.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.system.ssh.sh'
+chmod +x /scripts/sh/setup.system.ssh.sh
+/scripts/sh/setup.system.ssh.sh
+
 # azuriom
 wget -O /scripts/sh/setup.azuriom.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.azuriom.sh'
 chmod +x /scripts/sh/setup.azuriom.sh
