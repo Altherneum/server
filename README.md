@@ -33,6 +33,7 @@ chmod +x /setup.sh
 - [Discord token](/DiscordBot/data/tokens.yml)
 - [Minecraft Discord token](/Serveurs/DataFolder/tokens.yml)
 - [Minecraft RCON Password](/Serveurs/SERVERNAME/server.properties) | [exemple](/Serveurs/Hub/server.properties)
+- [Admin account Password](/scripts/sh/setup.system.user.sh)
 
 ## Lancer l'installation
 `/install.sh`
