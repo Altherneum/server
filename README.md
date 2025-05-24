@@ -22,6 +22,13 @@ Server configuration files
 - [github.com /Altherneum /.github /profile /README.md #repo](https://github.com/Altherneum/.github/blob/main/profile/README.md#repo)
 
 # Setup
+## Se connecter
+- `ssh root@altherneum.fr`
+- Valider avec le mot de passe
+### Prochaines connections
+Les prochaines connexions devront se faire depuis le compte `admin`, La connexion depuis SSH au compte root étant désactivée par la suite dans [#Configuration](#configuration)
+
+## Lancer l'installation
 ```
 wget -O /setup.sh -L 'https://raw.githubusercontent.com/Altherneum/server/main/setup.sh'
 chmod +x /setup.sh
