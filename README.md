@@ -18,8 +18,8 @@ Server configuration files
 - [Commits](https://github.com/Altherneum/server/commits/main)
 
 # Applications
-- [github.com /.github /profile /README.md #libs-externes](https://github.com/Altherneum/.github/blob/main/profile/README.md#libs-externes)
-- [github.com /Altherneum /.github /profile /README.md #repo](https://github.com/Altherneum/.github/blob/main/profile/README.md#repo)
+- Liste des repo d'applications rattachés [github.com /.github /profile /README.md #libs-externes](https://github.com/Altherneum/.github/blob/main/profile/README.md#libs-externes)
+- Liste des librairies utilisés dans les applications [github.com /Altherneum /.github /profile /README.md #repo](https://github.com/Altherneum/.github/blob/main/profile/README.md#repo)
 
 # Setup
 ## Se connecter
