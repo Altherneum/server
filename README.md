@@ -134,7 +134,10 @@ chmod +x /update.sh
 `Serveurs/DataFolder/stop.sh`
 
 # Screen
+## Minecraft screen
 `sudo -u minecraft screen -ls`
+## Discord screen
+`sudo -u discord screen -ls`
 
 # DNS routing
 ```
