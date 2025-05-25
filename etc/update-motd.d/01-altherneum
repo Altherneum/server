@@ -35,13 +35,14 @@ df -hl /dev/sda* | grep -v udev
 
 printf "\n"
 
-printf "👨‍💻\tUtilisateur\t$(id -un)\n"
+printf "👨‍💻\tUtilisateur\t$(id -un):$(whoami)\n"
 printf "💾\tHôte\t\t$(hostname)\n"
 
 printf "\n"
 
 printf "📶\tVPS\t\t$(hostname -I)\n"
 printf "🛜\tVous\t\t$(echo $SSH_CLIENT | awk '{ print $1}')\n"
+printf "🛜\tVous\t\t$(who am i)\n"
 
 printf "\n"
 
