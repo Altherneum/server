@@ -75,23 +75,24 @@ Connectez vous à la page HTTP de votre serveur en tapant l'adresse IP
 ### Tout lancer
 `start.sh`
 
-### Discord
+### Discord start
 `DiscordBot/start.sh`
 
-### Minecraft
+### Minecraft start
 #### Lancer tout les serveurs
 - `Serveurs/DataFolder/start.sh`
 #### Lancer les serveurs par défaut
 - `Serveurs/DataFolder/start-auto.sh`
 
 ## Lancer via un service
-### Apache2
-(Lancé par défaut)
+### Service Apache2
 - `service apache2 start`
-### Discord
+### Service MySQL
+- `service mysql start`
+### Service Discord
 - [/scripts/discord.service](https://github.com/Altherneum/server/blob/main/scripts/discord.service)
 - `service discord start`
-### Minecraft
+### Service Minecraft
 - [scripts/minecraft.service](https://github.com/Altherneum/server/blob/main/scripts/minecraft.service)
 - `service minecraft start`
 
@@ -99,10 +100,10 @@ Connectez vous à la page HTTP de votre serveur en tapant l'adresse IP
 ## Tout mettre à jour et lancer
 `/update-start.sh`
 
-## Discord
+## Discord start & update
 `DiscordBot/update-start.sh`
 
-## Minecraft
+## Minecraft start & update
 `Serveurs/DataFolder/update-start.sh`
 
 # Update
