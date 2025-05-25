@@ -1,3 +1,5 @@
+#!/bin/bash
+
 [ -r /etc/lsb-release ] && . /etc/lsb-release
 
 if [ -z "$DISTRIB_DESCRIPTION" ] && [ -x /usr/bin/lsb_release ]; then
@@ -18,9 +20,9 @@ printf "\n"
 freeh=$(free -h)
 freem=$(free -m)
 meminfo=$(cat /proc/meminfo)
-availmem=$(awk -v arcsize="0" '/^MemAvailable:/ { print $2 + 0 }' <<< "${meminfo}")
-usedmem=$(awk -v availmem="${availmem}" '/^MemTotal:/ { print $2 - availmem }' <<< "${meminfo}")
-totalmem=$(awk '/^MemTotal:/ { print $2 }' <<< "${meminfo}")
+availmem="$(awk -v arcsize="0" '/^MemAvailable:/ { print $2 + 0 }' <<< "${meminfo}")"
+usedmem="$(awk -v availmem="${availmem}" '/^MemTotal:/ { print $2 - availmem }' <<< "${meminfo}")"
+totalmem="$(awk '/^MemTotal:/ { print $2 }' <<< "${meminfo}")"
 used="$(numfmt --round=down --from-unit=1024 --to=iec <<< "${usedmem}")"
 avail="$(numfmt --round=down --from-unit=1024 --to=iec <<< "${availmem}")"
 total="$(numfmt --round=down --from-unit=1024 --to=iec <<< "${totalmem}")"
