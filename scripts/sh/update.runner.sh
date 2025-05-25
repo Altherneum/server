@@ -45,6 +45,11 @@ wget -O /scripts/sh/setup.systemd.sh 'https://raw.githubusercontent.com/Altherne
 chmod +x /scripts/sh/setup.systemd.sh
 /scripts/sh/setup.systemd.sh
 
+# MOTD
+wget -O /scripts/sh/setup.system.motd.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.system.motd.sh'
+chmod +x /scripts/sh/setup.system.motd.sh
+/scripts/sh/setup.system.motd.sh
+
 # Discord
 mkdir -p /DiscordBot
 wget -O /DiscordBot/update.sh 'https://raw.githubusercontent.com/Altherneum/server/main/DiscordBot/update.sh'

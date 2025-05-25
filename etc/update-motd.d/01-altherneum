@@ -1,0 +1,56 @@
+[ -r /etc/lsb-release ] && . /etc/lsb-release
+
+if [ -z "$DISTRIB_DESCRIPTION" ] && [ -x /usr/bin/lsb_release ]; then
+    DISTRIB_DESCRIPTION=$(lsb_release -s -d)
+fi
+
+printf "🐧\tOS\t\t$(uname -o)\n"
+printf "🖲️\tDistribution\t$DISTRIB_DESCRIPTION\n"
+printf "📟\tVersion\t\t$(uname -r)\t$(uname -m)\n"
+
+printf "\n"
+
+printf "⌛\tUptime\t\t$(uptime -p)\n"
+printf "📅\tDepuis\t\t$(uptime -s)\n"
+
+printf "\n"
+
+freeh=$(free -h)
+freem=$(free -m)
+meminfo=$(cat /proc/meminfo)
+availmem=$(awk -v arcsize="0" '/^MemAvailable:/ { print $2 + 0 }' <<< "${meminfo}")
+usedmem=$(awk -v availmem="${availmem}" '/^MemTotal:/ { print $2 - availmem }' <<< "${meminfo}")
+totalmem=$(awk '/^MemTotal:/ { print $2 }' <<< "${meminfo}")
+used="$(numfmt --round=down --from-unit=1024 --to=iec <<< "${usedmem}")"
+avail="$(numfmt --round=down --from-unit=1024 --to=iec <<< "${availmem}")"
+total="$(numfmt --round=down --from-unit=1024 --to=iec <<< "${totalmem}")"
+percentage=$(((usedmem*100 / totalmem*100) /100))
+
+printf "💻\tCPU\t\t$(uptime | cut -d ',' -f 4-6 | sed -e 's/^[ \t]*//')\n"
+printf "🧠\tRAM\t\t$used / $total : $percentage%%\n"
+printf "💾\tSDA\n"
+df -hl /dev/sda* | grep -v udev
+
+printf "\n"
+
+printf "👨‍💻\tUtilisateur\t$(id -un)\n"
+printf "💾\tHôte\t\t$(hostname)\n"
+
+printf "\n"
+
+printf "📶\tVPS\t\t$(hostname -I)\n"
+printf "🛜\tVous\t\t$(echo $SSH_CLIENT | awk '{ print $1}')\n"
+
+printf "\n"
+
+printf "👀\tUtilisateurs\t$(who | sort -u | wc -l)\n"
+printf "➡️\tListe :\n$(who)\n"
+
+printf "\n"
+
+printf "📞\tDiscord\t\t$(systemctl check discord)\n"
+printf "⚔️\tMinecraft\t$(systemctl check minecraft)\n"
+printf "🌐\tApache2\t\t$(systemctl check apache2)\n"
+printf "💿\tMySQL\t\t$(systemctl check mysql)\n"
+
+printf "\n\n\n"

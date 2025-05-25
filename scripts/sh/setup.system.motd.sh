@@ -1,43 +1,7 @@
-touch /etc/update-motd.d/01-altherneum
+sudo chmod -x /etc/update-motd.d/*
+sudo mv /etc/update-motd.d/* /etc/update-motd.d/backup/
 
-clear
-echo '[ -r /etc/lsb-release ] && . /etc/lsb-release' >> "/etc/update-motd.d/01-altherneum"
-echo 'if [ -z "$DISTRIB_DESCRIPTION" ] && [ -x /usr/bin/lsb_release ]; then' >> "/etc/update-motd.d/01-altherneum"
-echo '    DISTRIB_DESCRIPTION=$(lsb_release -s -d)' >> "/etc/update-motd.d/01-altherneum"
-echo 'fi' >> "/etc/update-motd.d/01-altherneum"
-echo 'printf "🐧\tOS\t\t$(uname -o)\n"' >> "/etc/update-motd.d/01-altherneum"
-echo 'printf "🖲️\tDistribution\t$DISTRIB_DESCRIPTION\n"' >> "/etc/update-motd.d/01-altherneum"
-echo 'printf "📟\tVersion\t\t$(uname -r)\t$(uname -m)\n"' >> "/etc/update-motd.d/01-altherneum"
-echo 'printf "\n"' >> "/etc/update-motd.d/01-altherneum"
-echo 'printf "⌛\tUptime\t\t$(uptime -p)\n"' >> "/etc/update-motd.d/01-altherneum"
-echo 'printf "📅\tDepuis\t\t$(uptime -s)\n"' >> "/etc/update-motd.d/01-altherneum"
-echo 'printf "\n"' >> "/etc/update-motd.d/01-altherneum"
-echo 'freeh=$(free -h)' >> "/etc/update-motd.d/01-altherneum"
-echo 'freem=$(free -m)' >> "/etc/update-motd.d/01-altherneum"
-echo 'meminfo=$(cat /proc/meminfo)' >> "/etc/update-motd.d/01-altherneum"
-echo 'availmem=$(awk -v arcsize="0" '/^MemAvailable:/ { print $2 + 0 }' <<< "${meminfo}")' >> "/etc/update-motd.d/01-altherneum"
-echo 'usedmem=$(awk -v availmem="${availmem}" '/^MemTotal:/ { print $2 - availmem }' <<< "${meminfo}")' >> "/etc/update-motd.d/01-altherneum"
-echo 'totalmem=$(awk '/^MemTotal:/ { print $2 }' <<< "${meminfo}")' >> "/etc/update-motd.d/01-altherneum"
-echo 'used="$(numfmt --round=down --from-unit=1024 --to=iec <<< "${usedmem}")"' >> "/etc/update-motd.d/01-altherneum"
-echo 'avail="$(numfmt --round=down --from-unit=1024 --to=iec <<< "${availmem}")"' >> "/etc/update-motd.d/01-altherneum"
-echo 'total="$(numfmt --round=down --from-unit=1024 --to=iec <<< "${totalmem}")"' >> "/etc/update-motd.d/01-altherneum"
-echo 'percentage=$(((usedmem*100 / totalmem*100) /100))' >> "/etc/update-motd.d/01-altherneum"
-echo 'printf "💻\tCPU\t\t$(uptime | cut -d ',' -f 4-6 | sed -e 's/^[ \t]*//')\n"' >> "/etc/update-motd.d/01-altherneum"
-echo 'printf "🧠\tRAM\t\t$used / $total : $percentage%%\n"' >> "/etc/update-motd.d/01-altherneum"
-echo 'printf "💾\tSDA\n"' >> "/etc/update-motd.d/01-altherneum"
-echo 'df -hl /dev/sda* | grep -v udev' >> "/etc/update-motd.d/01-altherneum"
-echo 'printf "\n"' >> "/etc/update-motd.d/01-altherneum"
-echo 'printf "👨‍💻\tUtilisateur\t$(id -un)\n"' >> "/etc/update-motd.d/01-altherneum"
-echo 'printf "💾\tHôte\t\t$(hostname)\n"' >> "/etc/update-motd.d/01-altherneum"
-echo 'printf "\n"' >> "/etc/update-motd.d/01-altherneum"
-echo 'printf "📶\tVPS\t\t$(hostname -I)\n"' >> "/etc/update-motd.d/01-altherneum"
-echo 'printf "🛜\tVous\t\t$(echo $SSH_CLIENT | awk '{ print $1}')\n"' >> "/etc/update-motd.d/01-altherneum"
-echo 'printf "\n"' >> "/etc/update-motd.d/01-altherneum"
-echo 'printf "👀\tUtilisateurs\t$(who | sort -u | wc -l)\n"' >> "/etc/update-motd.d/01-altherneum"
-echo 'printf "➡️\tListe :\n$(who)\n"' >> "/etc/update-motd.d/01-altherneum"
-echo 'printf "\n"' >> "/etc/update-motd.d/01-altherneum"
-echo 'printf "📞\tDiscord\t\t$(systemctl check discord)\n"' >> "/etc/update-motd.d/01-altherneum"
-echo 'printf "⚔️\tMinecraft\t$(systemctl check minecraft)\n"' >> "/etc/update-motd.d/01-altherneum"
-echo 'printf "🌐\tApache2\t\t$(systemctl check apache2)\n"' >> "/etc/update-motd.d/01-altherneum"
-echo 'printf "💿\tMySQL\t\t$(systemctl check mysql)\n"' >> "/etc/update-motd.d/01-altherneum"
-echo 'printf "\n\n\n"' >> "/etc/update-motd.d/01-altherneum"
+wget -O /etc/update-motd.d/01-altherneum 'https://raw.githubusercontent.com/Altherneum/server/main/etc/update-motd.d/01-altherneum'
+chmod +x /etc/update-motd.d/01-altherneum
+
+systemctl restart ssh
