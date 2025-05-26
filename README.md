@@ -26,7 +26,7 @@ Server configuration files
 - `ssh root@altherneum.fr`
 - Valider avec le mot de passe
 ### Prochaines connections
-- Les prochaines connexions devront se faire depuis le compte `admin`, La connexion depuis SSH au compte root étant désactivée par la suite dans [#Configuration](#configuration)
+- Les prochaines connexions devront se faire depuis le compte `admin`, La connexion depuis SSH au compte root étant désactivée par la suite dans [#Configuration](#Configuration)
   - `ssh admin@altherneum.fr` puis `su - root` pour escalader en tant que super user
 
 ## Lancer l'installation
