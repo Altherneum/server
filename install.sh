@@ -1,9 +1,6 @@
 # Update + APT
 apt update
-apt install -y mysql-server screen vsftpd openjdk-21-jdk curl wget unzip php php-fpm php-mysql php-pgsql php-sqlite3 php-bcmath php-mbstring php-xml php-curl php-zip php-gd apache2 sendmail fail2ban
-
-# For backuping Azuriom
-apt install -y phpmyadmin
+apt install -y mysql-server phpmyadmin screen vsftpd openjdk-21-jdk curl wget unzip php php-fpm php-mysql php-pgsql php-sqlite3 php-bcmath php-mbstring php-xml php-curl php-zip php-gd apache2 sendmail fail2ban
 
 mkdir -p /scripts/sh
 
