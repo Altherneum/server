@@ -25,4 +25,5 @@ systemctl restart fail2ban
 
 # Vérification
 fail2ban-client status
+fail2ban-client -d
 fail2ban-client status sshd
