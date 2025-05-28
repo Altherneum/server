@@ -14,6 +14,7 @@ echo "logpath = /var/log/auth.log" >> /etc/fail2ban/jail.d/jail.local
 echo "maxretry = 3" >> /etc/fail2ban/jail.d/jail.local
 echo "bantime = 24h" >> /etc/fail2ban/jail.d/jail.local
 echo "findtime = 10m" >> /etc/fail2ban/jail.d/jail.local
+echo "mode = aggressive" >> /etc/fail2ban/jail.d/jail.local
 
 echo "destemail = 9j2k37st@gmail.com" >> /etc/fail2ban/jail.d/jail.local
 echo "sender = fail2ban@altherneum.fr" >> /etc/fail2ban/jail.d/jail.local
