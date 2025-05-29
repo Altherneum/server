@@ -53,9 +53,20 @@ printf "➡️\tListe :\n$(who)\n"
 
 printf "\n"
 
+printf "👀\tDernières connexions 🆗 : \n"
+last | head
+
+printf "\n"
+
+printf "👀\tDernières connexions 🔴 : \n"
+lastb | head
+
+printf "\n"
+
 printf "📞\tDiscord\t\t$(systemctl check discord)\n"
 printf "⚔️\tMinecraft\t$(systemctl check minecraft)\n"
 printf "🌐\tApache2\t\t$(systemctl check apache2)\n"
 printf "💿\tMySQL\t\t$(systemctl check mysql)\n"
+
 
 printf "\n"
