@@ -61,10 +61,12 @@ lastb | head
 
 printf "\n"
 
+printf "🚨\tFail2Ban 👮 : \n"
 fail2ban-client status sshd
 
 printf "\n"
 
+printf "🚧\Services 👨‍💻 : \n"
 printf "📞\tDiscord\t\t$(systemctl check discord)\n"
 printf "⚔️\tMinecraft\t$(systemctl check minecraft)\n"
 printf "🌐\tApache2\t\t$(systemctl check apache2)\n"
