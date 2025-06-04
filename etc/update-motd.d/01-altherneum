@@ -37,14 +37,12 @@ df -hl /dev/sda* | grep -v udev
 
 printf "\n"
 
-printf "👨‍💻\tUtilisateur\t$(id -un):$(whoami)\n"
 printf "💾\tHôte\t\t$(hostname)\n"
 
 printf "\n"
 
 printf "📶\tVPS\t\t$(hostname -I)\n"
-printf "🛜\tVous\t\t$(echo $SSH_CLIENT | awk '{ print $1}')\n"
-printf "🛜\tVous\t\t$(who am i)\n"
+printf "🛜\tVous\t\t$(echo $SSH_CLIENT)\n"
 
 printf "\n"
 
@@ -53,6 +51,22 @@ printf "➡️\tListe :\n$(who)\n"
 
 printf "\n"
 
+printf "👀\tDernières connexions\t🆗\n"
+last | head
+
+printf "\n"
+
+printf "👀\tDernières connexions\t🔴\n"
+lastb | head
+
+printf "\n"
+
+printf "🚨\tFail2Ban\t👮\n"
+fail2ban-client status sshd
+
+printf "\n"
+
+printf "🚧\tServices\t👨‍💻\n"
 printf "📞\tDiscord\t\t$(systemctl check discord)\n"
 printf "⚔️\tMinecraft\t$(systemctl check minecraft)\n"
 printf "🌐\tApache2\t\t$(systemctl check apache2)\n"
