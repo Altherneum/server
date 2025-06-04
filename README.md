@@ -191,6 +191,13 @@ CNAME
 Altherneum.fr.
 ```
 
+```
+*
+3600
+CNAME
+Altherneum.fr.
+```
+
 ## Doc DNS
 ```
 doc
