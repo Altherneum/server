@@ -140,6 +140,7 @@ chmod +x /update.sh
 `sudo -u discord screen -ls`
 
 # DNS routing
+## TXT DNS
 ```
 _gh-Altherneum-o
 3600
@@ -168,13 +169,22 @@ TXT
 f9a588a7a48398e4fd0b367f822131
 ```
 
+## CNAME DNS
 ```
 mc
 3600
-A
-45.159.229.139
+CNAME
+Altherneum.fr.
 ```
 
+```
+play
+3600
+CNAME
+Altherneum.fr.
+```
+
+## Doc DNS
 ```
 doc
 3600
@@ -182,6 +192,9 @@ CNAME
 Altherneum.github.io.
 ```
 
+[github.com/Altherneum/Altherneum.github.io/ ... /CNAME](https://github.com/Altherneum/Altherneum.github.io/blob/main/CNAME)
+
+## MC DNS
 ```
 _minecraft._tcp.hub
 3600
@@ -252,17 +265,18 @@ SRV
 0 5 25500 mc.Altherneum.fr.
 ```
 
-(Celui-ci n'est pas utile)
-```
-@
-3600
-A
-45.159.229.139
-```
-
 ```
 _minecraft._tcp
 3600
 SRV
 0 5 25500 mc.Altherneum.fr.
+```
+
+## Root DNS
+`@` = `altherneum.fr`
+```
+@
+3600
+A
+45.159.229.139
 ```
