@@ -171,14 +171,14 @@ f9a588a7a48398e4fd0b367f822131
 
 ## CNAME DNS
 ```
-mc
+www
 3600
 CNAME
 Altherneum.fr.
 ```
 
 ```
-www
+mc
 3600
 CNAME
 Altherneum.fr.
@@ -286,11 +286,28 @@ SRV
 0 5 25500 mc.Altherneum.fr.
 ```
 
+## IP DNS
+```
+vps
+3600
+A
+45.159.229.139
+```
+
 ## Root DNS
+### Root entry
 `@` = `altherneum.fr`
 ```
 @
 3600
 A
 45.159.229.139
+```
+### Any entry
+`*` = `*.altherneum.fr`
+```
+*
+3600
+CNAME
+Altherneum.fr.
 ```
