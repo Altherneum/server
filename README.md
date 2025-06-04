@@ -178,6 +178,13 @@ Altherneum.fr.
 ```
 
 ```
+www
+3600
+CNAME
+Altherneum.fr.
+```
+
+```
 play
 3600
 CNAME
