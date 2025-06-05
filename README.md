@@ -313,27 +313,27 @@ Altherneum.fr.
 ```
 ## Apache2 redirection
 ### Doc.altherneum.fr
-- [altherneum.fr](.altherneum.fr)
+- [altherneum.fr](https://altherneum.fr)
 
-- [doc.altherneum.fr](doc.altherneum.fr)
+- [doc.altherneum.fr](https://doc.altherneum.fr)
 
-- [docs.altherneum.fr](docs.altherneum.fr)
-- [wiki.altherneum.fr](wiki.altherneum.fr)
-- [info.altherneum.fr](info.altherneum.fr)
+- [docs.altherneum.fr](https://docs.altherneum.fr)
+- [wiki.altherneum.fr](https://wiki.altherneum.fr)
+- [info.altherneum.fr](https://info.altherneum.fr)
 
 ### Github.com/altherneum
-- [git.altherneum.fr](git.altherneum.fr)
-- [github.altherneum.fr](github.altherneum.fr)
-- [code.altherneum.fr](code.altherneum.fr)
+- [git.altherneum.fr](https://git.altherneum.fr)
+- [github.altherneum.fr](https://github.altherneum.fr)
+- [code.altherneum.fr](https://code.altherneum.fr)
 
 ### Youtube.com/watch?v=2zpCOYkdvTQ
-- [windows.altherneum.fr](windows.altherneum.fr)
-- [microsoft.altherneum.fr](microsoft.altherneum.fr)
-- [fuckwindows.altherneum.fr](windows.altherneum.fr)
-- [fuckmicrosoft.altherneum.fr](microsoft.altherneum.fr)
+- [windows.altherneum.fr](https://windows.altherneum.fr)
+- [microsoft.altherneum.fr](https://microsoft.altherneum.fr)
+- [fuckwindows.altherneum.fr](https://windows.altherneum.fr)
+- [fuckmicrosoft.altherneum.fr](https://microsoft.altherneum.fr)
 
 ### Minecraft
-- [play.altherneum.fr](play.altherneum.fr)
-- [mc.altherneum.fr](mc.altherneum.fr)
-- [minecraft.altherneum.fr](minecraft.altherneum.fr)
-- [* .altherneum.fr](*.altherneum.fr)
+- [play.altherneum.fr](https://play.altherneum.fr)
+- [mc.altherneum.fr](https://mc.altherneum.fr)
+- [minecraft.altherneum.fr](https://minecraft.altherneum.fr)
+- [\* .altherneum.fr](https://\*.altherneum.fr)
