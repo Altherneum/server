@@ -311,3 +311,29 @@ A
 CNAME
 Altherneum.fr.
 ```
+## Apache2 redirection
+### Doc.altherneum.fr
+- [altherneum.fr](.altherneum.fr)
+
+- [doc.altherneum.fr](doc.altherneum.fr)
+
+- [docs.altherneum.fr](docs.altherneum.fr)
+- [wiki.altherneum.fr](wiki.altherneum.fr)
+- [info.altherneum.fr](info.altherneum.fr)
+
+### Github.com/altherneum
+- [git.altherneum.fr](git.altherneum.fr)
+- [github.altherneum.fr](github.altherneum.fr)
+- [code.altherneum.fr](code.altherneum.fr)
+
+### Youtube.com/watch?v=2zpCOYkdvTQ
+- [windows.altherneum.fr](windows.altherneum.fr)
+- [microsoft.altherneum.fr](microsoft.altherneum.fr)
+- [fuckwindows.altherneum.fr](windows.altherneum.fr)
+- [fuckmicrosoft.altherneum.fr](microsoft.altherneum.fr)
+
+### Minecraft
+- [play.altherneum.fr](play.altherneum.fr)
+- [mc.altherneum.fr](mc.altherneum.fr)
+- [minecraft.altherneum.fr](minecraft.altherneum.fr)
+- [* .altherneum.fr](*.altherneum.fr)
