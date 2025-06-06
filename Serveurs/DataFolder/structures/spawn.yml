@@ -25052,54 +25052,54 @@
     z: -40
   data: minecraft:spruce_planks
 '3580':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: -36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3581':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: -33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3582':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: -32
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3583':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: -29
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3584':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: -28
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3585':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: -27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3586':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: -26
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3587':
   type: DANDELION
   location:
@@ -25108,19 +25108,19 @@
     z: -25
   data: minecraft:dandelion
 '3588':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: -24
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3589':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: -22
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3590':
   type: DANDELION
   location:
@@ -25129,12 +25129,12 @@
     z: -21
   data: minecraft:dandelion
 '3591':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: -20
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3592':
   type: AZURE_BLUET
   location:
@@ -25143,54 +25143,54 @@
     z: -19
   data: minecraft:azure_bluet
 '3593':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: -18
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3594':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: -17
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3595':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: -14
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3596':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: -13
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3597':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: -10
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3598':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: -4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3599':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: 1
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3600':
   type: AZURE_BLUET
   location:
@@ -25199,40 +25199,40 @@
     z: 2
   data: minecraft:azure_bluet
 '3601':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: 3
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3602':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: 6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3603':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: 7
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3604':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: 9
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3605':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: 10
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3606':
   type: AZURE_BLUET
   location:
@@ -25248,47 +25248,47 @@
     z: 12
   data: minecraft:poppy
 '3608':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: 15
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3609':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: 16
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3610':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: 18
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3611':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: 19
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3612':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: 21
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3613':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: 24
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3614':
   type: AZURE_BLUET
   location:
@@ -25297,33 +25297,33 @@
     z: 29
   data: minecraft:azure_bluet
 '3615':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: 32
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3616':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: 33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3617':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: 34
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3618':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -37
     y: 64
     z: 36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3619':
   type: SPRUCE_PLANKS
   location:
@@ -26844,12 +26844,12 @@
     z: -38
   data: minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
 '3836':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: -35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3837':
   type: DANDELION
   location:
@@ -26858,12 +26858,12 @@
     z: -33
   data: minecraft:dandelion
 '3838':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: -32
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3839':
   type: CORNFLOWER
   location:
@@ -26879,12 +26879,12 @@
     z: -30
   data: minecraft:oxeye_daisy
 '3841':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: -28
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3842':
   type: DANDELION
   location:
@@ -26893,19 +26893,19 @@
     z: -27
   data: minecraft:dandelion
 '3843':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: -24
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3844':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: -21
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3845':
   type: POPPY
   location:
@@ -26914,54 +26914,54 @@
     z: -20
   data: minecraft:poppy
 '3846':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: -18
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3847':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: -16
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3848':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: -8
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3849':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: -5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3850':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: -3
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3851':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: 0
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3852':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: 2
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3853':
   type: DANDELION
   location:
@@ -26970,47 +26970,47 @@
     z: 3
   data: minecraft:dandelion
 '3854':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: 5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3855':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: 6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3856':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: 7
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3857':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: 9
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3858':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: 10
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3859':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: 11
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3860':
   type: DANDELION
   location:
@@ -27019,19 +27019,19 @@
     z: 13
   data: minecraft:dandelion
 '3861':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: 14
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3862':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: 16
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3863':
   type: DANDELION
   location:
@@ -27040,47 +27040,47 @@
     z: 17
   data: minecraft:dandelion
 '3864':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: 18
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3865':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: 21
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3866':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: 24
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3867':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: 28
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3868':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: 30
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3869':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: 31
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3870':
   type: POPPY
   location:
@@ -27089,19 +27089,19 @@
     z: 34
   data: minecraft:poppy
 '3871':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: 35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3872':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -36
     y: 64
     z: 36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '3873':
   type: STONE_BRICK_STAIRS
   location:
@@ -28671,26 +28671,26 @@
     z: -40
   data: minecraft:spruce_planks
 '4097':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -35
     y: 64
     z: -33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4098':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -35
     y: 64
     z: -32
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4099':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -35
     y: 64
     z: -31
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4100':
   type: DANDELION
   location:
@@ -28699,61 +28699,61 @@
     z: -30
   data: minecraft:dandelion
 '4101':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -35
     y: 64
     z: -29
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4102':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -35
     y: 64
     z: -28
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4103':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -35
     y: 64
     z: -24
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4104':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -35
     y: 64
     z: -23
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4105':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -35
     y: 64
     z: -21
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4106':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -35
     y: 64
     z: -20
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4107':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -35
     y: 64
     z: -18
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4108':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -35
     y: 64
     z: -16
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4109':
   type: STONE_BRICK_SLAB
   location:
@@ -28951,26 +28951,26 @@
     z: 15
   data: minecraft:cornflower
 '4137':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -35
     y: 64
     z: 16
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4138':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -35
     y: 64
     z: 17
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4139':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -35
     y: 64
     z: 18
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4140':
   type: AZURE_BLUET
   location:
@@ -28979,19 +28979,19 @@
     z: 23
   data: minecraft:azure_bluet
 '4141':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -35
     y: 64
     z: 27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4142':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -35
     y: 64
     z: 28
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4143':
   type: DANDELION
   location:
@@ -29000,40 +29000,40 @@
     z: 30
   data: minecraft:dandelion
 '4144':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -35
     y: 64
     z: 31
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4145':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -35
     y: 64
     z: 32
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4146':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -35
     y: 64
     z: 33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4147':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -35
     y: 64
     z: 34
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4148':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -35
     y: 64
     z: 36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4149':
   type: SPRUCE_PLANKS
   location:
@@ -30785,75 +30785,75 @@
     z: -39
   data: minecraft:cobblestone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
 '4399':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -34
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4400':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -34
     y: 64
     z: -36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4401':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -34
     y: 64
     z: -34
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4402':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -34
     y: 64
     z: -32
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4403':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -34
     y: 64
     z: -31
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4404':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -34
     y: 64
     z: -29
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4405':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -34
     y: 64
     z: -27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4406':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -34
     y: 64
     z: -26
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4407':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -34
     y: 64
     z: -24
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4408':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -34
     y: 64
     z: -23
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4409':
   type: POPPY
   location:
@@ -31107,26 +31107,26 @@
     z: 17
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '4445':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -34
     y: 64
     z: 25
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4446':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -34
     y: 64
     z: 26
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4447':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -34
     y: 64
     z: 27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4448':
   type: POPPY
   location:
@@ -31135,26 +31135,26 @@
     z: 29
   data: minecraft:poppy
 '4449':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -34
     y: 64
     z: 30
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4450':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -34
     y: 64
     z: 31
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4451':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -34
     y: 64
     z: 32
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4452':
   type: COBBLESTONE_WALL
   location:
@@ -32801,12 +32801,12 @@
     z: -40
   data: minecraft:spruce_planks
 '4687':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -33
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4688':
   type: POPPY
   location:
@@ -32815,12 +32815,12 @@
     z: -34
   data: minecraft:poppy
 '4689':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -33
     y: 64
     z: -30
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4690':
   type: DANDELION
   location:
@@ -32829,40 +32829,40 @@
     z: -29
   data: minecraft:dandelion
 '4691':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -33
     y: 64
     z: -27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4692':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -33
     y: 64
     z: -26
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4693':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -33
     y: 64
     z: -25
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4694':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -33
     y: 64
     z: -24
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4695':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -33
     y: 64
     z: -22
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4696':
   type: STONE_BRICK_SLAB
   location:
@@ -33151,68 +33151,68 @@
     z: 20
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '4737':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -33
     y: 64
     z: 21
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4738':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -33
     y: 64
     z: 23
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4739':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -33
     y: 64
     z: 24
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4740':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -33
     y: 64
     z: 25
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4741':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -33
     y: 64
     z: 26
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4742':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -33
     y: 64
     z: 33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4743':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -33
     y: 64
     z: 34
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4744':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -33
     y: 64
     z: 35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4745':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -33
     y: 64
     z: 36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4746':
   type: SPRUCE_PLANKS
   location:
@@ -34803,19 +34803,19 @@
     z: -38
   data: minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
 '4973':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -32
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4974':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -32
     y: 64
     z: -36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4975':
   type: OXEYE_DAISY
   location:
@@ -34824,26 +34824,26 @@
     z: -35
   data: minecraft:oxeye_daisy
 '4976':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -32
     y: 64
     z: -31
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4977':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -32
     y: 64
     z: -29
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4978':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -32
     y: 64
     z: -28
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4979':
   type: CORNFLOWER
   location:
@@ -34852,12 +34852,12 @@
     z: -26
   data: minecraft:cornflower
 '4980':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -32
     y: 64
     z: -24
-  data: minecraft:grass
+  data: minecraft:short_grass
 '4981':
   type: STONE_BRICK_SLAB
   location:
@@ -35195,47 +35195,47 @@
     z: 26
   data: minecraft:dandelion
 '5029':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -32
     y: 64
     z: 27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5030':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -32
     y: 64
     z: 29
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5031':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -32
     y: 64
     z: 31
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5032':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -32
     y: 64
     z: 33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5033':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -32
     y: 64
     z: 36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5034':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -32
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5035':
   type: STONE_BRICK_STAIRS
   location:
@@ -36840,12 +36840,12 @@
     z: -40
   data: minecraft:spruce_planks
 '5264':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -31
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5265':
   type: OXEYE_DAISY
   location:
@@ -36854,19 +36854,19 @@
     z: -36
   data: minecraft:oxeye_daisy
 '5266':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -31
     y: 64
     z: -31
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5267':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -31
     y: 64
     z: -28
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5268':
   type: STONE_BRICK_SLAB
   location:
@@ -37253,33 +37253,33 @@
     z: 27
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '5323':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -31
     y: 64
     z: 29
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5324':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -31
     y: 64
     z: 30
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5325':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -31
     y: 64
     z: 31
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5326':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -31
     y: 64
     z: 33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5327':
   type: SPRUCE_PLANKS
   location:
@@ -38884,26 +38884,26 @@
     z: -39
   data: minecraft:cobblestone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
 '5556':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -30
     y: 64
     z: -33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5557':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -30
     y: 64
     z: -32
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5558':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -30
     y: 64
     z: -31
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5559':
   type: DANDELION
   location:
@@ -39332,33 +39332,33 @@
     z: 30
   data: minecraft:poppy
 '5620':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -30
     y: 64
     z: 32
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5621':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -30
     y: 64
     z: 35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5622':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -30
     y: 64
     z: 36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5623':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -30
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5624':
   type: COBBLESTONE_WALL
   location:
@@ -40970,12 +40970,12 @@
     z: -36
   data: minecraft:poppy
 '5854':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -29
     y: 64
     z: -35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5855':
   type: DANDELION
   location:
@@ -41411,40 +41411,40 @@
     z: 30
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '5917':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -29
     y: 64
     z: 31
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5918':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -29
     y: 64
     z: 32
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5919':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -29
     y: 64
     z: 33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5920':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -29
     y: 64
     z: 36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5921':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -29
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '5922':
   type: SPRUCE_PLANKS
   location:
@@ -43182,33 +43182,33 @@
     z: -38
   data: minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
 '6170':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -28
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6171':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -28
     y: 64
     z: -36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6172':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -28
     y: 64
     z: -35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6173':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -28
     y: 64
     z: -33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6174':
   type: DANDELION
   location:
@@ -43343,40 +43343,40 @@
     z: -14
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '6193':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -28
     y: 64
     z: -12
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6194':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -28
     y: 64
     z: -10
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6195':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -28
     y: 64
     z: -8
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6196':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -28
     y: 64
     z: -5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6197':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -28
     y: 64
     z: -4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6198':
   type: STONE_BRICK_SLAB
   location:
@@ -43427,26 +43427,26 @@
     z: 3
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '6205':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -28
     y: 64
     z: 4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6206':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -28
     y: 64
     z: 5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6207':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -28
     y: 64
     z: 6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6208':
   type: POPPY
   location:
@@ -43455,19 +43455,19 @@
     z: 8
   data: minecraft:poppy
 '6209':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -28
     y: 64
     z: 10
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6210':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -28
     y: 64
     z: 11
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6211':
   type: WATER_CAULDRON
   location:
@@ -43595,19 +43595,19 @@
     z: 30
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '6229':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -28
     y: 64
     z: 35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6230':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -28
     y: 64
     z: 36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6231':
   type: STONE_BRICK_STAIRS
   location:
@@ -45310,12 +45310,12 @@
     z: -40
   data: minecraft:spruce_planks
 '6474':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -27
     y: 64
     z: -32
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6475':
   type: STONE_BRICK_SLAB
   location:
@@ -45422,47 +45422,47 @@
     z: -15
   data: minecraft:dandelion
 '6490':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -27
     y: 64
     z: -14
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6491':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -27
     y: 64
     z: -11
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6492':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -27
     y: 64
     z: -10
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6493':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -27
     y: 64
     z: -8
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6494':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -27
     y: 64
     z: -5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6495':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -27
     y: 64
     z: -4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6496':
   type: STONE_BRICK_SLAB
   location:
@@ -45513,33 +45513,33 @@
     z: 3
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '6503':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -27
     y: 64
     z: 4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6504':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -27
     y: 64
     z: 6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6505':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -27
     y: 64
     z: 7
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6506':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -27
     y: 64
     z: 8
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6507':
   type: DANDELION
   location:
@@ -45555,19 +45555,19 @@
     z: 12
   data: minecraft:oak_stairs[facing=east,half=top,shape=straight,waterlogged=false]
 '6509':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -27
     y: 64
     z: 14
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6510':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -27
     y: 64
     z: 15
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6511':
   type: STONE_BRICK_SLAB
   location:
@@ -45667,19 +45667,19 @@
     z: 31
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '6525':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -27
     y: 64
     z: 32
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6526':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -27
     y: 64
     z: 33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6527':
   type: SPRUCE_PLANKS
   location:
@@ -47298,40 +47298,40 @@
     z: -39
   data: minecraft:cobblestone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
 '6758':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -26
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6759':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -26
     y: 64
     z: -35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6760':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -26
     y: 64
     z: -34
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6761':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -26
     y: 64
     z: -33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6762':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -26
     y: 64
     z: -32
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6763':
   type: STONE_BRICK_SLAB
   location:
@@ -47410,40 +47410,40 @@
     z: -21
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '6774':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -26
     y: 64
     z: -19
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6775':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -26
     y: 64
     z: -18
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6776':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -26
     y: 64
     z: -17
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6777':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -26
     y: 64
     z: -16
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6778':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -26
     y: 64
     z: -15
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6779':
   type: GREEN_CARPET
   location:
@@ -47452,26 +47452,26 @@
     z: -14
   data: minecraft:green_carpet
 '6780':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -26
     y: 64
     z: -12
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6781':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -26
     y: 64
     z: -6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6782':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -26
     y: 64
     z: -4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6783':
   type: STONE_BRICK_SLAB
   location:
@@ -47536,33 +47536,33 @@
     z: 6
   data: minecraft:potted_bamboo
 '6792':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -26
     y: 64
     z: 7
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6793':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -26
     y: 64
     z: 9
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6794':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -26
     y: 64
     z: 10
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6795':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -26
     y: 64
     z: 11
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6796':
   type: OAK_SLAB
   location:
@@ -47571,26 +47571,26 @@
     z: 12
   data: minecraft:oak_slab[type=top,waterlogged=false]
 '6797':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -26
     y: 64
     z: 17
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6798':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -26
     y: 64
     z: 19
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6799':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -26
     y: 64
     z: 20
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6800':
   type: STONE_BRICK_SLAB
   location:
@@ -47669,19 +47669,19 @@
     z: 31
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '6811':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -26
     y: 64
     z: 32
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6812':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -26
     y: 64
     z: 34
-  data: minecraft:grass
+  data: minecraft:short_grass
 '6813':
   type: COBBLESTONE_WALL
   location:
@@ -49384,26 +49384,26 @@
     z: -40
   data: minecraft:spruce_planks
 '7056':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -25
     y: 64
     z: -36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7057':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -25
     y: 64
     z: -35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7058':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -25
     y: 64
     z: -33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7059':
   type: STONE_BRICK_SLAB
   location:
@@ -49461,47 +49461,47 @@
     z: -24
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '7067':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -25
     y: 64
     z: -23
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7068':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -25
     y: 64
     z: -18
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7069':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -25
     y: 64
     z: -15
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7070':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -25
     y: 64
     z: -14
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7071':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -25
     y: 64
     z: -12
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7072':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -25
     y: 64
     z: -5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7073':
   type: STONE_BRICK_SLAB
   location:
@@ -49552,47 +49552,47 @@
     z: 3
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '7080':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -25
     y: 64
     z: 4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7081':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -25
     y: 64
     z: 5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7082':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -25
     y: 64
     z: 6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7083':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -25
     y: 64
     z: 7
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7084':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -25
     y: 64
     z: 9
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7085':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -25
     y: 64
     z: 10
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7086':
   type: OAK_SLAB
   location:
@@ -49608,19 +49608,19 @@
     z: 15
   data: minecraft:lectern[facing=north,has_book=true,powered=false]
 '7088':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -25
     y: 64
     z: 20
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7089':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -25
     y: 64
     z: 21
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7090':
   type: CORNFLOWER
   location:
@@ -49685,19 +49685,19 @@
     z: 31
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '7099':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -25
     y: 64
     z: 34
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7100':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -25
     y: 64
     z: 35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7101':
   type: SPRUCE_PLANKS
   location:
@@ -51274,33 +51274,33 @@
     z: -38
   data: minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
 '7326':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -24
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7327':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -24
     y: 64
     z: -36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7328':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -24
     y: 64
     z: -34
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7329':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -24
     y: 64
     z: -32
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7330':
   type: STONE_BRICK_SLAB
   location:
@@ -51351,19 +51351,19 @@
     z: -25
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '7337':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -24
     y: 64
     z: -24
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7338':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -24
     y: 64
     z: -21
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7339':
   type: POPPY
   location:
@@ -51372,12 +51372,12 @@
     z: -20
   data: minecraft:poppy
 '7340':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -24
     y: 64
     z: -19
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7341':
   type: DANDELION
   location:
@@ -51386,26 +51386,26 @@
     z: -18
   data: minecraft:dandelion
 '7342':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -24
     y: 64
     z: -17
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7343':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -24
     y: 64
     z: -16
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7344':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -24
     y: 64
     z: -14
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7345':
   type: OAK_LEAVES
   location:
@@ -51428,12 +51428,12 @@
     z: -11
   data: minecraft:oak_leaves[distance=7,persistent=true,waterlogged=false]
 '7348':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -24
     y: 64
     z: -7
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7349':
   type: CORNFLOWER
   location:
@@ -51491,12 +51491,12 @@
     z: 3
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '7357':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -24
     y: 64
     z: 6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7358':
   type: POPPY
   location:
@@ -51519,12 +51519,12 @@
     z: 9
   data: minecraft:dandelion
 '7361':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -24
     y: 64
     z: 10
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7362':
   type: OAK_STAIRS
   location:
@@ -51540,40 +51540,40 @@
     z: 18
   data: minecraft:green_carpet
 '7364':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -24
     y: 64
     z: 19
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7365':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -24
     y: 64
     z: 20
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7366':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -24
     y: 64
     z: 21
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7367':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -24
     y: 64
     z: 23
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7368':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -24
     y: 64
     z: 24
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7369':
   type: STONE_BRICK_SLAB
   location:
@@ -51624,26 +51624,26 @@
     z: 31
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '7376':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -24
     y: 64
     z: 32
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7377':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -24
     y: 64
     z: 33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7378':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -24
     y: 64
     z: 36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7379':
   type: STONE_BRICK_STAIRS
   location:
@@ -53248,26 +53248,26 @@
     z: -36
   data: minecraft:oxeye_daisy
 '7608':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -23
     y: 64
     z: -35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7609':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -23
     y: 64
     z: -34
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7610':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -23
     y: 64
     z: -33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7611':
   type: STONE_BRICK_SLAB
   location:
@@ -53318,19 +53318,19 @@
     z: -26
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '7618':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -23
     y: 64
     z: -25
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7619':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -23
     y: 64
     z: -24
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7620':
   type: GREEN_CARPET
   location:
@@ -53346,19 +53346,19 @@
     z: -20
   data: minecraft:vine[east=true,north=false,south=false,up=false,west=false]
 '7622':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -23
     y: 64
     z: -18
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7623':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -23
     y: 64
     z: -15
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7624':
   type: OAK_LEAVES
   location:
@@ -53395,19 +53395,19 @@
     z: -10
   data: minecraft:oak_leaves[distance=7,persistent=true,waterlogged=false]
 '7629':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -23
     y: 64
     z: -9
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7630':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -23
     y: 64
     z: -7
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7631':
   type: POPPY
   location:
@@ -53416,12 +53416,12 @@
     z: -6
   data: minecraft:poppy
 '7632':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -23
     y: 64
     z: -5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7633':
   type: STONE_BRICK_SLAB
   location:
@@ -53472,47 +53472,47 @@
     z: 3
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '7640':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -23
     y: 64
     z: 4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7641':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -23
     y: 64
     z: 6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7642':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -23
     y: 64
     z: 7
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7643':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -23
     y: 64
     z: 8
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7644':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -23
     y: 64
     z: 10
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7645':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -23
     y: 64
     z: 21
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7646':
   type: JUNGLE_LEAVES
   location:
@@ -53535,12 +53535,12 @@
     z: 24
   data: minecraft:jungle_leaves[distance=7,persistent=true,waterlogged=false]
 '7649':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -23
     y: 64
     z: 25
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7650':
   type: STONE_BRICK_SLAB
   location:
@@ -53591,26 +53591,26 @@
     z: 32
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '7657':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -23
     y: 64
     z: 34
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7658':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -23
     y: 64
     z: 36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7659':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -23
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7660':
   type: SPRUCE_PLANKS
   location:
@@ -55250,19 +55250,19 @@
     z: -39
   data: minecraft:cobblestone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
 '7894':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -22
     y: 64
     z: -35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7895':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -22
     y: 64
     z: -33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7896':
   type: STONE_BRICK_SLAB
   location:
@@ -55411,19 +55411,19 @@
     z: -10
   data: minecraft:oak_leaves[distance=7,persistent=true,waterlogged=false]
 '7917':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -22
     y: 64
     z: -9
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7918':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -22
     y: 64
     z: -8
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7919':
   type: GREEN_CARPET
   location:
@@ -55481,26 +55481,26 @@
     z: 3
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '7927':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -22
     y: 64
     z: 4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7928':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -22
     y: 64
     z: 6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7929':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -22
     y: 64
     z: 9
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7930':
   type: JUNGLE_LEAVES
   location:
@@ -55586,26 +55586,26 @@
     z: 32
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '7942':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -22
     y: 64
     z: 33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7943':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -22
     y: 64
     z: 36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7944':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -22
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '7945':
   type: COBBLESTONE_WALL
   location:
@@ -57938,40 +57938,40 @@
     z: -40
   data: minecraft:spruce_planks
 '8278':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -21
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '8279':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -21
     y: 64
     z: -36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '8280':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -21
     y: 64
     z: -35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '8281':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -21
     y: 64
     z: -34
-  data: minecraft:grass
+  data: minecraft:short_grass
 '8282':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -21
     y: 64
     z: -33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '8283':
   type: STONE_BRICK_SLAB
   location:
@@ -58127,19 +58127,19 @@
     z: -10
   data: minecraft:oak_leaves[distance=7,persistent=true,waterlogged=false]
 '8305':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -21
     y: 64
     z: -8
-  data: minecraft:grass
+  data: minecraft:short_grass
 '8306':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -21
     y: 64
     z: -5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '8307':
   type: STONE_BRICK_SLAB
   location:
@@ -58190,12 +58190,12 @@
     z: 3
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '8314':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -21
     y: 64
     z: 4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '8315':
   type: OXEYE_DAISY
   location:
@@ -58211,12 +58211,12 @@
     z: 7
   data: minecraft:dandelion
 '8317':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -21
     y: 64
     z: 8
-  data: minecraft:grass
+  data: minecraft:short_grass
 '8318':
   type: JUNGLE_LEAVES
   location:
@@ -58295,19 +58295,19 @@
     z: 32
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '8329':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -21
     y: 64
     z: 34
-  data: minecraft:grass
+  data: minecraft:short_grass
 '8330':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -21
     y: 64
     z: 35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '8331':
   type: DANDELION
   location:
@@ -58316,12 +58316,12 @@
     z: 36
   data: minecraft:dandelion
 '8332':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -21
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '8333':
   type: SPRUCE_PLANKS
   location:
@@ -60871,12 +60871,12 @@
     z: -38
   data: minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
 '8697':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -20
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '8698':
   type: STONE_BRICK_SLAB
   location:
@@ -60927,26 +60927,26 @@
     z: -27
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '8705':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -20
     y: 64
     z: -26
-  data: minecraft:grass
+  data: minecraft:short_grass
 '8706':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -20
     y: 64
     z: -25
-  data: minecraft:grass
+  data: minecraft:short_grass
 '8707':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -20
     y: 64
     z: -24
-  data: minecraft:grass
+  data: minecraft:short_grass
 '8708':
   type: COBBLESTONE
   location:
@@ -61032,40 +61032,40 @@
     z: -11
   data: minecraft:oak_leaves[distance=7,persistent=true,waterlogged=false]
 '8720':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -20
     y: 64
     z: -10
-  data: minecraft:grass
+  data: minecraft:short_grass
 '8721':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -20
     y: 64
     z: -7
-  data: minecraft:grass
+  data: minecraft:short_grass
 '8722':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -20
     y: 64
     z: -6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '8723':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -20
     y: 64
     z: -5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '8724':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -20
     y: 64
     z: -4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '8725':
   type: STONE_BRICK_SLAB
   location:
@@ -61116,26 +61116,26 @@
     z: 3
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '8732':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -20
     y: 64
     z: 4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '8733':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -20
     y: 64
     z: 5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '8734':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -20
     y: 64
     z: 10
-  data: minecraft:grass
+  data: minecraft:short_grass
 '8735':
   type: GREEN_CARPET
   location:
@@ -61165,12 +61165,12 @@
     z: 25
   data: minecraft:azure_bluet
 '8739':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -20
     y: 64
     z: 26
-  data: minecraft:grass
+  data: minecraft:short_grass
 '8740':
   type: STONE_BRICK_SLAB
   location:
@@ -63867,12 +63867,12 @@
     z: -40
   data: minecraft:spruce_planks
 '9125':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -19
     y: 64
     z: -34
-  data: minecraft:grass
+  data: minecraft:short_grass
 '9126':
   type: STONE_BRICK_SLAB
   location:
@@ -63923,12 +63923,12 @@
     z: -27
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '9133':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -19
     y: 64
     z: -25
-  data: minecraft:grass
+  data: minecraft:short_grass
 '9134':
   type: VINE
   location:
@@ -64014,12 +64014,12 @@
     z: -12
   data: minecraft:cobblestone
 '9146':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -19
     y: 64
     z: -8
-  data: minecraft:grass
+  data: minecraft:short_grass
 '9147':
   type: AZURE_BLUET
   location:
@@ -64028,12 +64028,12 @@
     z: -6
   data: minecraft:azure_bluet
 '9148':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -19
     y: 64
     z: -5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '9149':
   type: STONE_BRICK_SLAB
   location:
@@ -64147,12 +64147,12 @@
     z: 33
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '9165':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -19
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '9166':
   type: SPRUCE_PLANKS
   location:
@@ -66471,12 +66471,12 @@
     z: -36
   data: minecraft:poppy
 '9497':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -18
     y: 64
     z: -35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '9498':
   type: STONE_BRICK_SLAB
   location:
@@ -66527,12 +66527,12 @@
     z: -27
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '9505':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -18
     y: 64
     z: -26
-  data: minecraft:grass
+  data: minecraft:short_grass
 '9506':
   type: VINE
   location:
@@ -66625,12 +66625,12 @@
     z: -10
   data: minecraft:cornflower
 '9519':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -18
     y: 64
     z: -4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '9520':
   type: STONE_BRICK_SLAB
   location:
@@ -66786,26 +66786,26 @@
     z: 33
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '9542':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -18
     y: 64
     z: 34
-  data: minecraft:grass
+  data: minecraft:short_grass
 '9543':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -18
     y: 64
     z: 35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '9544':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -18
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '9545':
   type: COBBLESTONE_WALL
   location:
@@ -69362,12 +69362,12 @@
     z: -37
   data: minecraft:poppy
 '9910':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -17
     y: 64
     z: -36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '9911':
   type: STONE_BRICK_SLAB
   location:
@@ -69418,12 +69418,12 @@
     z: -28
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '9918':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -17
     y: 64
     z: -27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '9919':
   type: VINE
   location:
@@ -69509,12 +69509,12 @@
     z: -12
   data: minecraft:cobblestone
 '9931':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -17
     y: 64
     z: -11
-  data: minecraft:grass
+  data: minecraft:short_grass
 '9932':
   type: BAMBOO
   location:
@@ -69523,12 +69523,12 @@
     z: -10
   data: minecraft:bamboo[age=0,leaves=none,stage=0]
 '9933':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -17
     y: 64
     z: -8
-  data: minecraft:grass
+  data: minecraft:short_grass
 '9934':
   type: DANDELION
   location:
@@ -69537,19 +69537,19 @@
     z: -7
   data: minecraft:dandelion
 '9935':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -17
     y: 64
     z: -5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '9936':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -17
     y: 64
     z: -4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '9937':
   type: STONE_BRICK_SLAB
   location:
@@ -69691,12 +69691,12 @@
     z: 34
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '9957':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -17
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '9958':
   type: SPRUCE_PLANKS
   location:
@@ -72113,12 +72113,12 @@
     z: -38
   data: minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
 '10303':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -16
     y: 64
     z: -35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '10304':
   type: STONE_BRICK_SLAB
   location:
@@ -72169,12 +72169,12 @@
     z: -28
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '10311':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -16
     y: 64
     z: -27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '10312':
   type: CORNFLOWER
   location:
@@ -72183,19 +72183,19 @@
     z: -26
   data: minecraft:cornflower
 '10313':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -16
     y: 64
     z: -25
-  data: minecraft:grass
+  data: minecraft:short_grass
 '10314':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -16
     y: 64
     z: -24
-  data: minecraft:grass
+  data: minecraft:short_grass
 '10315':
   type: VINE
   location:
@@ -72288,26 +72288,26 @@
     z: -8
   data: minecraft:dandelion
 '10328':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -16
     y: 64
     z: -7
-  data: minecraft:grass
+  data: minecraft:short_grass
 '10329':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -16
     y: 64
     z: -6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '10330':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -16
     y: 64
     z: -5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '10331':
   type: DANDELION
   location:
@@ -72428,19 +72428,19 @@
     z: 34
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '10348':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -16
     y: 64
     z: 35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '10349':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -16
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '10350':
   type: STONE_BRICK_STAIRS
   location:
@@ -75095,19 +75095,19 @@
     z: -28
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '10729':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -15
     y: 64
     z: -27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '10730':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -15
     y: 64
     z: -25
-  data: minecraft:grass
+  data: minecraft:short_grass
 '10731':
   type: VINE
   location:
@@ -75207,26 +75207,26 @@
     z: -10
   data: minecraft:green_carpet
 '10745':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -15
     y: 64
     z: -7
-  data: minecraft:grass
+  data: minecraft:short_grass
 '10746':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -15
     y: 64
     z: -6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '10747':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -15
     y: 64
     z: -5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '10748':
   type: STONE_BRICK_SLAB
   location:
@@ -75354,19 +75354,19 @@
     z: 34
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '10766':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -15
     y: 64
     z: 35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '10767':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -15
     y: 64
     z: 36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '10768':
   type: SPRUCE_PLANKS
   location:
@@ -77937,19 +77937,19 @@
     z: -39
   data: minecraft:cobblestone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
 '11135':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -14
     y: 64
     z: -36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '11136':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -14
     y: 64
     z: -35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '11137':
   type: STONE_BRICK_SLAB
   location:
@@ -78007,12 +78007,12 @@
     z: -26
   data: minecraft:tall_grass[half=lower]
 '11145':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -14
     y: 64
     z: -23
-  data: minecraft:grass
+  data: minecraft:short_grass
 '11146':
   type: COBBLESTONE
   location:
@@ -78098,26 +78098,26 @@
     z: -11
   data: minecraft:vine[east=false,north=true,south=false,up=false,west=false]
 '11158':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -14
     y: 64
     z: -9
-  data: minecraft:grass
+  data: minecraft:short_grass
 '11159':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -14
     y: 64
     z: -8
-  data: minecraft:grass
+  data: minecraft:short_grass
 '11160':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -14
     y: 64
     z: -4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '11161':
   type: STONE_BRICK_STAIRS
   location:
@@ -78287,12 +78287,12 @@
     z: 36
   data: minecraft:azure_bluet
 '11185':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -14
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '11186':
   type: COBBLESTONE_WALL
   location:
@@ -80849,19 +80849,19 @@
     z: -11
   data: minecraft:dandelion
 '11551':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -13
     y: 64
     z: -9
-  data: minecraft:grass
+  data: minecraft:short_grass
 '11552':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -13
     y: 64
     z: -7
-  data: minecraft:grass
+  data: minecraft:short_grass
 '11553':
   type: POPPY
   location:
@@ -80891,33 +80891,33 @@
     z: 24
   data: minecraft:dandelion
 '11557':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -13
     y: 64
     z: 25
-  data: minecraft:grass
+  data: minecraft:short_grass
 '11558':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -13
     y: 64
     z: 26
-  data: minecraft:grass
+  data: minecraft:short_grass
 '11559':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -13
     y: 64
     z: 27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '11560':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -13
     y: 64
     z: 28
-  data: minecraft:grass
+  data: minecraft:short_grass
 '11561':
   type: STONE_BRICK_SLAB
   location:
@@ -80968,12 +80968,12 @@
     z: 35
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '11568':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -13
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '11569':
   type: SPRUCE_PLANKS
   location:
@@ -83033,12 +83033,12 @@
     z: -38
   data: minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
 '11863':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -12
     y: 64
     z: -36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '11864':
   type: STONE_BRICK_SLAB
   location:
@@ -83089,19 +83089,19 @@
     z: -29
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '11871':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -12
     y: 64
     z: -27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '11872':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -12
     y: 64
     z: -23
-  data: minecraft:grass
+  data: minecraft:short_grass
 '11873':
   type: COBBLESTONE
   location:
@@ -83180,19 +83180,19 @@
     z: -12
   data: minecraft:cobblestone
 '11884':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -12
     y: 64
     z: -11
-  data: minecraft:grass
+  data: minecraft:short_grass
 '11885':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -12
     y: 64
     z: -8
-  data: minecraft:grass
+  data: minecraft:short_grass
 '11886':
   type: GREEN_CARPET
   location:
@@ -83271,19 +83271,19 @@
     z: 35
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '11897':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -12
     y: 64
     z: 36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '11898':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -12
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '11899':
   type: STONE_BRICK_STAIRS
   location:
@@ -85399,40 +85399,40 @@
     z: -29
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '12201':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -11
     y: 64
     z: -28
-  data: minecraft:grass
+  data: minecraft:short_grass
 '12202':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -11
     y: 64
     z: -26
-  data: minecraft:grass
+  data: minecraft:short_grass
 '12203':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -11
     y: 64
     z: -25
-  data: minecraft:grass
+  data: minecraft:short_grass
 '12204':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -11
     y: 64
     z: -24
-  data: minecraft:grass
+  data: minecraft:short_grass
 '12205':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -11
     y: 64
     z: -23
-  data: minecraft:grass
+  data: minecraft:short_grass
 '12206':
   type: COBBLESTONE
   location:
@@ -85518,19 +85518,19 @@
     z: -11
   data: minecraft:oak_leaves[distance=7,persistent=true,waterlogged=false]
 '12218':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -11
     y: 64
     z: -10
-  data: minecraft:grass
+  data: minecraft:short_grass
 '12219':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -11
     y: 64
     z: -9
-  data: minecraft:grass
+  data: minecraft:short_grass
 '12220':
   type: ENDER_CHEST
   location:
@@ -85539,12 +85539,12 @@
     z: 25
   data: minecraft:ender_chest[facing=north,waterlogged=false]
 '12221':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -11
     y: 64
     z: 28
-  data: minecraft:grass
+  data: minecraft:short_grass
 '12222':
   type: STONE_BRICK_SLAB
   location:
@@ -87632,12 +87632,12 @@
     z: -39
   data: minecraft:cobblestone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
 '12520':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -10
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '12521':
   type: STONE_BRICK_SLAB
   location:
@@ -87688,12 +87688,12 @@
     z: -29
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '12528':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -10
     y: 64
     z: -28
-  data: minecraft:grass
+  data: minecraft:short_grass
 '12529':
   type: VINE
   location:
@@ -87786,19 +87786,19 @@
     z: -11
   data: minecraft:oak_leaves[distance=7,persistent=true,waterlogged=false]
 '12542':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -10
     y: 64
     z: 27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '12543':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -10
     y: 64
     z: 28
-  data: minecraft:grass
+  data: minecraft:short_grass
 '12544':
   type: STONE_BRICK_SLAB
   location:
@@ -89998,12 +89998,12 @@
     z: -40
   data: minecraft:spruce_planks
 '12858':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -9
     y: 64
     z: -36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '12859':
   type: STONE_BRICK_SLAB
   location:
@@ -90068,19 +90068,19 @@
     z: -27
   data: minecraft:cornflower
 '12868':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -9
     y: 64
     z: -26
-  data: minecraft:grass
+  data: minecraft:short_grass
 '12869':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -9
     y: 64
     z: -24
-  data: minecraft:grass
+  data: minecraft:short_grass
 '12870':
   type: VINE
   location:
@@ -90166,19 +90166,19 @@
     z: -12
   data: minecraft:oak_leaves[distance=7,persistent=true,waterlogged=false]
 '12882':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -9
     y: 64
     z: 26
-  data: minecraft:grass
+  data: minecraft:short_grass
 '12883':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -9
     y: 64
     z: 27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '12884':
   type: STONE_BRICK_SLAB
   location:
@@ -90229,12 +90229,12 @@
     z: 35
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '12891':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -9
     y: 64
     z: 36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '12892':
   type: SPRUCE_PLANKS
   location:
@@ -92399,12 +92399,12 @@
     z: -38
   data: minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
 '13201':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -8
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '13202':
   type: STONE_BRICK_SLAB
   location:
@@ -92644,12 +92644,12 @@
     z: 36
   data: minecraft:oxeye_daisy
 '13236':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -8
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '13237':
   type: STONE_BRICK_STAIRS
   location:
@@ -94870,12 +94870,12 @@
     z: -40
   data: minecraft:spruce_planks
 '13554':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -7
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '13555':
   type: AZURE_BLUET
   location:
@@ -94954,19 +94954,19 @@
     z: -25
   data: minecraft:dark_oak_leaves[distance=7,persistent=true,waterlogged=false]
 '13566':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -7
     y: 64
     z: -24
-  data: minecraft:grass
+  data: minecraft:short_grass
 '13567':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -7
     y: 64
     z: -23
-  data: minecraft:grass
+  data: minecraft:short_grass
 '13568':
   type: COBBLESTONE
   location:
@@ -95038,19 +95038,19 @@
     z: 26
   data: minecraft:furnace[facing=north,lit=false]
 '13578':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -7
     y: 64
     z: 27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '13579':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -7
     y: 64
     z: 28
-  data: minecraft:grass
+  data: minecraft:short_grass
 '13580':
   type: STONE_BRICK_SLAB
   location:
@@ -97222,12 +97222,12 @@
     z: -39
   data: minecraft:cobblestone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
 '13890':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -6
     y: 64
     z: -36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '13891':
   type: STONE_BRICK_SLAB
   location:
@@ -97278,12 +97278,12 @@
     z: -29
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '13898':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -6
     y: 64
     z: -27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '13899':
   type: JUNGLE_LEAVES
   location:
@@ -97292,12 +97292,12 @@
     z: -26
   data: minecraft:jungle_leaves[distance=7,persistent=true,waterlogged=false]
 '13900':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -6
     y: 64
     z: -24
-  data: minecraft:grass
+  data: minecraft:short_grass
 '13901':
   type: POPPY
   location:
@@ -97320,40 +97320,40 @@
     z: -21
   data: minecraft:vine[east=false,north=false,south=false,up=false,west=true]
 '13904':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -6
     y: 64
     z: -20
-  data: minecraft:grass
+  data: minecraft:short_grass
 '13905':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -6
     y: 64
     z: -19
-  data: minecraft:grass
+  data: minecraft:short_grass
 '13906':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -6
     y: 64
     z: -18
-  data: minecraft:grass
+  data: minecraft:short_grass
 '13907':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -6
     y: 64
     z: -17
-  data: minecraft:grass
+  data: minecraft:short_grass
 '13908':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -6
     y: 64
     z: 14
-  data: minecraft:grass
+  data: minecraft:short_grass
 '13909':
   type: OAK_FENCE_GATE
   location:
@@ -97362,12 +97362,12 @@
     z: 15
   data: minecraft:oak_fence_gate[facing=south,in_wall=false,open=false,powered=false]
 '13910':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -6
     y: 64
     z: 16
-  data: minecraft:grass
+  data: minecraft:short_grass
 '13911':
   type: ENCHANTING_TABLE
   location:
@@ -97390,12 +97390,12 @@
     z: 22
   data: minecraft:grindstone[face=floor,facing=west]
 '13914':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -6
     y: 64
     z: 26
-  data: minecraft:grass
+  data: minecraft:short_grass
 '13915':
   type: STONE_BRICK_SLAB
   location:
@@ -97446,12 +97446,12 @@
     z: 35
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '13922':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -6
     y: 64
     z: 36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '13923':
   type: AZURE_BLUET
   location:
@@ -99189,12 +99189,12 @@
     z: -40
   data: minecraft:spruce_planks
 '14171':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -5
     y: 64
     z: -36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '14172':
   type: STONE_BRICK_SLAB
   location:
@@ -99245,12 +99245,12 @@
     z: -29
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '14179':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -5
     y: 64
     z: -28
-  data: minecraft:grass
+  data: minecraft:short_grass
 '14180':
   type: GREEN_CARPET
   location:
@@ -99259,19 +99259,19 @@
     z: -25
   data: minecraft:green_carpet
 '14181':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -5
     y: 64
     z: -24
-  data: minecraft:grass
+  data: minecraft:short_grass
 '14182':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -5
     y: 64
     z: -21
-  data: minecraft:grass
+  data: minecraft:short_grass
 '14183':
   type: CORNFLOWER
   location:
@@ -99294,12 +99294,12 @@
     z: 13
   data: minecraft:potted_bamboo
 '14186':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -5
     y: 64
     z: 14
-  data: minecraft:grass
+  data: minecraft:short_grass
 '14187':
   type: OAK_FENCE
   location:
@@ -99343,12 +99343,12 @@
     z: 25
   data: minecraft:smithing_table
 '14193':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -5
     y: 64
     z: 26
-  data: minecraft:grass
+  data: minecraft:short_grass
 '14194':
   type: DANDELION
   location:
@@ -99413,12 +99413,12 @@
     z: 36
   data: minecraft:dandelion
 '14203':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -5
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '14204':
   type: SPRUCE_PLANKS
   location:
@@ -101037,12 +101037,12 @@
     z: -38
   data: minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
 '14435':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -4
     y: 64
     z: -36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '14436':
   type: STONE_BRICK_SLAB
   location:
@@ -101093,19 +101093,19 @@
     z: -29
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '14443':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -4
     y: 64
     z: -28
-  data: minecraft:grass
+  data: minecraft:short_grass
 '14444':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -4
     y: 64
     z: -27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '14445':
   type: DANDELION
   location:
@@ -101114,47 +101114,47 @@
     z: -26
   data: minecraft:dandelion
 '14446':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -4
     y: 64
     z: -25
-  data: minecraft:grass
+  data: minecraft:short_grass
 '14447':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -4
     y: 64
     z: -24
-  data: minecraft:grass
+  data: minecraft:short_grass
 '14448':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -4
     y: 64
     z: -23
-  data: minecraft:grass
+  data: minecraft:short_grass
 '14449':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -4
     y: 64
     z: -21
-  data: minecraft:grass
+  data: minecraft:short_grass
 '14450':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -4
     y: 64
     z: -20
-  data: minecraft:grass
+  data: minecraft:short_grass
 '14451':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -4
     y: 64
     z: -19
-  data: minecraft:grass
+  data: minecraft:short_grass
 '14452':
   type: GREEN_CARPET
   location:
@@ -101163,12 +101163,12 @@
     z: -17
   data: minecraft:green_carpet
 '14453':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -4
     y: 64
     z: -16
-  data: minecraft:grass
+  data: minecraft:short_grass
 '14454':
   type: DANDELION
   location:
@@ -101226,12 +101226,12 @@
     z: 23
   data: minecraft:spruce_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
 '14462':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -4
     y: 64
     z: 27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '14463':
   type: STONE_BRICK_SLAB
   location:
@@ -101289,12 +101289,12 @@
     z: 36
   data: minecraft:poppy
 '14471':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -4
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '14472':
   type: STONE_BRICK_STAIRS
   location:
@@ -102969,19 +102969,19 @@
     z: -40
   data: minecraft:spruce_planks
 '14711':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -3
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '14712':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -3
     y: 64
     z: -36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '14713':
   type: STONE_BRICK_SLAB
   location:
@@ -103305,19 +103305,19 @@
     z: 35
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '14759':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -3
     y: 64
     z: 36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '14760':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -3
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '14761':
   type: SPRUCE_PLANKS
   location:
@@ -105160,12 +105160,12 @@
     z: -39
   data: minecraft:cobblestone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
 '15024':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -2
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '15025':
   type: STONE_BRICKS
   location:
@@ -105475,12 +105475,12 @@
     z: 35
   data: minecraft:stone_bricks
 '15069':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -2
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '15070':
   type: COBBLESTONE_WALL
   location:
@@ -107064,19 +107064,19 @@
     z: -40
   data: minecraft:spruce_planks
 '15296':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -1
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '15297':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -1
     y: 64
     z: -36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '15298':
   type: STONE_BRICK_STAIRS
   location:
@@ -110760,12 +110760,12 @@
     z: -40
   data: minecraft:spruce_planks
 '15824':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 1
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '15825':
   type: STONE_BRICK_STAIRS
   location:
@@ -112594,12 +112594,12 @@
     z: -39
   data: minecraft:cobblestone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
 '16086':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 2
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '16087':
   type: STONE_BRICKS
   location:
@@ -112909,12 +112909,12 @@
     z: 35
   data: minecraft:stone_bricks
 '16131':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 2
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '16132':
   type: COBBLESTONE_WALL
   location:
@@ -114498,12 +114498,12 @@
     z: -40
   data: minecraft:spruce_planks
 '16358':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 3
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '16359':
   type: STONE_BRICK_SLAB
   location:
@@ -116668,12 +116668,12 @@
     z: -38
   data: minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
 '16668':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 4
     y: 64
     z: -36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '16669':
   type: STONE_BRICK_SLAB
   location:
@@ -116724,12 +116724,12 @@
     z: -29
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '16676':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 4
     y: 64
     z: -27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '16677':
   type: DANDELION
   location:
@@ -116738,12 +116738,12 @@
     z: -24
   data: minecraft:dandelion
 '16678':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 4
     y: 64
     z: -19
-  data: minecraft:grass
+  data: minecraft:short_grass
 '16679':
   type: OXEYE_DAISY
   location:
@@ -116759,12 +116759,12 @@
     z: 13
   data: minecraft:tall_grass[half=lower]
 '16681':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 4
     y: 64
     z: 23
-  data: minecraft:grass
+  data: minecraft:short_grass
 '16682':
   type: STONE_BRICK_SLAB
   location:
@@ -118460,12 +118460,12 @@
     z: -40
   data: minecraft:spruce_planks
 '16924':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 5
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '16925':
   type: STONE_BRICK_SLAB
   location:
@@ -118516,12 +118516,12 @@
     z: -29
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '16932':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 5
     y: 64
     z: -27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '16933':
   type: GREEN_CARPET
   location:
@@ -118551,26 +118551,26 @@
     z: 14
   data: minecraft:ender_chest[facing=north,waterlogged=false]
 '16937':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 5
     y: 64
     z: 20
-  data: minecraft:grass
+  data: minecraft:short_grass
 '16938':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 5
     y: 64
     z: 23
-  data: minecraft:grass
+  data: minecraft:short_grass
 '16939':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 5
     y: 64
     z: 25
-  data: minecraft:grass
+  data: minecraft:short_grass
 '16940':
   type: TALL_GRASS
   location:
@@ -120259,12 +120259,12 @@
     z: -39
   data: minecraft:cobblestone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
 '17181':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 6
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '17182':
   type: STONE_BRICK_SLAB
   location:
@@ -120315,12 +120315,12 @@
     z: -29
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '17189':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 6
     y: 64
     z: -25
-  data: minecraft:grass
+  data: minecraft:short_grass
 '17190':
   type: STONE_BRICK_STAIRS
   location:
@@ -120336,12 +120336,12 @@
     z: -19
   data: minecraft:dandelion
 '17192':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 6
     y: 64
     z: 15
-  data: minecraft:grass
+  data: minecraft:short_grass
 '17193':
   type: GREEN_CARPET
   location:
@@ -122072,12 +122072,12 @@
     z: -40
   data: minecraft:spruce_planks
 '17440':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 7
     y: 64
     z: -36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '17441':
   type: STONE_BRICK_SLAB
   location:
@@ -122163,19 +122163,19 @@
     z: 14
   data: minecraft:green_carpet
 '17453':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 7
     y: 64
     z: 23
-  data: minecraft:grass
+  data: minecraft:short_grass
 '17454':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 7
     y: 64
     z: 28
-  data: minecraft:grass
+  data: minecraft:short_grass
 '17455':
   type: STONE_BRICK_SLAB
   location:
@@ -124095,12 +124095,12 @@
     z: 19
   data: minecraft:spruce_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
 '17729':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 8
     y: 64
     z: 23
-  data: minecraft:grass
+  data: minecraft:short_grass
 '17730':
   type: STONE_BRICK_SLAB
   location:
@@ -125999,12 +125999,12 @@
     z: -40
   data: minecraft:spruce_planks
 '18001':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 9
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '18002':
   type: STONE_BRICK_SLAB
   location:
@@ -126055,12 +126055,12 @@
     z: -29
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '18009':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 9
     y: 64
     z: -26
-  data: minecraft:grass
+  data: minecraft:short_grass
 '18010':
   type: STONE_BRICKS
   location:
@@ -126104,19 +126104,19 @@
     z: -11
   data: minecraft:vine[east=true,north=false,south=false,up=false,west=false]
 '18016':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 9
     y: 64
     z: 24
-  data: minecraft:grass
+  data: minecraft:short_grass
 '18017':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 9
     y: 64
     z: 27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '18018':
   type: STONE_BRICK_SLAB
   location:
@@ -128106,12 +128106,12 @@
     z: -39
   data: minecraft:cobblestone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
 '18302':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 10
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '18303':
   type: STONE_BRICK_SLAB
   location:
@@ -128162,12 +128162,12 @@
     z: -29
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '18310':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 10
     y: 64
     z: -27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '18311':
   type: STONE_BRICK_STAIRS
   location:
@@ -128218,12 +128218,12 @@
     z: -8
   data: minecraft:vine[east=true,north=true,south=false,up=false,west=false]
 '18318':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 10
     y: 64
     z: 28
-  data: minecraft:grass
+  data: minecraft:short_grass
 '18319':
   type: STONE_BRICK_SLAB
   location:
@@ -130353,12 +130353,12 @@
     z: -40
   data: minecraft:spruce_planks
 '18623':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 11
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '18624':
   type: STONE_BRICK_SLAB
   location:
@@ -135022,12 +135022,12 @@
     z: 3
   data: minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
 '19290':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 13
     y: 64
     z: 5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '19291':
   type: SPRUCE_TRAPDOOR
   location:
@@ -135092,12 +135092,12 @@
     z: 35
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '19300':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 13
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '19301':
   type: SPRUCE_PLANKS
   location:
@@ -137276,12 +137276,12 @@
     z: -39
   data: minecraft:cobblestone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
 '19612':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 14
     y: 64
     z: -36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '19613':
   type: STONE_BRICK_SLAB
   location:
@@ -137374,12 +137374,12 @@
     z: -20
   data: minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
 '19626':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 14
     y: 64
     z: -11
-  data: minecraft:grass
+  data: minecraft:short_grass
 '19627':
   type: OAK_LOG
   location:
@@ -137388,12 +137388,12 @@
     z: -9
   data: minecraft:oak_log[axis=y]
 '19628':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 14
     y: 64
     z: -6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '19629':
   type: STONE_BRICK_STAIRS
   location:
@@ -137507,12 +137507,12 @@
     z: 34
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '19645':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 14
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '19646':
   type: COBBLESTONE_WALL
   location:
@@ -140433,12 +140433,12 @@
     z: -8
   data: minecraft:oak_log[axis=y]
 '20063':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 15
     y: 64
     z: -6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '20064':
   type: STONE_BRICK_SLAB
   location:
@@ -140489,12 +140489,12 @@
     z: 3
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '20071':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 15
     y: 64
     z: 6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '20072':
   type: STONE_BRICK_STAIRS
   location:
@@ -140566,12 +140566,12 @@
     z: 34
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '20082':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 15
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '20083':
   type: SPRUCE_PLANKS
   location:
@@ -142904,12 +142904,12 @@
     z: -20
   data: minecraft:stone_brick_slab[type=bottom,waterlogged=false]
 '20416':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 16
     y: 64
     z: -12
-  data: minecraft:grass
+  data: minecraft:short_grass
 '20417':
   type: OAK_LOG
   location:
@@ -142925,12 +142925,12 @@
     z: -8
   data: minecraft:oak_log[axis=y]
 '20419':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 16
     y: 64
     z: -6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '20420':
   type: STONE_BRICK_SLAB
   location:
@@ -142981,12 +142981,12 @@
     z: 3
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '20427':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 16
     y: 64
     z: 8
-  data: minecraft:grass
+  data: minecraft:short_grass
 '20428':
   type: STONE_BRICKS
   location:
@@ -145473,12 +145473,12 @@
     z: -40
   data: minecraft:spruce_planks
 '20783':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 17
     y: 64
     z: -36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '20784':
   type: STONE_BRICK_SLAB
   location:
@@ -145529,12 +145529,12 @@
     z: -28
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '20791':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 17
     y: 64
     z: -25
-  data: minecraft:grass
+  data: minecraft:short_grass
 '20792':
   type: STONE_BRICKS
   location:
@@ -145571,12 +145571,12 @@
     z: -14
   data: minecraft:green_carpet
 '20797':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 17
     y: 64
     z: -9
-  data: minecraft:grass
+  data: minecraft:short_grass
 '20798':
   type: STONE_BRICK_SLAB
   location:
@@ -145641,12 +145641,12 @@
     z: 14
   data: minecraft:stone_bricks
 '20807':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 17
     y: 64
     z: 27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '20808':
   type: STONE_BRICK_SLAB
   location:
@@ -145697,12 +145697,12 @@
     z: 34
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '20815':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 17
     y: 64
     z: 36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '20816':
   type: SPRUCE_PLANKS
   location:
@@ -148112,12 +148112,12 @@
     z: -27
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '21160':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 18
     y: 64
     z: -24
-  data: minecraft:grass
+  data: minecraft:short_grass
 '21161':
   type: STONE_BRICK_STAIRS
   location:
@@ -148126,19 +148126,19 @@
     z: -23
   data: minecraft:stone_brick_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
 '21162':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 18
     y: 64
     z: -15
-  data: minecraft:grass
+  data: minecraft:short_grass
 '21163':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 18
     y: 64
     z: -13
-  data: minecraft:grass
+  data: minecraft:short_grass
 '21164':
   type: VINE
   location:
@@ -148147,19 +148147,19 @@
     z: -12
   data: minecraft:vine[east=false,north=false,south=false,up=false,west=true]
 '21165':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 18
     y: 64
     z: -9
-  data: minecraft:grass
+  data: minecraft:short_grass
 '21166':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 18
     y: 64
     z: -4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '21167':
   type: STONE_BRICK_SLAB
   location:
@@ -148210,12 +148210,12 @@
     z: 3
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '21174':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 18
     y: 64
     z: 5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '21175':
   type: STONE_BRICKS
   location:
@@ -148287,12 +148287,12 @@
     z: 33
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '21185':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 18
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '21186':
   type: COBBLESTONE_WALL
   location:
@@ -150884,19 +150884,19 @@
     z: -27
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '21556':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 19
     y: 64
     z: -13
-  data: minecraft:grass
+  data: minecraft:short_grass
 '21557':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 19
     y: 64
     z: -9
-  data: minecraft:grass
+  data: minecraft:short_grass
 '21558':
   type: POPPY
   location:
@@ -150905,12 +150905,12 @@
     z: -6
   data: minecraft:poppy
 '21559':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 19
     y: 64
     z: -4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '21560':
   type: STONE_BRICK_SLAB
   location:
@@ -151031,19 +151031,19 @@
     z: 33
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '21577':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 19
     y: 64
     z: 35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '21578':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 19
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '21579':
   type: SPRUCE_PLANKS
   location:
@@ -153173,12 +153173,12 @@
     z: -38
   data: minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
 '21883':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 20
     y: 64
     z: -35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '21884':
   type: STONE_BRICK_SLAB
   location:
@@ -153229,19 +153229,19 @@
     z: -27
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '21891':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 20
     y: 64
     z: -25
-  data: minecraft:grass
+  data: minecraft:short_grass
 '21892':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 20
     y: 64
     z: -16
-  data: minecraft:grass
+  data: minecraft:short_grass
 '21893':
   type: RAIL
   location:
@@ -153250,12 +153250,12 @@
     z: -11
   data: minecraft:rail[shape=ascending_east,waterlogged=false]
 '21894':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 20
     y: 64
     z: -9
-  data: minecraft:grass
+  data: minecraft:short_grass
 '21895':
   type: AZURE_BLUET
   location:
@@ -155546,12 +155546,12 @@
     z: -40
   data: minecraft:spruce_planks
 '22222':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 21
     y: 64
     z: -35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '22223':
   type: STONE_BRICK_SLAB
   location:
@@ -155602,19 +155602,19 @@
     z: -26
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '22230':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 21
     y: 64
     z: -22
-  data: minecraft:grass
+  data: minecraft:short_grass
 '22231':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 21
     y: 64
     z: -20
-  data: minecraft:grass
+  data: minecraft:short_grass
 '22232':
   type: GREEN_CARPET
   location:
@@ -155623,12 +155623,12 @@
     z: -19
   data: minecraft:green_carpet
 '22233':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 21
     y: 64
     z: -16
-  data: minecraft:grass
+  data: minecraft:short_grass
 '22234':
   type: OAK_LOG
   location:
@@ -155819,12 +155819,12 @@
     z: 32
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '22261':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 21
     y: 64
     z: 36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '22262':
   type: SPRUCE_PLANKS
   location:
@@ -158010,19 +158010,19 @@
     z: -39
   data: minecraft:cobblestone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
 '22574':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 22
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '22575':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 22
     y: 64
     z: -35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '22576':
   type: STONE_BRICK_SLAB
   location:
@@ -158073,19 +158073,19 @@
     z: -26
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '22583':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 22
     y: 64
     z: -23
-  data: minecraft:grass
+  data: minecraft:short_grass
 '22584':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 22
     y: 64
     z: -20
-  data: minecraft:grass
+  data: minecraft:short_grass
 '22585':
   type: DANDELION
   location:
@@ -158199,12 +158199,12 @@
     z: 16
   data: minecraft:stone_bricks
 '22601':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 22
     y: 64
     z: 21
-  data: minecraft:grass
+  data: minecraft:short_grass
 '22602':
   type: STONE_BRICK_SLAB
   location:
@@ -158255,19 +158255,19 @@
     z: 32
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '22609':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 22
     y: 64
     z: 34
-  data: minecraft:grass
+  data: minecraft:short_grass
 '22610':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 22
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '22611':
   type: COBBLESTONE_WALL
   location:
@@ -160481,19 +160481,19 @@
     z: -40
   data: minecraft:spruce_planks
 '22927':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 23
     y: 64
     z: -36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '22928':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 23
     y: 64
     z: -34
-  data: minecraft:grass
+  data: minecraft:short_grass
 '22929':
   type: STONE_BRICK_SLAB
   location:
@@ -160544,19 +160544,19 @@
     z: -26
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '22936':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 23
     y: 64
     z: -21
-  data: minecraft:grass
+  data: minecraft:short_grass
 '22937':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 23
     y: 64
     z: -18
-  data: minecraft:grass
+  data: minecraft:short_grass
 '22938':
   type: OAK_LOG
   location:
@@ -160600,19 +160600,19 @@
     z: -10
   data: minecraft:oak_log[axis=z]
 '22944':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 23
     y: 64
     z: -7
-  data: minecraft:grass
+  data: minecraft:short_grass
 '22945':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 23
     y: 64
     z: -5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '22946':
   type: STONE_BRICK_SLAB
   location:
@@ -160684,12 +160684,12 @@
     z: 19
   data: minecraft:tall_grass[half=lower]
 '22956':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 23
     y: 64
     z: 24
-  data: minecraft:grass
+  data: minecraft:short_grass
 '22957':
   type: STONE_BRICK_SLAB
   location:
@@ -162847,19 +162847,19 @@
     z: -38
   data: minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
 '23265':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 24
     y: 64
     z: -35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '23266':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 24
     y: 64
     z: -32
-  data: minecraft:grass
+  data: minecraft:short_grass
 '23267':
   type: STONE_BRICK_SLAB
   location:
@@ -162910,19 +162910,19 @@
     z: -25
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '23274':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 24
     y: 64
     z: -22
-  data: minecraft:grass
+  data: minecraft:short_grass
 '23275':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 24
     y: 64
     z: -7
-  data: minecraft:grass
+  data: minecraft:short_grass
 '23276':
   type: STONE_BRICK_SLAB
   location:
@@ -162973,12 +162973,12 @@
     z: 3
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '23283':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 24
     y: 64
     z: 5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '23284':
   type: STONE_BRICKS
   location:
@@ -163001,12 +163001,12 @@
     z: 17
   data: minecraft:green_carpet
 '23287':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 24
     y: 64
     z: 22
-  data: minecraft:grass
+  data: minecraft:short_grass
 '23288':
   type: STONE_BRICK_SLAB
   location:
@@ -163057,19 +163057,19 @@
     z: 31
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '23295':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 24
     y: 64
     z: 33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '23296':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 24
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '23297':
   type: STONE_BRICK_STAIRS
   location:
@@ -165185,19 +165185,19 @@
     z: -40
   data: minecraft:spruce_planks
 '23599':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 25
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '23600':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 25
     y: 64
     z: -34
-  data: minecraft:grass
+  data: minecraft:short_grass
 '23601':
   type: STONE_BRICK_SLAB
   location:
@@ -165255,19 +165255,19 @@
     z: -24
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '23609':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 25
     y: 64
     z: -21
-  data: minecraft:grass
+  data: minecraft:short_grass
 '23610':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 25
     y: 64
     z: -18
-  data: minecraft:grass
+  data: minecraft:short_grass
 '23611':
   type: AZURE_BLUET
   location:
@@ -165276,19 +165276,19 @@
     z: -13
   data: minecraft:azure_bluet
 '23612':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 25
     y: 64
     z: -10
-  data: minecraft:grass
+  data: minecraft:short_grass
 '23613':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 25
     y: 64
     z: -7
-  data: minecraft:grass
+  data: minecraft:short_grass
 '23614':
   type: DANDELION
   location:
@@ -165367,19 +165367,19 @@
     z: 14
   data: minecraft:stone_bricks
 '23625':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 25
     y: 64
     z: 16
-  data: minecraft:grass
+  data: minecraft:short_grass
 '23626':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 25
     y: 64
     z: 18
-  data: minecraft:grass
+  data: minecraft:short_grass
 '23627':
   type: STONE_BRICK_SLAB
   location:
@@ -167278,12 +167278,12 @@
     z: -39
   data: minecraft:cobblestone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
 '23898':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 26
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '23899':
   type: STONE_BRICK_SLAB
   location:
@@ -167369,12 +167369,12 @@
     z: -15
   data: minecraft:dandelion
 '23911':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 26
     y: 64
     z: -11
-  data: minecraft:grass
+  data: minecraft:short_grass
 '23912':
   type: GREEN_CARPET
   location:
@@ -167383,12 +167383,12 @@
     z: -8
   data: minecraft:green_carpet
 '23913':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 26
     y: 64
     z: -5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '23914':
   type: STONE_BRICK_SLAB
   location:
@@ -167474,19 +167474,19 @@
     z: 13
   data: minecraft:cobblestone
 '23926':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 26
     y: 64
     z: 15
-  data: minecraft:grass
+  data: minecraft:short_grass
 '23927':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 26
     y: 64
     z: 19
-  data: minecraft:grass
+  data: minecraft:short_grass
 '23928':
   type: STONE_BRICK_SLAB
   location:
@@ -167565,12 +167565,12 @@
     z: 31
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '23939':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 26
     y: 64
     z: 36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '23940':
   type: COBBLESTONE_WALL
   location:
@@ -169385,12 +169385,12 @@
     z: -37
   data: minecraft:tall_grass[half=lower]
 '24199':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 27
     y: 64
     z: -35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '24200':
   type: STONE_BRICK_SLAB
   location:
@@ -169490,12 +169490,12 @@
     z: -18
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '24214':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 27
     y: 64
     z: -9
-  data: minecraft:grass
+  data: minecraft:short_grass
 '24215':
   type: TALL_GRASS
   location:
@@ -169553,19 +169553,19 @@
     z: 3
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '24223':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 27
     y: 64
     z: 14
-  data: minecraft:grass
+  data: minecraft:short_grass
 '24224':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 27
     y: 64
     z: 17
-  data: minecraft:grass
+  data: minecraft:short_grass
 '24225':
   type: STONE_BRICK_SLAB
   location:
@@ -169665,12 +169665,12 @@
     z: 31
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '24239':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 27
     y: 64
     z: 34
-  data: minecraft:grass
+  data: minecraft:short_grass
 '24240':
   type: SPRUCE_PLANKS
   location:
@@ -171331,19 +171331,19 @@
     z: -38
   data: minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
 '24477':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 28
     y: 64
     z: -33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '24478':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 28
     y: 64
     z: -31
-  data: minecraft:grass
+  data: minecraft:short_grass
 '24479':
   type: STONE_BRICK_SLAB
   location:
@@ -171464,19 +171464,19 @@
     z: -14
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '24496':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 28
     y: 64
     z: -12
-  data: minecraft:grass
+  data: minecraft:short_grass
 '24497':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 28
     y: 64
     z: -7
-  data: minecraft:grass
+  data: minecraft:short_grass
 '24498':
   type: STONE_BRICK_SLAB
   location:
@@ -171527,12 +171527,12 @@
     z: 3
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '24505':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 28
     y: 64
     z: 6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '24506':
   type: GREEN_CARPET
   location:
@@ -171660,12 +171660,12 @@
     z: 30
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '24524':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 28
     y: 64
     z: 36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '24525':
   type: STONE_BRICK_STAIRS
   location:
@@ -173361,19 +173361,19 @@
     z: -40
   data: minecraft:spruce_planks
 '24767':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 29
     y: 64
     z: -36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '24768':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 29
     y: 64
     z: -31
-  data: minecraft:grass
+  data: minecraft:short_grass
 '24769':
   type: STONE_BRICK_SLAB
   location:
@@ -173802,12 +173802,12 @@
     z: 30
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '24830':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 29
     y: 64
     z: 33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '24831':
   type: SPRUCE_PLANKS
   location:
@@ -175552,19 +175552,19 @@
     z: -39
   data: minecraft:cobblestone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
 '25080':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 30
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '25081':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 30
     y: 64
     z: -31
-  data: minecraft:grass
+  data: minecraft:short_grass
 '25082':
   type: STONE_BRICK_SLAB
   location:
@@ -175979,12 +175979,12 @@
     z: 29
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '25141':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 30
     y: 64
     z: 34
-  data: minecraft:grass
+  data: minecraft:short_grass
 '25142':
   type: COBBLESTONE_WALL
   location:
@@ -177582,19 +177582,19 @@
     z: -40
   data: minecraft:spruce_planks
 '25370':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 31
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '25371':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 31
     y: 64
     z: -31
-  data: minecraft:grass
+  data: minecraft:short_grass
 '25372':
   type: DANDELION
   location:
@@ -177988,26 +177988,26 @@
     z: 27
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '25428':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 31
     y: 64
     z: 31
-  data: minecraft:grass
+  data: minecraft:short_grass
 '25429':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 31
     y: 64
     z: 33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '25430':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 31
     y: 64
     z: 36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '25431':
   type: SPRUCE_PLANKS
   location:
@@ -179626,12 +179626,12 @@
     z: -34
   data: minecraft:dandelion
 '25662':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 32
     y: 64
     z: -29
-  data: minecraft:grass
+  data: minecraft:short_grass
 '25663':
   type: TALL_GRASS
   location:
@@ -179976,19 +179976,19 @@
     z: 26
   data: minecraft:tall_grass[half=lower]
 '25712':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 32
     y: 64
     z: 28
-  data: minecraft:grass
+  data: minecraft:short_grass
 '25713':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 32
     y: 64
     z: 32
-  data: minecraft:grass
+  data: minecraft:short_grass
 '25714':
   type: STONE_BRICK_STAIRS
   location:
@@ -181600,47 +181600,47 @@
     z: -40
   data: minecraft:spruce_planks
 '25944':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 33
     y: 64
     z: -37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '25945':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 33
     y: 64
     z: -33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '25946':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 33
     y: 64
     z: -30
-  data: minecraft:grass
+  data: minecraft:short_grass
 '25947':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 33
     y: 64
     z: -27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '25948':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 33
     y: 64
     z: -23
-  data: minecraft:grass
+  data: minecraft:short_grass
 '25949':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 33
     y: 64
     z: -21
-  data: minecraft:grass
+  data: minecraft:short_grass
 '25950':
   type: STONE_BRICK_SLAB
   location:
@@ -181929,33 +181929,33 @@
     z: 20
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '25991':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 33
     y: 64
     z: 23
-  data: minecraft:grass
+  data: minecraft:short_grass
 '25992':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 33
     y: 64
     z: 28
-  data: minecraft:grass
+  data: minecraft:short_grass
 '25993':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 33
     y: 64
     z: 30
-  data: minecraft:grass
+  data: minecraft:short_grass
 '25994':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 33
     y: 64
     z: 34
-  data: minecraft:grass
+  data: minecraft:short_grass
 '25995':
   type: DANDELION
   location:
@@ -183553,40 +183553,40 @@
     z: -39
   data: minecraft:cobblestone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
 '26223':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 34
     y: 64
     z: -35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26224':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 34
     y: 64
     z: -33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26225':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 34
     y: 64
     z: -30
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26226':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 34
     y: 64
     z: -27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26227':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 34
     y: 64
     z: -24
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26228':
   type: STONE_BRICK_SLAB
   location:
@@ -183833,12 +183833,12 @@
     z: 17
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '26263':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 34
     y: 64
     z: 23
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26264':
   type: DANDELION
   location:
@@ -183847,33 +183847,33 @@
     z: 26
   data: minecraft:dandelion
 '26265':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 34
     y: 64
     z: 28
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26266':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 34
     y: 64
     z: 32
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26267':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 34
     y: 64
     z: 35
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26268':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 34
     y: 64
     z: 37
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26269':
   type: COBBLESTONE_WALL
   location:
@@ -185520,40 +185520,40 @@
     z: -40
   data: minecraft:spruce_planks
 '26504':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 35
     y: 64
     z: -36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26505':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 35
     y: 64
     z: -34
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26506':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 35
     y: 64
     z: -28
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26507':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 35
     y: 64
     z: -22
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26508':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 35
     y: 64
     z: -20
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26509':
   type: STONE_BRICK_SLAB
   location:
@@ -185744,40 +185744,40 @@
     z: 13
   data: minecraft:stone_brick_slab[type=top,waterlogged=false]
 '26536':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 35
     y: 64
     z: 18
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26537':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 35
     y: 64
     z: 20
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26538':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 35
     y: 64
     z: 25
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26539':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 35
     y: 64
     z: 27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26540':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 35
     y: 64
     z: 32
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26541':
   type: SPRUCE_PLANKS
   location:
@@ -187529,33 +187529,33 @@
     z: -38
   data: minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
 '26791':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 36
     y: 64
     z: -34
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26792':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 36
     y: 64
     z: -29
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26793':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 36
     y: 64
     z: -27
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26794':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 36
     y: 64
     z: -23
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26795':
   type: CORNFLOWER
   location:
@@ -187564,96 +187564,96 @@
     z: -21
   data: minecraft:cornflower
 '26796':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 36
     y: 64
     z: -19
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26797':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 36
     y: 64
     z: -16
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26798':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 36
     y: 64
     z: -7
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26799':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 36
     y: 64
     z: -5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26800':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 36
     y: 64
     z: 5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26801':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 36
     y: 64
     z: 7
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26802':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 36
     y: 64
     z: 13
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26803':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 36
     y: 64
     z: 16
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26804':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 36
     y: 64
     z: 18
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26805':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 36
     y: 64
     z: 21
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26806':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 36
     y: 64
     z: 23
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26807':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 36
     y: 64
     z: 26
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26808':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 36
     y: 64
     z: 33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '26809':
   type: STONE_BRICK_STAIRS
   location:
@@ -189223,19 +189223,19 @@
     z: -37
   data: minecraft:tall_grass[half=lower]
 '27033':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 37
     y: 64
     z: -32
-  data: minecraft:grass
+  data: minecraft:short_grass
 '27034':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 37
     y: 64
     z: -26
-  data: minecraft:grass
+  data: minecraft:short_grass
 '27035':
   type: CORNFLOWER
   location:
@@ -189244,26 +189244,26 @@
     z: -24
   data: minecraft:cornflower
 '27036':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 37
     y: 64
     z: -21
-  data: minecraft:grass
+  data: minecraft:short_grass
 '27037':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 37
     y: 64
     z: -18
-  data: minecraft:grass
+  data: minecraft:short_grass
 '27038':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 37
     y: 64
     z: -16
-  data: minecraft:grass
+  data: minecraft:short_grass
 '27039':
   type: DANDELION
   location:
@@ -189279,12 +189279,12 @@
     z: -8
   data: minecraft:tall_grass[half=lower]
 '27041':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 37
     y: 64
     z: -2
-  data: minecraft:grass
+  data: minecraft:short_grass
 '27042':
   type: CORNFLOWER
   location:
@@ -189293,12 +189293,12 @@
     z: 1
   data: minecraft:cornflower
 '27043':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 37
     y: 64
     z: 6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '27044':
   type: OXEYE_DAISY
   location:
@@ -189307,12 +189307,12 @@
     z: 12
   data: minecraft:oxeye_daisy
 '27045':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 37
     y: 64
     z: 15
-  data: minecraft:grass
+  data: minecraft:short_grass
 '27046':
   type: DANDELION
   location:
@@ -189321,40 +189321,40 @@
     z: 17
   data: minecraft:dandelion
 '27047':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 37
     y: 64
     z: 21
-  data: minecraft:grass
+  data: minecraft:short_grass
 '27048':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 37
     y: 64
     z: 24
-  data: minecraft:grass
+  data: minecraft:short_grass
 '27049':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 37
     y: 64
     z: 26
-  data: minecraft:grass
+  data: minecraft:short_grass
 '27050':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 37
     y: 64
     z: 33
-  data: minecraft:grass
+  data: minecraft:short_grass
 '27051':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 37
     y: 64
     z: 36
-  data: minecraft:grass
+  data: minecraft:short_grass
 '27052':
   type: SPRUCE_PLANKS
   location:

@@ -69,19 +69,19 @@
     z: 3
   data: minecraft:grass_block[snowy=false]
 '11':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -9
     y: 63
     z: 2
-  data: minecraft:grass
+  data: minecraft:short_grass
 '12':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -9
     y: 63
     z: 3
-  data: minecraft:grass
+  data: minecraft:short_grass
 '13':
   type: STONE_STAIRS
   location:
@@ -363,33 +363,33 @@
     z: 3
   data: minecraft:dirt
 '53':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -8
     y: 62
     z: 4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '54':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -8
     y: 63
     z: -3
-  data: minecraft:grass
+  data: minecraft:short_grass
 '55':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -8
     y: 63
     z: -2
-  data: minecraft:grass
+  data: minecraft:short_grass
 '56':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -8
     y: 63
     z: 0
-  data: minecraft:grass
+  data: minecraft:short_grass
 '57':
   type: GRASS_BLOCK
   location:
@@ -412,26 +412,26 @@
     z: 3
   data: minecraft:grass_block[snowy=false]
 '60':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -8
     y: 64
     z: 1
-  data: minecraft:grass
+  data: minecraft:short_grass
 '61':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -8
     y: 64
     z: 2
-  data: minecraft:grass
+  data: minecraft:short_grass
 '62':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -8
     y: 64
     z: 3
-  data: minecraft:grass
+  data: minecraft:short_grass
 '63':
   type: OAK_LEAVES
   location:
@@ -916,54 +916,54 @@
     z: 4
   data: minecraft:grass_block[snowy=false]
 '132':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -7
     y: 64
     z: -4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '133':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -7
     y: 64
     z: -2
-  data: minecraft:grass
+  data: minecraft:short_grass
 '134':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -7
     y: 64
     z: 0
-  data: minecraft:grass
+  data: minecraft:short_grass
 '135':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -7
     y: 64
     z: 1
-  data: minecraft:grass
+  data: minecraft:short_grass
 '136':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -7
     y: 64
     z: 2
-  data: minecraft:grass
+  data: minecraft:short_grass
 '137':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -7
     y: 64
     z: 3
-  data: minecraft:grass
+  data: minecraft:short_grass
 '138':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -7
     y: 64
     z: 4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '139':
   type: OAK_LEAVES
   location:
@@ -1413,12 +1413,12 @@
     z: 6
   data: minecraft:grass_block[snowy=false]
 '203':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -6
     y: 62
     z: -7
-  data: minecraft:grass
+  data: minecraft:short_grass
 '204':
   type: GRASS_BLOCK
   location:
@@ -1581,40 +1581,40 @@
     z: 5
   data: minecraft:grass_block[snowy=false]
 '227':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -6
     y: 64
     z: -5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '228':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -6
     y: 64
     z: -3
-  data: minecraft:grass
+  data: minecraft:short_grass
 '229':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -6
     y: 64
     z: -1
-  data: minecraft:grass
+  data: minecraft:short_grass
 '230':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -6
     y: 64
     z: 0
-  data: minecraft:grass
+  data: minecraft:short_grass
 '231':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -6
     y: 64
     z: 1
-  data: minecraft:grass
+  data: minecraft:short_grass
 '232':
   type: OAK_LOG
   location:
@@ -1623,19 +1623,19 @@
     z: 2
   data: minecraft:oak_log[axis=y]
 '233':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -6
     y: 64
     z: 3
-  data: minecraft:grass
+  data: minecraft:short_grass
 '234':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -6
     y: 64
     z: 4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '235':
   type: OAK_LEAVES
   location:
@@ -2386,82 +2386,82 @@
     z: 6
   data: minecraft:grass_block[snowy=false]
 '342':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -5
     y: 64
     z: -6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '343':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -5
     y: 64
     z: -5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '344':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -5
     y: 64
     z: -4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '345':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -5
     y: 64
     z: -3
-  data: minecraft:grass
+  data: minecraft:short_grass
 '346':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -5
     y: 64
     z: -1
-  data: minecraft:grass
+  data: minecraft:short_grass
 '347':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -5
     y: 64
     z: 0
-  data: minecraft:grass
+  data: minecraft:short_grass
 '348':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -5
     y: 64
     z: 1
-  data: minecraft:grass
+  data: minecraft:short_grass
 '349':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -5
     y: 64
     z: 2
-  data: minecraft:grass
+  data: minecraft:short_grass
 '350':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -5
     y: 64
     z: 3
-  data: minecraft:grass
+  data: minecraft:short_grass
 '351':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -5
     y: 64
     z: 4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '352':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -5
     y: 64
     z: 6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '353':
   type: OAK_LEAVES
   location:
@@ -3303,68 +3303,68 @@
     z: 6
   data: minecraft:grass_block[snowy=false]
 '473':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -4
     y: 63
     z: 7
-  data: minecraft:grass
+  data: minecraft:short_grass
 '474':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -4
     y: 64
     z: -8
-  data: minecraft:grass
+  data: minecraft:short_grass
 '475':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -4
     y: 64
     z: -6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '476':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -4
     y: 64
     z: -5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '477':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -4
     y: 64
     z: -4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '478':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -4
     y: 64
     z: -2
-  data: minecraft:grass
+  data: minecraft:short_grass
 '479':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -4
     y: 64
     z: 1
-  data: minecraft:grass
+  data: minecraft:short_grass
 '480':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -4
     y: 64
     z: 3
-  data: minecraft:grass
+  data: minecraft:short_grass
 '481':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -4
     y: 64
     z: 6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '482':
   type: OAK_LEAVES
   location:
@@ -4304,96 +4304,96 @@
     z: 7
   data: minecraft:grass_block[snowy=false]
 '616':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -3
     y: 63
     z: 8
-  data: minecraft:grass
+  data: minecraft:short_grass
 '617':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -3
     y: 64
     z: -9
-  data: minecraft:grass
+  data: minecraft:short_grass
 '618':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -3
     y: 64
     z: -8
-  data: minecraft:grass
+  data: minecraft:short_grass
 '619':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -3
     y: 64
     z: -7
-  data: minecraft:grass
+  data: minecraft:short_grass
 '620':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -3
     y: 64
     z: -6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '621':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -3
     y: 64
     z: -4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '622':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -3
     y: 64
     z: -1
-  data: minecraft:grass
+  data: minecraft:short_grass
 '623':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -3
     y: 64
     z: 0
-  data: minecraft:grass
+  data: minecraft:short_grass
 '624':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -3
     y: 64
     z: 2
-  data: minecraft:grass
+  data: minecraft:short_grass
 '625':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -3
     y: 64
     z: 3
-  data: minecraft:grass
+  data: minecraft:short_grass
 '626':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -3
     y: 64
     z: 4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '627':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -3
     y: 64
     z: 5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '628':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -3
     y: 64
     z: 6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '629':
   type: OAK_LEAVES
   location:
@@ -5466,12 +5466,12 @@
     z: -9
   data: minecraft:oak_log[axis=y]
 '782':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -2
     y: 64
     z: -7
-  data: minecraft:grass
+  data: minecraft:short_grass
 '783':
   type: CHEST
   location:
@@ -5480,19 +5480,19 @@
     z: 2
   data: minecraft:chest[facing=east,type=single,waterlogged=false]
 '784':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -2
     y: 64
     z: 3
-  data: minecraft:grass
+  data: minecraft:short_grass
 '785':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -2
     y: 64
     z: 4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '786':
   type: OAK_LEAVES
   location:
@@ -5501,12 +5501,12 @@
     z: 6
   data: minecraft:oak_leaves[distance=7,persistent=true]
 '787':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -2
     y: 64
     z: 7
-  data: minecraft:grass
+  data: minecraft:short_grass
 '788':
   type: OAK_LEAVES
   location:
@@ -6712,33 +6712,33 @@
     z: 7
   data: minecraft:grass_block[snowy=false]
 '960':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -1
     y: 64
     z: -9
-  data: minecraft:grass
+  data: minecraft:short_grass
 '961':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -1
     y: 64
     z: -8
-  data: minecraft:grass
+  data: minecraft:short_grass
 '962':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -1
     y: 64
     z: -6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '963':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: -1
     y: 64
     z: 1
-  data: minecraft:grass
+  data: minecraft:short_grass
 '964':
   type: BARREL
   location:
@@ -8056,19 +8056,19 @@
     z: 8
   data: minecraft:grass_block[snowy=false]
 '1152':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 0
     y: 64
     z: -9
-  data: minecraft:grass
+  data: minecraft:short_grass
 '1153':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 0
     y: 64
     z: -8
-  data: minecraft:grass
+  data: minecraft:short_grass
 '1154':
   type: TORCH
   location:
@@ -8098,12 +8098,12 @@
     z: 7
   data: minecraft:oak_leaves[distance=6,persistent=true]
 '1158':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 0
     y: 64
     z: 8
-  data: minecraft:grass
+  data: minecraft:short_grass
 '1159':
   type: OAK_LEAVES
   location:
@@ -9274,33 +9274,33 @@
     z: 8
   data: minecraft:grass_block[snowy=false]
 '1326':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 1
     y: 64
     z: -10
-  data: minecraft:grass
+  data: minecraft:short_grass
 '1327':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 1
     y: 64
     z: -9
-  data: minecraft:grass
+  data: minecraft:short_grass
 '1328':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 1
     y: 64
     z: -6
-  data: minecraft:grass
+  data: minecraft:short_grass
 '1329':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 1
     y: 64
     z: -4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '1330':
   type: OAK_LEAVES
   location:
@@ -10429,47 +10429,47 @@
     z: 9
   data: minecraft:oak_leaves[distance=7,persistent=true]
 '1491':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 2
     y: 64
     z: -8
-  data: minecraft:grass
+  data: minecraft:short_grass
 '1492':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 2
     y: 64
     z: -7
-  data: minecraft:grass
+  data: minecraft:short_grass
 '1493':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 2
     y: 64
     z: -5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '1494':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 2
     y: 64
     z: -3
-  data: minecraft:grass
+  data: minecraft:short_grass
 '1495':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 2
     y: 64
     z: 0
-  data: minecraft:grass
+  data: minecraft:short_grass
 '1496':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 2
     y: 64
     z: 1
-  data: minecraft:grass
+  data: minecraft:short_grass
 '1497':
   type: OAK_LEAVES
   location:
@@ -11626,33 +11626,33 @@
     z: 9
   data: minecraft:oak_leaves[distance=7,persistent=true]
 '1662':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 3
     y: 64
     z: -9
-  data: minecraft:grass
+  data: minecraft:short_grass
 '1663':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 3
     y: 64
     z: -5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '1664':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 3
     y: 64
     z: -4
-  data: minecraft:grass
+  data: minecraft:short_grass
 '1665':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 3
     y: 64
     z: -1
-  data: minecraft:grass
+  data: minecraft:short_grass
 '1666':
   type: OAK_LEAVES
   location:
@@ -12802,12 +12802,12 @@
     z: 8
   data: minecraft:oak_leaves[distance=7,persistent=true]
 '1830':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 4
     y: 64
     z: -2
-  data: minecraft:grass
+  data: minecraft:short_grass
 '1831':
   type: OAK_LEAVES
   location:
@@ -14307,19 +14307,19 @@
     z: 7
   data: minecraft:grass_block[snowy=false]
 '2045':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 5
     y: 64
     z: -3
-  data: minecraft:grass
+  data: minecraft:short_grass
 '2046':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 5
     y: 64
     z: 0
-  data: minecraft:grass
+  data: minecraft:short_grass
 '2047':
   type: OAK_LEAVES
   location:
@@ -16106,33 +16106,33 @@
     z: 6
   data: minecraft:grass_block[snowy=false]
 '2302':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 6
     y: 64
     z: -2
-  data: minecraft:grass
+  data: minecraft:short_grass
 '2303':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 6
     y: 64
     z: -1
-  data: minecraft:grass
+  data: minecraft:short_grass
 '2304':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 6
     y: 64
     z: 0
-  data: minecraft:grass
+  data: minecraft:short_grass
 '2305':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 6
     y: 64
     z: 2
-  data: minecraft:grass
+  data: minecraft:short_grass
 '2306':
   type: OAK_LEAVES
   location:
@@ -17667,26 +17667,26 @@
     z: 6
   data: minecraft:oak_leaves[distance=7,persistent=true]
 '2525':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 7
     y: 64
     z: -5
-  data: minecraft:grass
+  data: minecraft:short_grass
 '2526':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 7
     y: 64
     z: -1
-  data: minecraft:grass
+  data: minecraft:short_grass
 '2527':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 7
     y: 64
     z: 0
-  data: minecraft:grass
+  data: minecraft:short_grass
 '2528':
   type: OAK_LEAVES
   location:
@@ -18052,12 +18052,12 @@
     z: -2
   data: minecraft:grass_block[snowy=false]
 '2580':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 8
     y: 63
     z: 1
-  data: minecraft:grass
+  data: minecraft:short_grass
 '2581':
   type: OAK_LEAVES
   location:
@@ -18087,19 +18087,19 @@
     z: 5
   data: minecraft:oak_leaves[distance=7,persistent=true]
 '2585':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 8
     y: 64
     z: -3
-  data: minecraft:grass
+  data: minecraft:short_grass
 '2586':
-  type: GRASS
+  type: SHORT_GRASS
   location:
     x: 8
     y: 64
     z: -2
-  data: minecraft:grass
+  data: minecraft:short_grass
 '2587':
   type: STONE_STAIRS
   location:
