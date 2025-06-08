@@ -34,6 +34,11 @@ wget -O /scripts/sh/setup.certbot.sh 'https://raw.githubusercontent.com/Altherne
 chmod +x /scripts/sh/setup.certbot.sh
 /scripts/sh/setup.certbot.sh
 
+# Code-Server
+wget -O /scripts/sh/setup.code-server.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.code-server.sh'
+chmod +x /scripts/sh/setup.code-server.sh
+/scripts/sh/setup.code-server.sh
+
 
 # mysql
 chmod +x /scripts/sh/setup.mysql.sh
