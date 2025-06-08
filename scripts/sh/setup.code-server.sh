@@ -10,3 +10,16 @@ sudo dpkg -i code-server_${VERSION}_amd64.deb
 # User add "vscode" to avoid root passive SU power
 USER=vscode
 sudo systemctl enable --now code-server@$USER
+
+# systemctl status code-server@vscode # Remove when finished
+##############################################################
+#Jun 08 04:28:45 altherneum.fr systemd[1]: Started code-server.
+#Jun 08 04:28:47 altherneum.fr code-server[1576704]: [2025-06-08T02:28:47.928Z] info  Wrote default config file to /home/vscode/.config/code-server/config.y>
+#Jun 08 04:28:48 altherneum.fr code-server[1576704]: [2025-06-08T02:28:48.375Z] info  code-server 4.100.3 409c64e0df4d53530e59c16acc2b5d5766f717b0
+#Jun 08 04:28:48 altherneum.fr code-server[1576704]: [2025-06-08T02:28:48.379Z] info  Using user-data-dir /home/vscode/.local/share/code-server
+#Jun 08 04:28:48 altherneum.fr code-server[1576704]: [2025-06-08T02:28:48.513Z] info  Using config file /home/vscode/.config/code-server/config.yaml
+#Jun 08 04:28:48 altherneum.fr code-server[1576704]: [2025-06-08T02:28:48.514Z] info  HTTP server listening on http://127.0.0.1:8080/
+#Jun 08 04:28:48 altherneum.fr code-server[1576704]: [2025-06-08T02:28:48.514Z] info    - Authentication is enabled
+#Jun 08 04:28:48 altherneum.fr code-server[1576704]: [2025-06-08T02:28:48.519Z] info      - Using password from /home/vscode/.config/code-server/config.yaml
+#Jun 08 04:28:48 altherneum.fr code-server[1576704]: [2025-06-08T02:28:48.521Z] info    - Not serving HTTPS
+#Jun 08 04:28:48 altherneum.fr code-server[1576704]: [2025-06-08T02:28:48.525Z] info  Session server listening on /home/vscode/.local/share/code-server/code>
