@@ -27,3 +27,7 @@ echo "auth: password" >> /home/vscode/.config/code-server/config.yaml
 password=ABC123!
 echo "password: $password" >> /home/vscode/.config/code-server/config.yaml
 echo "cert: true" >> /home/vscode/.config/code-server/config.yaml
+
+# Apache2
+a2enmod proxy proxy_http
+systemctl restart apache2
