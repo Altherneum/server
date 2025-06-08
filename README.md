@@ -324,7 +324,10 @@ Altherneum.fr.
 ### Github.com/altherneum
 - [git.altherneum.fr](https://git.altherneum.fr)
 - [github.altherneum.fr](https://github.altherneum.fr)
+
+### Code-Server
 - [code.altherneum.fr](https://code.altherneum.fr)
+- [vscode.altherneum.fr](https://code.altherneum.fr)
 
 ### Youtube.com/watch?v=2zpCOYkdvTQ
 - [windows.altherneum.fr](https://windows.altherneum.fr)
