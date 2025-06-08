@@ -23,3 +23,9 @@ sudo systemctl enable --now code-server@$USER
 #Jun 08 04:28:48 altherneum.fr code-server[1576704]: [2025-06-08T02:28:48.519Z] info      - Using password from /home/vscode/.config/code-server/config.yaml
 #Jun 08 04:28:48 altherneum.fr code-server[1576704]: [2025-06-08T02:28:48.521Z] info    - Not serving HTTPS
 #Jun 08 04:28:48 altherneum.fr code-server[1576704]: [2025-06-08T02:28:48.525Z] info  Session server listening on /home/vscode/.local/share/code-server/code>
+
+echo "bind-addr: 127.0.0.1:8080" > /home/vscode/.config/code-server/config.yaml
+echo "auth: password" >> /home/vscode/.config/code-server/config.yaml
+password=ABC123!
+echo "password: $password" >> /home/vscode/.config/code-server/config.yaml
+echo "cert: true" >> /home/vscode/.config/code-server/config.yaml
