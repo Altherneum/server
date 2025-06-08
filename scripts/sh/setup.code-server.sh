@@ -32,4 +32,7 @@ echo "cert: true" >> /home/vscode/.config/code-server/config.yaml
 a2enmod proxy proxy_http
 a2enmod proxy_wstunnel
 
+# Password file
+htpasswd -cb /etc/apache2/.htpasswd vscode $password
+
 systemctl restart apache2
