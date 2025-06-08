@@ -30,4 +30,6 @@ echo "cert: true" >> /home/vscode/.config/code-server/config.yaml
 
 # Apache2
 a2enmod proxy proxy_http
+a2enmod proxy_wstunnel
+
 systemctl restart apache2
