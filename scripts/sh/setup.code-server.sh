@@ -2,8 +2,11 @@ VERSION=4.100.3
 curl -fOL https://github.com/coder/code-server/releases/download/v$VERSION/code-server_${VERSION}_amd64.deb
 sudo dpkg -i code-server_${VERSION}_amd64.deb
 
-USER=vscode
-sudo systemctl enable --now code-server@$USER
+# SystemD (SystemCTL)
+# USER=vscode
+# sudo systemctl enable --now code-server@$USER
+wget -O /etc/systemd/system/code-server@vscode.service -L 'https://raw.githubusercontent.com/Altherneum/server/refs/heads/main/scripts/code-server@vscode.service'
+systemctl deamon-reload
 
 # /home/vscode/.config/code-server/config.yaml
 echo "bind-addr: 0.0.0.0:8443" > /home/vscode/.config/code-server/config.yaml
@@ -11,10 +14,6 @@ echo "auth: password" >> /home/vscode/.config/code-server/config.yaml
 password=ABC123!
 echo "password: $password" >> /home/vscode/.config/code-server/config.yaml
 echo "cert: false" >> /home/vscode/.config/code-server/config.yaml
-
-# SystemD (SystemCTL)
-wget -O /etc/systemd/system/code-server@vscode.service -L 'https://raw.githubusercontent.com/Altherneum/server/refs/heads/main/scripts/code-server@vscode.service'
-systemctl deamon-reload
 
 # Apache2
 a2enmod proxy proxy_http
