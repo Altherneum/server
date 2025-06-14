@@ -6,11 +6,11 @@ USER=vscode
 sudo systemctl enable --now code-server@$USER
 
 # /home/vscode/.config/code-server/config.yaml
-echo "bind-addr: 127.0.0.1:8080" > /home/vscode/.config/code-server/config.yaml
+echo "bind-addr: 0.0.0.0:8443" > /home/vscode/.config/code-server/config.yaml
 echo "auth: password" >> /home/vscode/.config/code-server/config.yaml
 password=ABC123!
 echo "password: $password" >> /home/vscode/.config/code-server/config.yaml
-echo "cert: true" >> /home/vscode/.config/code-server/config.yaml
+echo "cert: false" >> /home/vscode/.config/code-server/config.yaml
 
 # Apache2
 a2enmod proxy proxy_http
