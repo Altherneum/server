@@ -20,4 +20,5 @@ a2enmod headers
 # Password file
 htpasswd -cb /etc/apache2/.htpasswd vscode $password
 
+# systemctl deamon-reload # Not needed as you may not edit /lib/systemd/system/ but create a service inside /etc/systemd/system
 systemctl restart apache2
