@@ -6,7 +6,7 @@ USER=vscode
 sudo systemctl enable --now code-server@$USER
 
 # /home/vscode/.config/code-server/config.yaml
-echo "bind-addr: 127.0.0.1:6700" > /home/vscode/.config/code-server/config.yaml
+echo "bind-addr: 127.0.0.1:8080" > /home/vscode/.config/code-server/config.yaml
 echo "auth: password" >> /home/vscode/.config/code-server/config.yaml
 password=ABC123!
 echo "password: $password" >> /home/vscode/.config/code-server/config.yaml
