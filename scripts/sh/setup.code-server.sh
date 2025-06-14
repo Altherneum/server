@@ -14,6 +14,7 @@ echo "cert: false" >> /home/vscode/.config/code-server/config.yaml
 
 # SystemD (SystemCTL)
 wget -O /etc/systemd/system/code-server@vscode.service -L 'https://raw.githubusercontent.com/Altherneum/server/refs/heads/main/scripts/code-server@vscode.service'
+systemctl deamon-reload
 
 # Apache2
 a2enmod proxy proxy_http
@@ -23,5 +24,5 @@ a2enmod headers
 # Password file
 htpasswd -cb /etc/apache2/.htpasswd vscode $password
 
-# systemctl deamon-reload # Not needed as you may not edit /lib/systemd/system/ but create a service inside /etc/systemd/system
 systemctl restart apache2
+systemctl enable code-server@vscode.service
