@@ -12,6 +12,9 @@ password=ABC123!
 echo "password: $password" >> /home/vscode/.config/code-server/config.yaml
 echo "cert: false" >> /home/vscode/.config/code-server/config.yaml
 
+# SystemD (SystemCTL)
+wget -O /etc/systemd/system/code-server@vscode.service -L 'https://raw.githubusercontent.com/Altherneum/server/refs/heads/main/scripts/code-server@vscode.service'
+
 # Apache2
 a2enmod proxy proxy_http
 a2enmod proxy_wstunnel
