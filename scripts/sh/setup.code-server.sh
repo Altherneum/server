@@ -15,6 +15,10 @@ a2enmod proxy proxy_http
 a2enmod proxy_wstunnel
 a2enmod headers
 
+# Git configuration
+git config --global user.name "lx78WyY0J5"
+git config --global user.email "9j2k37st@gmail.com"
+
 # Password file
 password=ABC123!
 htpasswd -cb /etc/apache2/.htpasswd vscode $password
