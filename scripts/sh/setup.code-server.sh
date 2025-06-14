@@ -16,6 +16,7 @@ a2enmod proxy_wstunnel
 a2enmod headers
 
 # Password file
+password=ABC123!
 htpasswd -cb /etc/apache2/.htpasswd vscode $password
 
 systemctl restart apache2
