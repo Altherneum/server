@@ -26,3 +26,4 @@ htpasswd -cb /etc/apache2/.htpasswd vscode $password
 
 systemctl restart apache2
 systemctl enable code-server@vscode.service
+systemctl start code-server@vscode.service
