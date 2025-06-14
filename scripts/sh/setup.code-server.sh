@@ -8,12 +8,7 @@ sudo dpkg -i code-server_${VERSION}_amd64.deb
 wget -O /etc/systemd/system/code-server@vscode.service -L 'https://raw.githubusercontent.com/Altherneum/server/refs/heads/main/scripts/code-server@vscode.service'
 systemctl deamon-reload
 
-# /home/vscode/.config/code-server/config.yaml
-echo "bind-addr: 0.0.0.0:8443" > /home/vscode/.config/code-server/config.yaml
-echo "auth: password" >> /home/vscode/.config/code-server/config.yaml
-password=ABC123!
-echo "password: $password" >> /home/vscode/.config/code-server/config.yaml
-echo "cert: false" >> /home/vscode/.config/code-server/config.yaml
+wget -O /home/vscode/.config/code-server/config.yaml -L 'https://raw.githubusercontent.com/Altherneum/server/refs/heads/main/home/vscode/.config/code-server/config.yaml'
 
 # Apache2
 a2enmod proxy proxy_http
