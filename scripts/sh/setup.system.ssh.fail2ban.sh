@@ -2,9 +2,12 @@
 systemctl start fail2ban
 systemctl enable fail2ban
 
-# Filtres
+# Jails
 wget -O /etc/fail2ban/jail.d/sshd.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/jail.d/sshd.conf'
-wget -O /etc/fail2ban/jail.d/code-server.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/jail.d/sshd.conf'
+wget -O /etc/fail2ban/jail.d/code-server.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/jail.d/code-server.conf'
+# Filter
+## SSHD filter exist by default
+wget -O /etc/fail2ban/filter.d/code-server.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/filter.d/code-server.conf'
 
 # Relancer Fail2Ban pour appliquer les changements
 systemctl restart fail2ban
