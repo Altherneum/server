@@ -61,8 +61,13 @@ lastb | head
 
 printf "\n"
 
-printf "🚨\tFail2Ban\t👮\n"
+printf "🚨\tFail2Ban\t👮\SSHD\n"
 fail2ban-client status sshd
+
+printf "\n"
+
+printf "🚨\tFail2Ban\t👮\tCode-Server\n"
+fail2ban-client status code-server
 
 printf "\n"
 
