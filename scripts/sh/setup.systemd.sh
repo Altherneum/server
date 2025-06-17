@@ -5,8 +5,8 @@ wget -O /etc/systemd/system/discord.service 'https://raw.githubusercontent.com/A
 # systemctl list-unit-files --type=service
 
 # Enable services
-systemctl enabled minecraft
-systemctl enabled discord
+systemctl enable minecraft
+systemctl enable discord
 
 # Check is service is enabled
 systemctl is-enabled minecraft
