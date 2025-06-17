@@ -26,3 +26,9 @@ htpasswd -cb /etc/apache2/.htpasswd vscode $password
 systemctl restart apache2
 systemctl enable code-server@vscode.service
 systemctl start code-server@vscode.service
+
+sudo -u vscode code-server --install-extension GitHub.vscode-pull-request-GitHub
+sudo -u vscode code-server --install-extension PKief.material-icon-theme
+sudo -u vscode code-server --install-extension ms-vscode.live-server
+sudo -u vscode code-server --install-extension vscjava.vscode-java-pack
+sudo -u vscode code-server --install-extension redhat.vscode-yaml
