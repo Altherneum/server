@@ -10,6 +10,6 @@
 
 # /Serveurs/RPG/start.sh
 
-/Serveurs/Anarchie/start.sh
+# /Serveurs/Anarchie/start.sh
 
-/Serveurs/OPPrison/start.sh
+# /Serveurs/OPPrison/start.sh
