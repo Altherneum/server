@@ -5,7 +5,7 @@ After=network.target
 [Service]
 Type=simple
 User=vscode
-ExecStart=code-server --bind-addr 0.0.0.0:8443 --proxy-domain code.altherneum.fr
+ExecStart=code-server --bind-addr 0.0.0.0:8443 --proxy-domain code.altherneum.fr --cert /home/vscode/.local/share/code-server/localhost.crt --cert-key /home/vscode/.local/share/code-server/localhost.key
 Restart=always
 
 [Install]
