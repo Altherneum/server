@@ -139,6 +139,21 @@ chmod +x /update.sh
 ## Discord screen
 `sudo -u discord screen -ls`
 
+# Backup
+## Backup targeted
+- `/backup/backuptarget.sh`
+  - Cible `/Serveurs` et `/DiscordBot`
+## Obsolète
+### Backup full
+- `/backup/backupfull.sh`
+  - Cible tout sauf le fichier `/backup.tar.gz`
+### Backup SRV
+- `/backup/backupsrv.sh`
+  - Cible tout, sauf les dossiers systèmes (ex : `/srv`, `/home`, `/var`, `/etc`, ...)
+### Backup vanilla
+- `/backup/backup.sh`
+  - Cible presque de la même manière tout, sauf les dossiers systèmes
+
 # DNS routing
 ## TXT DNS
 ```
