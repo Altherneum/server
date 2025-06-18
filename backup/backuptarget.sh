@@ -1,0 +1,1 @@
+tar czf /backup/backuptarget.tar.gz /Serveurs /DiscordBot
