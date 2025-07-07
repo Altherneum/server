@@ -93,8 +93,8 @@ wget -O /Serveurs/DataFolder/plugins/plugin.jar 'https://github.com/Altherneum/p
 # wget -O /Serveurs/DataFolder/paper.jar 'https://api.papermc.io/v2/projects/paper/versions/1.20.1/builds/84/downloads/paper-1.20.1-84.jar'
 wget -O /Serveurs/DataFolder/paper.jar 'https://api.papermc.io/v2/projects/paper/versions/1.21/builds/127/downloads/paper-1.21-127.jar'
 wget -O /Serveurs/Waterfall/waterfall.jar 'https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/579/downloads/waterfall-1.21-579.jar'
-wget -O /Serveurs/DataFolder/plugins/ViaBackwards.jar 'https://github.com/ViaVersion/ViaBackwards/releases/download/5.0.3/ViaBackwards-5.0.3.jar'
-wget -O /Serveurs/DataFolder/plugins/ViaVersion.jar 'https://github.com/ViaVersion/ViaVersion/releases/download/5.0.3/ViaVersion-5.0.3.jar'
+wget -O /Serveurs/DataFolder/plugins/ViaBackwards.jar 'https://github.com/ViaVersion/ViaBackwards/releases/download/5.4.1/ViaBackwards-5.4.1.jar'
+wget -O /Serveurs/DataFolder/plugins/ViaVersion.jar 'https://github.com/ViaVersion/ViaVersion/releases/download/5.4.1/ViaVersion-5.4.1.jar'
 wget -O /Serveurs/DataFolder/plugins/WorldEdit.jar 'https://mediafilez.forgecdn.net/files/4586/220/worldedit-bukkit-7.2.15.jar'
 # wget -O /Serveurs/DataFolder/plugins/WorldEdit.jar 'https://dev.bukkit.org/projects/worldedit/files/latest'
 
