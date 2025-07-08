@@ -42,7 +42,6 @@ printf "💾\tHôte\t\t$(hostname)\n"
 printf "\n"
 
 printf "📶\tVPS\t\t$(hostname -I)\n"
-printf "🛜\tVous\t\t$(echo $SSH_CLIENT)\n"
 
 printf "\n"
 
