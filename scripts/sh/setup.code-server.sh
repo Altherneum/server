@@ -18,9 +18,10 @@ a2enmod headers
 # Git configuration
 git config --global user.name "lx78WyY0J5"
 git config --global user.email "9j2k37st@gmail.com"
+
 # Git configuration user 2
-git config user.name ""
-git config user.email ""
+# git config user.name "userName"
+# git config user.email "user.name@email.tld"
 
 # Password file
 password=ABC123!
