@@ -144,6 +144,7 @@ chmod +x /update.sh
 - `/home/vscode/.bash_history`
 - `/DiscordBot/.bash_history`
 - `/root/.bash_history`
+
 # Backup
 ## Backup targeted
 - `/backup/backuptarget.sh`
