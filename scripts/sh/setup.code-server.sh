@@ -19,7 +19,7 @@ a2enmod headers
 git config --global user.name "lx78WyY0J5"
 git config --global user.email "9j2k37st@gmail.com"
 
-# Git configuration user 2
+# Git configuration user 2 # Try profil workspace instead
 # git config user.name "userName"
 # git config user.email "user.name@email.tld"
 

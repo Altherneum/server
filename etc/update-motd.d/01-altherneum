@@ -50,17 +50,19 @@ printf "➡️\tListe :\n$(who)\n"
 
 printf "\n"
 
+printf "/var/log/wtmp (last) :"
 printf "👀\tDernières connexions\t🆗\n"
 last | head
 
 printf "\n"
 
+printf "/var/log/btmp (lastb) :"
 printf "👀\tDernières connexions\t🔴\n"
 lastb | head
 
 printf "\n"
 
-printf "🚨\tFail2Ban\t👮\SSHD\n"
+printf "🚨\tFail2Ban\t👮\tSSHD\n"
 fail2ban-client status sshd
 
 printf "\n"
