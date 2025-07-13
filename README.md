@@ -139,11 +139,14 @@ chmod +x /update.sh
 ## Discord screen
 `sudo -u discord screen -ls`
 
-# .bash_history
+# Fichiers utiles
+## .bash_history
 - `/home/admin/.bash_history`
 - `/home/vscode/.bash_history`
 - `/DiscordBot/.bash_history`
 - `/root/.bash_history`
+## Logs
+/var/log/apache2/vscode.error_log
 
 # Backup
 ## Backup targeted
