@@ -95,6 +95,8 @@ Connectez vous à la page HTTP de votre serveur en tapant l'adresse IP
 ### Service Minecraft
 - [scripts/minecraft.service](https://github.com/Altherneum/server/blob/main/scripts/minecraft.service)
 - `service minecraft start`
+### Service Code-Server
+- `service code-server@vscode start`
 
 # Update et lancer le service
 ## Tout mettre à jour et lancer
@@ -105,6 +107,11 @@ Connectez vous à la page HTTP de votre serveur en tapant l'adresse IP
 
 ## Minecraft start & update
 `Serveurs/DataFolder/update-start.sh`
+
+## Code-server stop & start & update
+- Stoper Code-Server [# Code-Server stop](#Code-Server-Stop)
+- Update Code-Server [# Code-Server update](#Code-Server-Update)
+- Lancer Code-Server [# Service Code-Server](#Service-Code-Server)
 
 # Update
 ## Force update all
@@ -123,15 +130,28 @@ chmod +x /update.sh
 ## Minecraft update
 `/Serveurs/DataFolder/update.sh`
 
+## Code-Server update
+- Changer le numéro de version à la ligne n°1
+  - Exemple : `VERSION=1.0.0` passe vers `VERSION=4.100.3`
+- Lancer les 3 commandes [# commandes Code-Server update](#Commandes-Code-Server-Update)
+
+```
+VERSION=4.100.3
+curl -fOL https://github.com/coder/code-server/releases/download/v$VERSION/code-server_${VERSION}_amd64.deb
+sudo dpkg -i code-server_${VERSION}_amd64.deb
+```
+
+- Scripts d'installation automatique utilisé par le serveur utilisant le même extrait de code : [/scripts/sh/setup.code-server.sh](https://github.com/Altherneum/server/tree/main/scripts/sh/setup.code-server.sh)
+
 # Stop
 ## Tout arrêter
 `stop.sh`
-
 ## Discord stop
 `DiscordBot/stop.sh`
-
 ## Minecraft stop
 `Serveurs/DataFolder/stop.sh`
+## Code-Server stop
+- `service code-server@vscode stop`
 
 # Screen
 ## Minecraft screen
@@ -146,7 +166,14 @@ chmod +x /update.sh
 - `/DiscordBot/.bash_history`
 - `/root/.bash_history`
 ## Logs
-/var/log/apache2/vscode.error_log
+- VScode :
+  - `/var/log/apache2/vscode.error_log`
+  - `/var/log/apache2/vscode.access_log`
+- Apache2 :
+  - `/var/log/apache2/access.log`
+  - `/var/log/apache2/error.log`
+  - `/var/log/apache2/other_vhosts_access.log`
+- SSHD : `/var/log/auth.log`
 
 # Backup
 ## Backup targeted
