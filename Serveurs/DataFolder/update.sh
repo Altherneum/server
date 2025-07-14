@@ -153,8 +153,3 @@ chmod +x /Serveurs/DataFolder/update-start.sh
 
 # Give owner to minecraft:minecraft
 chown -R minecraft:minecraft /Serveurs
-
-# running minecraft servers
-# echo ~ Starting Minecraft servers
-# /Serveurs/DataFolder/start-auto.sh
-# systemctl start minecraft
