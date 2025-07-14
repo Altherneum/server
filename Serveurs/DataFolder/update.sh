@@ -92,8 +92,8 @@ mkdir -p /Serveurs/DataFolder/plugins
 wget -O /Serveurs/DataFolder/plugins/plugin.jar 'https://github.com/Altherneum/plugin/releases/latest/download/plugin-1.0-fat.jar'
 # wget -O /Serveurs/DataFolder/paper.jar 'https://api.papermc.io/v2/projects/paper/versions/1.21/builds/127/downloads/paper-1.21-127.jar'
 wget -O /Serveurs/DataFolder/paper.jar 'https://api.papermc.io/v2/projects/paper/versions/1.21.7/builds/26/downloads/paper-1.21.7-26.jar'
-# wget -O /Serveurs/Waterfall/waterfall.jar 'https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/579/downloads/waterfall-1.21-579.jar'
-wget -O /Serveurs/Waterfall/waterfall.jar 'https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/594/downloads/waterfall-1.21-594.jar'
+# wget -O /Serveurs/Waterfall/waterfall.jar 'https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/594/downloads/waterfall-1.21-594.jar'
+wget -O /Serveurs/Waterfall/waterfall.jar 'https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/598/downloads/waterfall-1.21-598.jar'
 
 # WaterFall replacement #
 # wget -O /Serveurs/Velocity/velocity.jar 'https://api.papermc.io/v2/projects/velocity/versions/3.4.0-SNAPSHOT/builds/521/downloads/velocity-3.4.0-SNAPSHOT-521.jar'
