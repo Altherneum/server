@@ -176,6 +176,14 @@ sudo dpkg -i code-server_${VERSION}_amd64.deb
 - SSHD : `/var/log/auth.log`
 
 # Backup
+## Map & Spawn backup
+- via l'utilisateur `root` ou `sudo <CMD>`
+- Se déplacer à la racine : `cd /`
+- Ziper le monde à sauvegarder vers le repo `server` via : `tar -acf /home/vscode/repo/server/Serveurs/<SERVER>/Spawn.zip /Serveurs/<SERVER>/Spawn/`
+  - Exemple : `tar -acf /home/vscode/repo/server/Serveurs/Hub/Spawn.zip Serveurs/Hub/Spawn/`
+- Se rendre sur le code-server via : [code.altherneum.fr](https://code.altherneum.fr) sur le repo [server](https://code.altherneum.fr/?folder=/home/vscode/repo/server)
+- Commit et Push le changement de fichier dans le repo ![image](https://raw.githubusercontent.com/Altherneum/.github/70ba87580c2dda3f66302a4e50382cf76920753b/note/assets/images/brave_iglXKRSD96.png)
+
 ## Backup targeted
 - `/backup/backuptarget.sh`
   - Cible `/Serveurs` et `/DiscordBot`
