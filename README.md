@@ -1,15 +1,40 @@
 # Altherneum.fr server
 Server configuration files
 
-<a href=""><img src="https://img.shields.io/github/commit-activity/m/Altherneum/server?color=red&style=for-the-badge"></a>
-<a href=""><img src="https://img.shields.io/github/last-commit/Altherneum/server?color=red&style=for-the-badge"></a>
-<br>
-<a href=""><img src="https://img.shields.io/github/stars/Altherneum?color=red&style=for-the-badge"></a>
-<a href=""><img src="https://img.shields.io/github/stars/Altherneum/server?color=red&label=repo%20stars&style=for-the-badge"></a>
-<a href=""><img src="https://img.shields.io/github/contributors/Altherneum/server?style=for-the-badge"></a>
-<br>
-<a href=""><img src="https://img.shields.io/github/languages/code-size/Altherneum/server?color=red"></a>
-<a href=""><img src="https://img.shields.io/github/repo-size/Altherneum/server?color=red"></a>
+# Badges
+![Doc site](https://img.shields.io/website?down_color=red&down_message=offline&style=badge&up_color=green&up_message=online&url=https%3A%2F%2Fdoc.Altherneum.fr)
+![MC site](https://img.shields.io/website?down_color=red&down_message=offline&style=badge&up_color=green&up_message=online&url=https%3A%2F%2Fmc.Altherneum.fr)  
+![View](https://komarev.com/ghpvc/?username=Altherneum&color=red&label=%F0%9F%91%80)
+![Discord](https://discordapp.com/api/guilds/1081921426333909072/widget.png)
+
+![Commit week](https://img.shields.io/github/commit-activity/w/Altherneum/server?color=red)
+![Commit month](https://img.shields.io/github/commit-activity/m/Altherneum/server?color=red)
+![Commit year](https://img.shields.io/github/commit-activity/y/Altherneum/server?color=red)
+
+![Creation date](https://img.shields.io/github/created-at/Altherneum/server?color=red)
+![Commits](https://img.shields.io/github/commit-activity/t/Altherneum/server?color=red)
+
+![Code size](https://img.shields.io/github/languages/code-size/Altherneum/server?color=red)
+![Repo size](https://img.shields.io/github/repo-size/Altherneum/server?color=red)
+![Files](https://img.shields.io/github/directory-file-count/Altherneum/server?color=red)
+
+![Last commit](https://img.shields.io/github/last-commit/Altherneum/server?color=red)
+
+![Repo stars](https://img.shields.io/github/stars/Altherneum/server?color=red&style=badge)
+![Contributors](https://img.shields.io/github/contributors/Altherneum/server?color=red)
+![Forks](https://img.shields.io/github/forks/Altherneum/server?color=red&style=badge)
+![Watchers](https://img.shields.io/github/watchers/Altherneum/server?color=red&style=badge)
+
+![Languages counter](https://img.shields.io/github/languages/count/Altherneum/server?color=red)
+![Top language](https://img.shields.io/github/languages/top/Altherneum/server?color=red)
+
+![Issues](https://img.shields.io/github/issues/Altherneum/server)
+![Pull request](https://img.shields.io/github/issues-pr/Altherneum/server)
+
+## Organisation
+![.github discussions](https://img.shields.io/github/discussions/Altherneum/.github?color=red)
+![Org followers](https://img.shields.io/github/followers/Altherneum?color=red&style=badge)
+![Org sponsors](https://img.shields.io/github/sponsors/Altherneum?color=red)
 
 # Liens
 - [Repository](https://github.com/Altherneum/server)
