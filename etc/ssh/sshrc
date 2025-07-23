@@ -5,5 +5,5 @@ ip=`echo $SSH_CONNECTION | cut -d " " -f 1`
 curl --silent -v \
 -H "Content-Type: application/json" \
 -X POST \
--d "{\"content\":\"- $USER `$ip`\"}" \
+-d "{\"content\":\"- @ \`$USER\`\n  - IP \`$ip\`\"}" \
 https://discord.com/api/webhooks/0000000000000000000/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa > /dev/null 2>&1
