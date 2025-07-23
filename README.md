@@ -180,10 +180,13 @@ sudo dpkg -i code-server_${VERSION}_amd64.deb
 - `service code-server@vscode stop`
 
 # Screen
+- `su - root` Passer en root
 ## Minecraft screen
-`sudo -u minecraft screen -ls`
+- `su minecraft` Passer sur l'utilisateur `Minecraft`
 ## Discord screen
-`sudo -u discord screen -ls`
+`su discord` Passer sur l'utilisateur `Discord`
+## Commandes screen
+Voire le cours sur [screen](/cours/linux#screen)
 
 # Fichiers utiles
 ## .bash_history
