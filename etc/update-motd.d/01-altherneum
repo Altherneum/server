@@ -74,10 +74,22 @@ printf "\n"
 
 printf "🚧\tServices\t🤖\n"
 printf "📞\tDiscord\t\t$(systemctl check discord)\n"
-printf "⚔️\tMinecraft\t$(systemctl check minecraft)\n"
 printf "🌐\tApache2\t\t$(systemctl check apache2)\n"
 printf "💿\tMySQL\t\t$(systemctl check mysql)\n"
 printf "💾\tCode-Server\t$(systemctl check code-server@vscode)\n"
 printf "🚫\tFail2Ban\t$(systemctl check fail2ban)\n"
+
+printf "\n"
+
+printf "⚔️\tMinecraft\t$(systemctl check minecraft)\n"
+printf "\n"
+printf "⚔️\tMinecraft@Anarchie\t$(systemctl check minecraft@anarchie)\n"
+printf "⚔️\tMinecraft@Créatif\t$(systemctl check minecraft@creatif)\n"
+printf "⚔️\tMinecraft@Hub\t$(systemctl check minecraft@hub)\n"
+printf "⚔️\tMinecraft@Proxy\t$(systemctl check minecraft@proxy)\n"
+printf "⚔️\tMinecraft@OPPrison\t$(systemctl check minecraft@opprison)\n"
+printf "⚔️\tMinecraft@RPG\t$(systemctl check minecraft@rpg)\n"
+printf "⚔️\tMinecraft@SkyBlock\t$(systemctl check minecraft@skyblock)\n"
+printf "⚔️\tMinecraft@Survie\t$(systemctl check minecraft@survie)\n"
 
 printf "\n"
