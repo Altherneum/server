@@ -2,11 +2,11 @@
 #
 # service minecraft start
 #
-# minecraft@anarchie start
-# minecraft@creatif start
-minecraft@hub start
-# minecraft@opprison start
-minecraft@proxy start
-# minecraft@rpg start
-minecraft@skyblock start
-minecraft@survie start
+# service minecraft@anarchie start
+# service minecraft@creatif start
+service minecraft@hub start
+# service minecraft@opprison start
+service minecraft@proxy start
+# service minecraft@rpg start
+service minecraft@skyblock start
+service minecraft@survie start
