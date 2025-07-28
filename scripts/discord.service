@@ -9,7 +9,7 @@ After=network.target
 User=discord
 Group=discord
 Nice=5
-KillMode=none
+KillMode=control-group
 SuccessExitStatus=0 1
 
 Type=forking
