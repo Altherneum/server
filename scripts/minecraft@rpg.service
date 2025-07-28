@@ -10,6 +10,8 @@ User=minecraft
 Group=minecraft
 Nice=5
 KillMode=control-group
+TimeoutSec=40
+TimeoutStartSec=90
 SuccessExitStatus=0 1
 
 Type=forking
