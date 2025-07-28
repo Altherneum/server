@@ -15,6 +15,8 @@ TimeoutStartSec=90
 SuccessExitStatus=0 1
 
 Type=forking
+Restart=always
+RestartSec=1
 
 ProtectHome=true
 ProtectSystem=full
