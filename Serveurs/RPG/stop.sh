@@ -1,0 +1,1 @@
+screen -S RPG -X stuff 'stop'$'\n'

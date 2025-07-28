@@ -1,0 +1,1 @@
+screen -S waterfall -X stuff 'stop'$'\n'

@@ -1,0 +1,1 @@
+screen -S SkyBlock -X stuff 'stop'$'\n'

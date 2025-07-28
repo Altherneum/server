@@ -1,0 +1,1 @@
+screen -S hub -X stuff 'stop'$'\n'

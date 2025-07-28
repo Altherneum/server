@@ -1,0 +1,31 @@
+[Unit]
+Description=Minecraft Creatif Server
+Documentation=
+
+Wants=network.target
+After=network.target
+
+[Service]
+User=minecraft
+Group=minecraft
+Nice=5
+KillMode=none
+SuccessExitStatus=0 1
+
+Type=forking
+
+ProtectHome=true
+ProtectSystem=full
+PrivateDevices=true
+NoNewPrivileges=true
+PrivateTmp=true
+
+InaccessibleDirectories=/root /sys /srv -/opt /media -/lost+found /DiscordBot
+ReadWriteDirectories=/Serveurs
+WorkingDirectory=/Serveurs
+
+ExecStart=/bin/bash /Serveurs/Creatif/start.sh
+ExecStop=/bin/bash /Serveurs/Creatif/stop.sh
+
+[Install]
+WantedBy=multi-user.target

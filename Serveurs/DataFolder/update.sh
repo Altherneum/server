@@ -5,40 +5,63 @@ mkdir -p /Serveurs/DataFolder
 wget -O /Serveurs/DataFolder/stop.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/stop.sh'
 chmod +x /Serveurs/DataFolder/stop.sh
 # /Serveurs/DataFolder/stop.sh
-service minecraft stop
-
+# service minecraft stop
+service minecraft@anarchie stop
+service minecraft@creatif stop
+service minecraft@hub stop
+service minecraft@opprison stop
+service minecraft@proxy stop
+service minecraft@rpg stop
+service minecraft@skyblock stop
+service minecraft@survie stop
 
 mkdir -p /Serveurs/Waterfall
 wget -O /Serveurs/Waterfall/start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Waterfall/start.sh'
 chmod +x /Serveurs/Waterfall/start.sh
+wget -O /Serveurs/Waterfall/stop.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Waterfall/stop.sh'
+chmod +x /Serveurs/Waterfall/stop.sh
 #
 mkdir -p /Serveurs/Creatif
 wget -O /Serveurs/Creatif/start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Creatif/start.sh'
 chmod +x /Serveurs/Creatif/start.sh
+wget -O /Serveurs/Creatif/stop.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Creatif/stop.sh'
+chmod +x /Serveurs/Creatif/stop.sh
 #
 mkdir -p /Serveurs/Hub
 wget -O /Serveurs/Hub/start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Hub/start.sh'
 chmod +x /Serveurs/Hub/start.sh
+wget -O /Serveurs/Hub/stop.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Hub/stop.sh'
+chmod +x /Serveurs/Hub/stop.sh
 #
 mkdir -p /Serveurs/RPG
 wget -O /Serveurs/RPG/start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/RPG/start.sh'
 chmod +x /Serveurs/RPG/start.sh
+wget -O /Serveurs/RPG/stop.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/RPG/stop.sh'
+chmod +x /Serveurs/RPG/stop.sh
 #
 mkdir -p /Serveurs/SkyBlock
 wget -O /Serveurs/SkyBlock/start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/SkyBlock/start.sh'
 chmod +x /Serveurs/SkyBlock/start.sh
+wget -O /Serveurs/SkyBlock/stop.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/SkyBlock/stop.sh'
+chmod +x /Serveurs/SkyBlock/stop.sh
 #
 mkdir -p /Serveurs/Anarchie
 wget -O /Serveurs/Anarchie/start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Anarchie/start.sh'
 chmod +x /Serveurs/Anarchie/start.sh
+wget -O /Serveurs/Anarchie/stop.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Anarchie/stop.sh'
+chmod +x /Serveurs/Anarchie/stop.sh
 #
 mkdir -p /Serveurs/Survie
 wget -O /Serveurs/Survie/start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Survie/start.sh'
 chmod +x /Serveurs/Survie/start.sh
+wget -O /Serveurs/Survie/stop.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Survie/stop.sh'
+chmod +x /Serveurs/Survie/stop.sh
 #
 mkdir -p /Serveurs/OPPrison
 wget -O /Serveurs/OPPrison/start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/OPPrison/start.sh'
 chmod +x /Serveurs/OPPrison/start.sh
+wget -O /Serveurs/OPPrison/stop.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/OPPrison/stop.sh'
+chmod +x /Serveurs/OPPrison/stop.sh
 
 
 # tokens
