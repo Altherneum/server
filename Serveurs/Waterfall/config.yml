@@ -12,8 +12,9 @@ listeners:
   host: 0.0.0.0:25500
   max_players: 0
   tab_size: 50
-  force_default_server: true
-  forced_hosts: &id006
+  force_default_server: false
+  forced_hosts: 
+    hub.altherneum.fr: hub
 - query_port: 25505
   motd: §r[ §2§lAltherneum§r.fr §r] §6Survie §r! §rAltherneum.fr/§2discord
   tab_list: SERVER
@@ -27,8 +28,9 @@ listeners:
   host: 0.0.0.0:25505
   max_players: 0
   tab_size: 50
-  force_default_server: true
-  forced_hosts: *id006
+  force_default_server: false
+  forced_hosts: 
+    survie.altherneum.fr: survie
 - query_port: 25504
   motd: §r[ §2§lAltherneum§r.fr §r] §6Anarchie §r! §rAltherneum.fr/§2discord
   tab_list: SERVER
@@ -42,8 +44,9 @@ listeners:
   host: 0.0.0.0:25504
   max_players: 0
   tab_size: 50
-  force_default_server: true
-  forced_hosts: *id006
+  force_default_server: false
+  forced_hosts: 
+    anarchie.altherneum.fr: anarchie
 - query_port: 25502
   motd: §r[ §2§lAltherneum§r.fr §r] §6RPG §r! §rAltherneum.fr/§2discord
   tab_list: SERVER
@@ -57,8 +60,9 @@ listeners:
   host: 0.0.0.0:25502
   max_players: 0
   tab_size: 50
-  force_default_server: true
-  forced_hosts: *id006
+  force_default_server: false
+  forced_hosts: 
+    rpg.altherneum.fr: rpg
 - query_port: 25503
   motd: §r[ §2§lAltherneum§r.fr §r] §6SkyBlock §r! §rAltherneum.fr/§2discord
   tab_list: SERVER
@@ -72,8 +76,9 @@ listeners:
   host: 0.0.0.0:25503
   max_players: 0
   tab_size: 50
-  force_default_server: true
-  forced_hosts: *id006
+  force_default_server: false
+  forced_hosts: 
+    skyblock.altherneum.fr: skyblock
 - query_port: 25501
   motd: §r[ §2§lAltherneum§r.fr §r] §6Creatif §r! §rAltherneum.fr/§2discord
   tab_list: SERVER
@@ -87,8 +92,9 @@ listeners:
   host: 0.0.0.0:25501
   max_players: 0
   tab_size: 50
-  force_default_server: true
-  forced_hosts: *id006
+  force_default_server: false
+  forced_hosts: 
+    creatif.altherneum.fr: creatif
 - query_port: 25506
   motd: §r[ §2§lAltherneum§r.fr §r] §6OPPrison §r! §rAltherneum.fr/§2discord
   tab_list: SERVER
@@ -102,8 +108,9 @@ listeners:
   host: 0.0.0.0:25506
   max_players: 0
   tab_size: 50
-  force_default_server: true
-  forced_hosts: *id006
+  force_default_server: false
+  forced_hosts: 
+    opprison.altherneum.fr: opprison
 remote_ping_cache: -1
 network_compression_threshold: 256
 permissions:
@@ -120,7 +127,7 @@ connection_throttle_limit: 3
 server_connect_timeout: 5000
 timeout: 30000
 player_limit: -1
-prevent_proxy_connections: false
+prevent_proxy_connections: true
 ip_forward: true
 remote_ping_timeout: 5000
 connection_throttle: 4000
