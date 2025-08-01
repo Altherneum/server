@@ -12,7 +12,7 @@ listeners:
   host: 0.0.0.0:25500
   max_players: 0
   tab_size: 50
-  force_default_server: true
+  force_default_server: false
   forced_hosts: &id006
 - query_port: 25505
   motd: §r[ §2§lAltherneum§r.fr §r] §6Survie §r! §rAltherneum.fr/§2discord
@@ -27,7 +27,7 @@ listeners:
   host: 0.0.0.0:25505
   max_players: 0
   tab_size: 50
-  force_default_server: true
+  force_default_server: false
   forced_hosts: *id006
 - query_port: 25504
   motd: §r[ §2§lAltherneum§r.fr §r] §6Anarchie §r! §rAltherneum.fr/§2discord
@@ -42,7 +42,7 @@ listeners:
   host: 0.0.0.0:25504
   max_players: 0
   tab_size: 50
-  force_default_server: true
+  force_default_server: false
   forced_hosts: *id006
 - query_port: 25502
   motd: §r[ §2§lAltherneum§r.fr §r] §6RPG §r! §rAltherneum.fr/§2discord
@@ -57,7 +57,7 @@ listeners:
   host: 0.0.0.0:25502
   max_players: 0
   tab_size: 50
-  force_default_server: true
+  force_default_server: false
   forced_hosts: *id006
 - query_port: 25503
   motd: §r[ §2§lAltherneum§r.fr §r] §6SkyBlock §r! §rAltherneum.fr/§2discord
@@ -72,7 +72,7 @@ listeners:
   host: 0.0.0.0:25503
   max_players: 0
   tab_size: 50
-  force_default_server: true
+  force_default_server: false
   forced_hosts: *id006
 - query_port: 25501
   motd: §r[ §2§lAltherneum§r.fr §r] §6Creatif §r! §rAltherneum.fr/§2discord
@@ -87,7 +87,7 @@ listeners:
   host: 0.0.0.0:25501
   max_players: 0
   tab_size: 50
-  force_default_server: true
+  force_default_server: false
   forced_hosts: *id006
 - query_port: 25506
   motd: §r[ §2§lAltherneum§r.fr §r] §6OPPrison §r! §rAltherneum.fr/§2discord
@@ -102,7 +102,7 @@ listeners:
   host: 0.0.0.0:25506
   max_players: 0
   tab_size: 50
-  force_default_server: true
+  force_default_server: false
   forced_hosts: *id006
 remote_ping_cache: -1
 network_compression_threshold: 256
