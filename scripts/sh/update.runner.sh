@@ -67,3 +67,8 @@ mkdir -p /Serveurs/DataFolder
 wget -O /Serveurs/DataFolder/update.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/update.sh'
 chmod +x /Serveurs/DataFolder/update.sh
 /Serveurs/DataFolder/update.sh
+
+# Clean /tmp
+wget -O /scripts/sh/clean.tmp.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/clean.tmp.sh'
+chmod +x /scripts/sh/clean.tmp.sh
+/scripts/sh/clean.tmp.sh.sh
