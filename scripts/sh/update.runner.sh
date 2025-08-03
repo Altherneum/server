@@ -71,4 +71,4 @@ chmod +x /Serveurs/DataFolder/update.sh
 # Clean /tmp
 wget -O /scripts/sh/clean.tmp.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/clean.tmp.sh'
 chmod +x /scripts/sh/clean.tmp.sh
-/scripts/sh/clean.tmp.sh.sh
+/scripts/sh/clean.tmp.sh
