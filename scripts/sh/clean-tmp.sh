@@ -1,0 +1,1 @@
+find /tmp -ctime +10 -exec rm -rf {} +
