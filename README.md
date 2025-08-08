@@ -193,6 +193,7 @@ Voire le cours sur [screen](/cours/linux#screen)
 - `/home/admin/.bash_history`
 - `/home/vscode/.bash_history`
 - `/DiscordBot/.bash_history`
+- `/Serveurs/.bash_history`
 - `/root/.bash_history`
 ## Logs
 - VScode :
