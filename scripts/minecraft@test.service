@@ -1,0 +1,35 @@
+[Unit]
+Description=Minecraft Test Server
+Documentation=
+
+Wants=network.target
+After=network.target
+
+[Service]
+User=minecraft
+Group=minecraft
+Nice=5
+KillMode=control-group
+TimeoutSec=40
+TimeoutStartSec=90
+SuccessExitStatus=0 1
+
+Type=forking
+Restart=always
+RestartSec=1
+
+ProtectHome=true
+ProtectSystem=full
+PrivateDevices=true
+NoNewPrivileges=true
+PrivateTmp=true
+
+InaccessibleDirectories=/root /sys /srv -/opt /media -/lost+found /DiscordBot
+ReadWriteDirectories=/Serveurs
+WorkingDirectory=/Serveurs
+
+ExecStart=/bin/bash /Serveurs/Test/start.sh
+ExecStop=/bin/bash /Serveurs/Test/stop.sh
+
+[Install]
+WantedBy=multi-user.target

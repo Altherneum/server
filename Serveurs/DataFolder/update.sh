@@ -14,6 +14,7 @@ service minecraft@proxy stop
 service minecraft@rpg stop
 service minecraft@skyblock stop
 service minecraft@survie stop
+service minecraft@test stop
 
 mkdir -p /Serveurs/Waterfall
 wget -O /Serveurs/Waterfall/start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Waterfall/start.sh'
@@ -89,6 +90,7 @@ wget -O /Serveurs/DataFolder/bukkit.yml 'https://raw.githubusercontent.com/Althe
 # Server tick & build
 wget -O /Serveurs/DataFolder/hub.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/hub.yml'
 wget -O /Serveurs/DataFolder/survie.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/survie.yml'
+wget -O /Serveurs/DataFolder/test.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/test.yml'
 wget -O /Serveurs/DataFolder/anarchie.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/anarchie.yml'
 wget -O /Serveurs/DataFolder/skyblock.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/skyblock.yml'
 wget -O /Serveurs/DataFolder/rpg.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/rpg.yml'
@@ -114,6 +116,7 @@ wget -O /Serveurs/DataFolder/paper-config/paper-global.yml 'https://raw.githubus
 # wget -O /Serveurs/RPG/server.properties 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/RPG/server.properties'
 # wget -O /Serveurs/SkyBlock/server.properties 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/SkyBlock/server.properties'
 # wget -O /Serveurs/Survie/server.properties 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Survie/server.properties'
+# wget -O /Serveurs/Test/server.properties 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Test/server.properties'
 # wget -O /Serveurs/OPPrison/server.properties 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/OPPrison/server.properties'
 
 # jars
@@ -151,6 +154,10 @@ wget -O /Serveurs/DataFolder/structures/spawn_OPPrison.yml 'https://raw.githubus
 wget -O /Serveurs/DataFolder/structures/spawn_Survie.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn_Survie.yml'
 wget -O /Serveurs/Survie/Spawn.zip 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Survie/Spawn.zip'
 unzip -o /Serveurs/Survie/Spawn.zip -d /Serveurs/Survie
+#
+wget -O /Serveurs/DataFolder/structures/spawn_Test.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn_Survie.yml'
+wget -O /Serveurs/Test/Spawn.zip 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Survie/Spawn.zip'
+unzip -o /Serveurs/Test/Spawn.zip -d /Serveurs/Test
 #
 wget -O /Serveurs/DataFolder/structures/spawn_Anarchie.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn_Survie.yml'
 wget -O /Serveurs/Anarchie/Spawn.zip 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Survie/Spawn.zip'
