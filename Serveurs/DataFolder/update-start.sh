@@ -12,3 +12,4 @@ service minecraft@proxy start
 # service minecraft@rpg start
 service minecraft@skyblock start
 service minecraft@survie start
+# service minecraft@test start
