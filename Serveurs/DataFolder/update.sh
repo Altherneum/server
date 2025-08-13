@@ -27,6 +27,12 @@ chmod +x /Serveurs/Creatif/start.sh
 wget -O /Serveurs/Creatif/stop.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Creatif/stop.sh'
 chmod +x /Serveurs/Creatif/stop.sh
 #
+mkdir -p /Serveurs/Test
+wget -O /Serveurs/Test/start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Test/start.sh'
+chmod +x /Serveurs/Test/start.sh
+wget -O /Serveurs/Test/stop.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Test/stop.sh'
+chmod +x /Serveurs/Test/stop.sh
+#
 mkdir -p /Serveurs/Hub
 wget -O /Serveurs/Hub/start.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Hub/start.sh'
 chmod +x /Serveurs/Hub/start.sh
