@@ -84,6 +84,20 @@ mkdir -p /Serveurs/Survie/config
 ln -s /Serveurs/DataFolder/paper-config/paper-global.yml /Serveurs/Survie/config/paper-global.yml
 ln -s /Serveurs/DataFolder/paper-config/paper-world-defaults.yml /Serveurs/Survie/config/paper-world-defaults.yml
 
+mkdir -p /Serveurs/Test/plugins
+ln -s /Serveurs/DataFolder/plugins/plugin.jar /Serveurs/Test/plugins
+ln -s /Serveurs/DataFolder/plugins/ViaBackwards.jar /Serveurs/Test/plugins
+ln -s /Serveurs/DataFolder/plugins/ViaVersion.jar /Serveurs/Test/plugins
+ln -s /Serveurs/DataFolder/server-icon.png /Serveurs/Test
+ln -s /Serveurs/DataFolder/eula.txt /Serveurs/Test
+ln -s /Serveurs/DataFolder/ops.json /Serveurs/Test
+ln -s /Serveurs/DataFolder/paper.jar /Serveurs/Test
+ln -s /Serveurs/DataFolder/bukkit.yml /Serveurs/Test
+ln -s /Serveurs/DataFolder/spigot.yml /Serveurs/Test
+mkdir -p /Serveurs/Test/config
+ln -s /Serveurs/DataFolder/paper-config/paper-global.yml /Serveurs/Test/config/paper-global.yml
+ln -s /Serveurs/DataFolder/paper-config/paper-world-defaults.yml /Serveurs/Test/config/paper-world-defaults.yml
+
 mkdir -p /Serveurs/OPPrison/plugins
 ln -s /Serveurs/DataFolder/plugins/plugin.jar /Serveurs/OPPrison/plugins
 ln -s /Serveurs/DataFolder/plugins/ViaBackwards.jar /Serveurs/OPPrison/plugins

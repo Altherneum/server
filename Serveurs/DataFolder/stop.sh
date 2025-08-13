@@ -14,3 +14,5 @@ screen -S anarchie -X stuff 'stop'$'\n'
 screen -S survie -X stuff 'stop'$'\n'
 #
 screen -S OPPrison -X stuff 'stop'$'\n'
+#
+screen -S test -X stuff 'stop'$'\n'

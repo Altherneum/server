@@ -21,3 +21,6 @@ cd /Serveurs/Anarchie
 
 cd /Serveurs/OPPrison
 /Serveurs/OPPrison/start.sh
+
+cd /Serveurs/Test
+/Serveurs/Test/start.sh
