@@ -11,6 +11,7 @@ wget -O /etc/systemd/system/minecraft@proxy.service 'https://raw.githubuserconte
 wget -O /etc/systemd/system/minecraft@rpg.service 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/minecraft@rpg.service'
 wget -O /etc/systemd/system/minecraft@skyblock.service 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/minecraft@skyblock.service'
 wget -O /etc/systemd/system/minecraft@survie.service 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/minecraft@survie.service'
+wget -O /etc/systemd/system/minecraft@test.service 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/minecraft@test.service'
 
 # Show service unit
 # systemctl list-unit-files --type=service
@@ -27,6 +28,7 @@ systemctl enable minecraft@proxy
 # systemctl enable minecraft@rpg
 systemctl enable minecraft@skyblock
 systemctl enable minecraft@survie
+systemctl enable minecraft@test
 
 # Check is service is enabled
 # systemctl is-enabled minecraft
@@ -40,5 +42,6 @@ systemctl is-enabled minecraft@proxy
 # systemctl is-enabled minecraft@rpg
 systemctl is-enabled minecraft@skyblock
 systemctl is-enabled minecraft@survie
+systemctl is-enabled minecraft@test
 
 systemctl daemon-reload
