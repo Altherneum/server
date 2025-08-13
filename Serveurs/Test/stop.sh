@@ -1,0 +1,1 @@
+screen -S test -X stuff 'stop'$'\n'

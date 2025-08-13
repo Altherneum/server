@@ -319,18 +319,20 @@ SRV
 0 5 25504 mc.Altherneum.fr.
 ```
 
-```
-_minecraft._tcp.survie
-3600
-SRV
-0 5 25505 mc.Altherneum.fr.
-```
+
 
 ```
 _minecraft._tcp.rpg
 3600
 SRV
 0 5 25502 mc.Altherneum.fr.
+```
+
+```
+_minecraft._tcp.survie
+3600
+SRV
+0 5 25505 mc.Altherneum.fr.
 ```
 
 ```
@@ -345,6 +347,13 @@ _minecraft._tcp.opprison
 3600
 SRV
 0 5 25506 mc.Altherneum.fr.
+```
+
+```
+_minecraft._tcp.test
+3600
+SRV
+0 5 25507 test.altherneum.fr
 ```
 
 ```
