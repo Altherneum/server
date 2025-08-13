@@ -299,64 +299,6 @@ Altherneum.github.io.
 
 ## MC DNS
 ```
-_minecraft._tcp.hub
-3600
-SRV
-0 5 25500 mc.Altherneum.fr.
-```
-
-```
-_minecraft._tcp.creatif
-3600
-SRV
-0 5 25501 mc.Altherneum.fr.
-```
-
-```
-_minecraft._tcp.anarchie
-3600
-SRV
-0 5 25504 mc.Altherneum.fr.
-```
-
-
-
-```
-_minecraft._tcp.rpg
-3600
-SRV
-0 5 25502 mc.Altherneum.fr.
-```
-
-```
-_minecraft._tcp.survie
-3600
-SRV
-0 5 25505 mc.Altherneum.fr.
-```
-
-```
-_minecraft._tcp.skyblock
-3600
-SRV
-0 5 25503 mc.Altherneum.fr.
-```
-
-```
-_minecraft._tcp.opprison
-3600
-SRV
-0 5 25506 mc.Altherneum.fr.
-```
-
-```
-_minecraft._tcp.test
-3600
-SRV
-0 5 25507 test.altherneum.fr
-```
-
-```
 _minecraft._tcp.@
 3600
 SRV
@@ -382,6 +324,62 @@ _minecraft._tcp
 3600
 SRV
 0 5 25500 mc.Altherneum.fr.
+```
+
+```
+_minecraft._tcp.hub
+3600
+SRV
+0 5 25500 mc.Altherneum.fr.
+```
+
+```
+_minecraft._tcp.creatif
+3600
+SRV
+0 5 25501 mc.Altherneum.fr.
+```
+
+```
+_minecraft._tcp.rpg
+3600
+SRV
+0 5 25502 mc.Altherneum.fr.
+```
+
+```
+_minecraft._tcp.skyblock
+3600
+SRV
+0 5 25503 mc.Altherneum.fr.
+```
+
+```
+_minecraft._tcp.anarchie
+3600
+SRV
+0 5 25504 mc.Altherneum.fr.
+```
+
+```
+_minecraft._tcp.survie
+3600
+SRV
+0 5 25505 mc.Altherneum.fr.
+```
+
+```
+_minecraft._tcp.opprison
+3600
+SRV
+0 5 25506 mc.Altherneum.fr.
+```
+
+```
+_minecraft._tcp.test
+3600
+SRV
+0 5 25507 test.altherneum.fr
 ```
 
 ## IP DNS
