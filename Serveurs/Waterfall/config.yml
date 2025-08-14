@@ -15,6 +15,22 @@ listeners:
   force_default_server: false
   forced_hosts: 
     hub.altherneum.fr: hub
+- query_port: 25500
+  motd: §r[ §2§lAltherneum§r.fr §r] §6Test §r! §rAltherneum.fr/§2discord
+  tab_list: GLOBAL_PING
+  query_enabled: true
+  proxy_protocol: false
+  ping_passthrough: true
+  priorities:
+  - test
+  - hub
+  bind_local_address: true
+  host: 0.0.0.0:25507
+  max_players: 0
+  tab_size: 50
+  force_default_server: false
+  forced_hosts: 
+    test.altherneum.fr: test
 - query_port: 25505
   motd: §r[ §2§lAltherneum§r.fr §r] §6Survie §r! §rAltherneum.fr/§2discord
   tab_list: SERVER
