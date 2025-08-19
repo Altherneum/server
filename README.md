@@ -80,20 +80,20 @@ Connectez vous à la page HTTP de votre serveur en tapant l'adresse IP
 - **Mot de passe** complexe définit dans la partie [#Configuration](#Configuration)
 - Utilisation de comptes Microsoft pour se connecter
 ### Ajouter le thème et plugins
-- [altherneum.fr/admin/themes](https://altherneum.fr/admin/themes)
+- [mc.altherneum.fr/admin/themes](https://mc.altherneum.fr/admin/themes)
   - Prism
-- [altherneum.fr/admin/plugins](https://altherneum.fr/admin/plugins)
+- [mc.altherneum.fr/admin/plugins](https://mc.altherneum.fr/admin/plugins)
   - Shop
   - DedipassPayment
 ### Mettre à jour la base de donnée MySQL d'azuriom
 `/scripts/sh/setup.azuriom-db.sh`
 ### Nettoyer le cache
 - Connectez vous au CMS Azuriom
-- Rendez vous dans les paramètres : [altherneum.fr/admin/settings/performance](https://altherneum.fr/admin/settings/performance)
+- Rendez vous dans les paramètres : [mc.altherneum.fr/admin/settings/performance](https://mc.altherneum.fr/admin/settings/performance)
 - Cliquer sur "Vider le cache"
 
 ## Utilisation de PhPMyAdmin
-- [altherneum.fr/phpmyadmin](https://altherneum.fr/phpmyadmin)
+- [mc.altherneum.fr/phpmyadmin](https://mc.altherneum.fr/phpmyadmin)
 - Utilisateur et mot de passe configuré lors de l'installation dans le fichier de [#Configuration](#Configuration)
 
 # Start
