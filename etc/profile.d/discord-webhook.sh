@@ -10,8 +10,8 @@ fi
 
 who="\n  - \`who -swu\` : \`"$(who -swu)"\`";
 pts="\n    - PTS \`"$(who -swu | cut -f 6 -d ' ')"\`";
-date="\n    - Depuis \`"$(who -swu | cut -f 14 -d ' ')"\`";
 hour="\`"$(who -swu | cut -f 15 -d ' ')"\`";
+date="\n    - Depuis \`"$(who -swu | cut -f 14 -d ' ')"\` $hour";
 
 curl --silent -v \
 -H "Content-Type: application/json" \
