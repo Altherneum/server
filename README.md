@@ -68,6 +68,7 @@ chmod +x /setup.sh
 - [Minecraft RCON Password](/Serveurs/SERVERNAME/server.properties) | [exemple](/Serveurs/Hub/server.properties)
 - [Admin account Password](/scripts/sh/setup.system.user.sh)
 - [SSH WebHook](/etc/ssh/sshrc)
+- [profile.d WebHook](/etc/profile.d/discord-webhook.sh)
 
 ## Lancer l'installation
 `/install.sh`
