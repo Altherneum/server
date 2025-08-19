@@ -1,4 +1,3 @@
-
 ip="";
 username="@\`"$USER"\`"
 
