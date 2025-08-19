@@ -48,13 +48,6 @@ chmod +x /scripts/sh/setup.mysql.sh
 service apache2 restart
 #
 
-
-# SSH WebHook
-wget -O /etc/ssh/sshrc 'https://raw.githubusercontent.com/Altherneum/server/main/etc/ssh/sshrc'
-
-# profile.d WebHook
-wget -O /etc/profile.d/discord-webhook.sh 'https://raw.githubusercontent.com/Altherneum/server/main/etc/profile.d/discord-webhook.sh'
-
 # update
 wget -O /update.sh 'https://raw.githubusercontent.com/Altherneum/server/main/update.sh'
 chmod +x /update.sh
