@@ -190,6 +190,19 @@ sudo dpkg -i code-server_${VERSION}_amd64.deb
 Voire le cours sur [screen](/cours/linux#screen)
 
 # Fichiers utiles
+## Dossiers services
+### Discord
+- Utilisateur `discord`
+- Dossier : `/DiscordBot`
+  - Permissions : `d rwx --- ---`
+### Minecraft
+- Utilisateur `minecraft`
+- Dossier : `/Serveurs`
+  - Permissions : `d rwx --- ---`
+### Azuriom
+- Utilisateur `www-data`
+- Dossier : `/var/www/html/`
+  - Permissions : `d rwx r-x r-x`
 ## .bash_history
 - `/home/admin/.bash_history`
 - `/home/vscode/.bash_history`
@@ -205,6 +218,22 @@ Voire le cours sur [screen](/cours/linux#screen)
   - `/var/log/apache2/error.log`
   - `/var/log/apache2/other_vhosts_access.log`
 - SSHD : `/var/log/auth.log`
+- Minecraft :
+  - `/Serveurs/<SERVER_NAME>/logs/latest.log`
+    - Exemple : `/Serveurs/Survie/logs/latest.log`
+- Discord :
+  - Channel URL :
+    - [AutoMod](https://discord.com/channels/1081921426333909072/1081947188722155601)
+    - [Message](https://discord.com/channels/1081921426333909072/1081947413226455163)
+    - [Profile.d](https://discord.com/channels/1081921426333909072/1407394560186912789)
+    - [Web](https://discord.com/channels/1081921426333909072/1332057126155063336)
+  - Data files
+    - `/DiscordBot/Data/<DISCORD_USER_ID>`
+      - Exemple : `/DiscordBot/Data/748530290917638165`
+    - `/DiscordBot/Data/<DATA_BLOCK>`
+      - `/DiscordBot/Data/BanqueRoute`
+      - `/DiscordBot/Data/event`
+      - `/DiscordBot/Data/globalInvites`
 
 # Backup
 ## Map & Spawn backup
