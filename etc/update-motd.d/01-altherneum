@@ -87,6 +87,6 @@ printf "🚩\tMinecraft@Hub\t\t$(systemctl is-enabled minecraft@hub)\t\t$(system
 printf "🚡\tMinecraft@Proxy\t\t$(systemctl is-enabled minecraft@proxy)\t\t$(systemctl check minecraft@proxy)\n"
 printf "🎇\tMinecraft@SkyBlock\t$(systemctl is-enabled minecraft@skyblock)\t\t$(systemctl check minecraft@skyblock)\n"
 printf "🍗\tMinecraft@Survie\t$(systemctl is-enabled minecraft@survie)\t$(systemctl check minecraft@survie)\n"
-printf "🚧\tMinecraft@Test\t\t$(systemctl is-enabled minecraft@test)\t\t$(systemctl check minecraft@test)\n"
+printf "🚧\tMinecraft@Test\t\t$(systemctl is-enabled minecraft@test)\t$(systemctl check minecraft@test)\n"
 
 printf "\n"
