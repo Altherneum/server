@@ -181,3 +181,7 @@ servers:
     motd: §r[ §2§lAltherneum§r.fr §r] §6OPPrison §r!
     address: localhost:25566
     restricted: false
+  test:
+    motd: §r[ §2§lAltherneum§r.fr §r] §6Test §r!
+    address: localhost:25567
+    restricted: false
