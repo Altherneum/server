@@ -3,7 +3,7 @@ hostnamectl set-hostname altherneum.fr
 
 # Update + APT
 apt update
-apt install -y mysql-server phpmyadmin screen vsftpd openjdk-21-jdk curl wget unzip php php-fpm php-mysql php-pgsql php-sqlite3 php-bcmath php-mbstring php-xml php-curl php-zip php-gd apache2 sendmail fail2ban git maven
+apt install -y mysql-server phpmyadmin screen vsftpd openjdk-21-jdk curl wget unzip php php-fpm php-mysql php-pgsql php-sqlite3 php-bcmath php-mbstring php-xml php-curl php-zip php-gd apache2 sendmail sendmail-cf mailutils fail2ban git maven
 
 mkdir -p /scripts/sh
 
