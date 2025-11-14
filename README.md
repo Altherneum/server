@@ -3,7 +3,8 @@ Server configuration files
 
 # Badges
 ![Doc site](https://img.shields.io/website?down_color=red&down_message=offline&style=badge&up_color=green&up_message=online&url=https%3A%2F%2Fdoc.Altherneum.fr)
-![MC site](https://img.shields.io/website?down_color=red&down_message=offline&style=badge&up_color=green&up_message=online&url=https%3A%2F%2Fmc.Altherneum.fr)  
+![MC site](https://img.shields.io/website?down_color=red&down_message=offline&style=badge&up_color=green&up_message=online&url=https%3A%2F%2Fmc.Altherneum.fr)
+
 ![View](https://komarev.com/ghpvc/?username=Altherneum&color=red&label=%F0%9F%91%80)
 ![Discord](https://discordapp.com/api/guilds/1081921426333909072/widget.png)
 
