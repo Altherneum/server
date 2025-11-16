@@ -60,6 +60,7 @@ echo "This is a test email" | sendmail 9j2k37st@gmail.com
 
 # Check SPF : https://mxtoolbox.com/SuperTool.aspx?action=spf
 # Or check syntax with : https://vamsoft.com/support/tools/spf-syntax-validator
+# Or : https://dnschecker.org/#TXT/spf.altherneum.fr
 
 #############################" DKIM "
 # default._domainkey
