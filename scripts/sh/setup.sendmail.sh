@@ -58,19 +58,33 @@ echo "This is a test email" | sendmail 9j2k37st@gmail.com
 # check DKIM : https://mxtoolbox.com/SuperTool.aspx?action=dkim%3aaltherneum.fr%3adefault&run=toolpage
 # And also with : https://dnschecker.org/#TXT/default._domainkey.altherneum.fr
 
+
 # Check SPF : https://mxtoolbox.com/SuperTool.aspx?action=spf
 # Or check syntax with : https://vamsoft.com/support/tools/spf-syntax-validator
 # Or : https://dnschecker.org/#TXT/spf.altherneum.fr
+
 
 #############################" DKIM "
 # default._domainkey
 # 300
 # TXT
 # v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArEKm3c4iVpWbRwK2yoGguBNIeG70zx9NI9H7Z5mjlVXX9gasCnA6pJFoOaw0akQ4mQYf1qpHNs8P6on+mus66M5E1O05g1b6hzDTNMSnc9ZTJZnUBJ+cZbNVa94JD7Lf+aV3E6pveHU2nfO1vMUeiQXNXy1ZTHnA/CyWN6RXaEGNdaRSYbQutK4DxdJozceLxjl9KlhyjdrtyT" "4U3ZyIcUwulTmUYAJrDhhClPOhE6mRvx13dDA0SJiWarma/onuyIRKpCSEioJpp74aDWL1PKUHCKIq+aRX9rJC24rK50Qw1/Z1rJiBD+BPBo3/BM11Jlc25HV3fi9017JeHZL0ywIDAQAB"
-
+# or ? 
+# "v=DKIM1; h=sha256; k=rsa; " "p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArEKm3c4iVpWbRwK2yoGguBNIeG70zx9NI9H7Z5mjlVXX9gasCnA6pJFoOaw0akQ4mQYf1qpHNs8P6on+mus66M5E1O05g1b6hzDTNMSnc9ZTJZnUBJ+cZbNVa94JD7Lf+aV3E6pveHU2nfO1vMUeiQXNXy1ZTHnA/CyWN6RXaEGNdaRSYbQutK4DxdJozceLxjl9KlhyjdrtyT" "4U3ZyIcUwulTmUYAJrDhhClPOhE6mRvx13dDA0SJiWarma/onuyIRKpCSEioJpp74aDWL1PKUHCKIq+aRX9rJC24rK50Qw1/Z1rJiBD+BPBo3/BM11Jlc25HV3fi9017JeHZL0ywIDAQAB"
 
 #############################" SPF "
 # @
 # 3600
 # TXT
 # v=spf1 ip4:45.159.229.139 -all
+
+
+
+
+
+
+# https://wiki.debian.org/opendkim
+
+
+# opendkim-testmsg # test message 
+# opendkim-testkey -v -v # test key & if usable
