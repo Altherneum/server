@@ -438,6 +438,37 @@ A
 CNAME
 Altherneum.fr.
 ```
+
+## Mail DNS
+### DKIM
+```
+default._domainkey
+300
+TXT
+"v=DKIM1; h=sha256; k=rsa; " "p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArEKm3c4iVpWbRwK2yoGguBNIeG70zx9NI9H7Z5mjlVXX9gasCnA6pJFoOaw0akQ4mQYf1qpHNs8P6on+mus66M5E1O05g1b6hzDTNMSnc9ZTJZnUBJ+cZbNVa94JD7Lf+aV3E6pveHU2nfO1vMUeiQXNXy1ZTHnA/CyWN6RXaEGNdaRSYbQutK4DxdJozceLxjl9KlhyjdrtyT" "4U3ZyIcUwulTmUYAJrDhhClPOhE6mRvx13dDA0SJiWarma/onuyIRKpCSEioJpp74aDWL1PKUHCKIq+aRX9rJC24rK50Qw1/Z1rJiBD+BPBo3/BM11Jlc25HV3fi9017JeHZL0ywIDAQAB"
+```
+### SPF
+```
+@
+3600
+TXT
+v=spf1 a mx ip4:45.159.229.139 include:contabo.com ~all
+```
+### DMARC
+```
+_dmarc
+3600
+TXT
+v=DMARC1; p=none; rua=mailto:root@altherneum.fr; adkim=r; aspf=r
+```
+### MX
+```
+@
+3600
+MX
+1 mail
+```
+
 ## Apache2 redirection
 ### Doc.altherneum.fr
 - [altherneum.fr](https://altherneum.fr)
