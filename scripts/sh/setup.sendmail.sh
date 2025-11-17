@@ -33,6 +33,19 @@ echo "MASQUERADE_AS(\`altherneum.fr')dnl" >> /etc/mail/sendmail.mc
 echo "FEATURE(\`masquerade_envelope')dnl" >> /etc/mail/sendmail.mc
 echo "FEATURE(\`masquerade_entire_domain')dnl" >> /etc/mail/sendmail.mc
 
+# Allow recieving mail
+# sed -i "s/DAEMON_OPTIONS(\`Family=inet,  Name=MTA-v4, Port=smtp, Addr=127.0.0.1')dnl/dnl DAEMON_OPTIONS(\`Family=inet,  Name=MTA-v4, Port=smtp, Addr=127.0.0.1')/g" /etc/mail/sendmail.mc
+sed -i "s/DAEMON_OPTIONS(\`Family=inet,  Name=MTA-v4, Port=smtp, Addr=127.0.0.1')dnl/dnl DAEMON_OPTIONS(\`Family=inet,  Name=MTA-v4, Port=smtp')/g" /etc/mail/sendmail.mc
+
+# Add to domain list
+echo "altherneum.fr" >> /etc/mail/local-host-names
+echo "contact.altherneum.fr" >> /etc/mail/local-host-names
+echo "root.altherneum.fr" >> /etc/mail/local-host-names
+echo "admin.altherneum.fr" >> /etc/mail/local-host-names
+
+# regenerate host names
+makemap hash /etc/mail/local-host-names < /etc/mail/local-host-names
+
 # Rebuild configuration
 m4 /etc/mail/sendmail.mc > /etc/mail/sendmail.cf
 
@@ -54,6 +67,27 @@ sudo service sendmail restart
   echo "Cordialement,"
   echo "- L'administrateur d'Altherneum.fr"
 } | /usr/lib/sendmail -t
+
+# Test E-Mail 2
+{           
+  echo "From: Altherneum@altherneum.fr"
+  echo "To: root@altherneum.fr"
+  echo "Subject: Test de réception d'e-mail automatique"
+  echo ""
+  echo "Bonjour,"
+  echo ""
+  echo "Cet e-mail est un test de fonctionnement automatique."
+  echo "Après l'installation du logiciel Linux SendMail, cet e-mail se crée afin de tester l'adresse de l'administrateur et les sécurités DNS (SPF & DKIM)."
+  echo ""
+  echo ""
+  echo "Cordialement,"
+  echo "- L'administrateur d'Altherneum.fr"
+} | /usr/lib/sendmail -t
+
+# Auto redirect mails
+echo "root: 9j2k37st@gmail.com" >> /etc/aliases
+# rebuild aliases
+newaliases
 
 # Test OpenDKIM keys
 # opendkim-testmsg # test message 
