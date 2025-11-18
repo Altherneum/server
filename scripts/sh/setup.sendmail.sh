@@ -54,36 +54,47 @@ m4 /etc/mail/sendmail.mc > /etc/mail/sendmail.cf
 # Restart sendmail
 sudo service sendmail restart
 
-# Test E-Mail
-{           
-  echo "From: Altherneum@altherneum.fr"
-  echo "To: 9j2k37st@gmail.com"
-  echo "Subject: Test de création d'e-mail automatique"
-  echo ""
-  echo "Bonjour,"
-  echo ""
-  echo "Cet e-mail est un test de fonctionnement automatique."
-  echo "Après l'installation du logiciel Linux SendMail, cet e-mail se crée afin de tester l'adresse de l'administrateur et les sécurités DNS (SPF & DKIM)."
-  echo ""
-  echo ""
-  echo "Cordialement,"
-  echo "- L'administrateur d'Altherneum.fr"
+# Test E-Mail 2
+{
+  echo "From: linux@altherneum.fr"
+  echo "To: root@altherneum.fr"
+  echo "Cc: 9j2k37st@gmail.com"
+  echo "Subject: Test de réception d'e-mail automatique"
+  echo "MIME-Version: 1.0"
+  echo "Content-Type: text/html; charset="UTF-8""
+  echo "<br>"
+  echo "<html><body>"
+  echo "<img src="https://doc.altherneum.fr/assets/gif/banner.gif" alt='Banner' style='width: 80%; border-radius: 25px; margin-left: 5%;'>"
+  echo "<br><br>"
+  echo "<h1 style='text-decoration: underline;'>Bonjour</h1>,<br>"
+  echo "Cet e-mail est un <b style='text-decoration: underline;'>test de fonctionnement automatique</b>.<br>"
+  echo "Après l'installation du logiciel Linux <i>SendMail</i>, cet e-mail se crée afin de tester l'adresse de l'administrateur et les sécurités DNS (<i>SPF & DKIM</i>).<br>"
+  echo "<br><br>"
+  echo "Cordialement,<br>"
+  echo "- L'administrateur d'Altherneum.fr<br><br>"
+  echo "<img src="https://doc.altherneum.fr/assets/gif/small.gif" alt='Banner-footer' style='border-radius: 50%; width: 100px;'>"
+  echo "</body></html>"
 } | /usr/lib/sendmail -t
 
 # Test E-Mail 2
-{           
-  echo "From: Altherneum@altherneum.fr"
+{
+  echo "From: root@altherneum.fr"
   echo "To: root@altherneum.fr"
-  echo "Subject: Test de réception d'e-mail automatique"
-  echo ""
-  echo "Bonjour,"
-  echo ""
-  echo "Cet e-mail est un test de fonctionnement automatique."
-  echo "Après l'installation du logiciel Linux SendMail, cet e-mail se crée afin de tester l'adresse de l'administrateur et les sécurités DNS (SPF & DKIM)."
-  echo ""
-  echo ""
-  echo "Cordialement,"
-  echo "- L'administrateur d'Altherneum.fr"
+  echo "Subject: Test de réception d'e-mail automatique - Transfert"
+  echo "MIME-Version: 1.0"
+  echo "Content-Type: text/html; charset="UTF-8""
+  echo "<br>"
+  echo "<html><body>"
+  echo "<img src="https://doc.altherneum.fr/assets/gif/banner.gif" alt='Banner' style='width: 80%; border-radius: 25px; margin-left: 5%;'>"
+  echo "<br><br>"
+  echo "<h1 style='text-decoration: underline;'>Bonjour</h1>,<br>"
+  echo "Cet e-mail est un <b style='text-decoration: underline;'>test de fonctionnement automatique</b>.<br>"
+  echo "Après l'installation du logiciel Linux <i>SendMail</i>, cet e-mail se crée afin de tester l'adresse de l'administrateur et la règle de transfert.<br>"
+  echo "<br><br>"
+  echo "Cordialement,<br>"
+  echo "- L'administrateur d'Altherneum.fr<br><br>"
+  echo "<img src="https://doc.altherneum.fr/assets/gif/small.gif" alt='Banner-footer' style='border-radius: 50%; width: 100px;'>"
+  echo "</body></html>"
 } | /usr/lib/sendmail -t
 
 # Auto redirect mails
