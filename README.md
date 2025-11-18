@@ -468,6 +468,13 @@ v=DMARC1; p=none; rua=mailto:root@altherneum.fr; adkim=r; aspf=r
 MX
 1 mail
 ```
+### mail.altherneum.fr
+```
+mail
+3600
+A
+45.159.229.139
+```
 
 ## Apache2 redirection
 ### Doc.altherneum.fr
