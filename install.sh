@@ -39,6 +39,10 @@ wget -O /scripts/sh/setup.code-server.sh 'https://raw.githubusercontent.com/Alth
 chmod +x /scripts/sh/setup.code-server.sh
 /scripts/sh/setup.code-server.sh
 
+# Sendmail
+wget -O /scripts/sh/setup.sendmail.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.sendmail.sh'
+chmod +x /scripts/sh/setup.sendmail.sh
+/scripts/sh/setup.sendmail.sh
 
 # mysql
 chmod +x /scripts/sh/setup.mysql.sh
