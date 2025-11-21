@@ -34,8 +34,10 @@ chmod +x /install.sh
 #
 wget -O /scripts/sh/setup.system.user.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.system.user.sh'
 chmod +x /scripts/sh/setup.system.user.sh
+
 # SSH WebHook
 wget -O /etc/ssh/sshrc 'https://raw.githubusercontent.com/Altherneum/server/main/etc/ssh/sshrc'
+
 # profile.d Discord WebHook
 wget -O /etc/profile.d/discord-webhook.sh 'https://raw.githubusercontent.com/Altherneum/server/main/etc/profile.d/discord-webhook.sh'
 
