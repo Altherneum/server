@@ -51,6 +51,13 @@ makemap hash /etc/mail/local-host-names < /etc/mail/local-host-names
 # Rebuild configuration
 m4 /etc/mail/sendmail.mc > /etc/mail/sendmail.cf
 
+# Auto redirect mails
+echo "root: 9j2k37st@gmail.com" >> /etc/aliases
+echo "admin: 9j2k37st@gmail.com" >> /etc/aliases
+echo "contact: 9j2k37st@gmail.com" >> /etc/aliases
+# rebuild aliases
+newaliases
+
 # Restart sendmail
 sudo service sendmail restart
 
@@ -96,10 +103,3 @@ sudo service sendmail restart
   echo "<img src="https://doc.altherneum.fr/assets/gif/small.gif" alt='Banner-footer' style='border-radius: 50%; width: 100px;'>"
   echo "</body></html>"
 } | /usr/lib/sendmail -t
-
-# Auto redirect mails
-echo "root: 9j2k37st@gmail.com" >> /etc/aliases
-echo "admin: 9j2k37st@gmail.com" >> /etc/aliases
-echo "contact: 9j2k37st@gmail.com" >> /etc/aliases
-# rebuild aliases
-newaliases
