@@ -40,6 +40,3 @@ wget -O /etc/ssh/sshrc 'https://raw.githubusercontent.com/Altherneum/server/main
 
 # profile.d Discord WebHook
 wget -O /etc/profile.d/discord-webhook.sh 'https://raw.githubusercontent.com/Altherneum/server/main/etc/profile.d/discord-webhook.sh'
-
-# profile.d Mail WebHook
-wget -O /etc/profile.d/mail-smtphook.sh 'https://raw.githubusercontent.com/Altherneum/server/main/etc/profile.d/mail-smtphook.sh'
