@@ -61,7 +61,7 @@ newaliases
 # Restart sendmail
 sudo service sendmail restart
 
-# Test E-Mail 2
+# Test E-Mail
 {
   echo "From: linux@altherneum.fr"
   echo "To: root@altherneum.fr"
