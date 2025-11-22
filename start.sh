@@ -1,4 +1,4 @@
- /Serveurs/DataFolder/start-auto.sh
+/Serveurs/DataFolder/start-auto.sh
 #
 service discord start
 #
