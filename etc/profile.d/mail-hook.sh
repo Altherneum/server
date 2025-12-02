@@ -1,17 +1,23 @@
-# /etc/ssh/sshrc
+ip="";
 
-ip=`echo $SSH_CONNECTION | cut -d " " -f 1`
+if [ -n "$SSH_CLIENT" ]; then
+    ip="\n  - IP \` "$(echo $SSH_CLIENT | cut -f 1 -d ' ')" \`";
+    text="📶 SSH";
+    sender="SSH";
+else
+    text="🖥️ Local";
+    sender="local";
+fi
 
-curl --silent -v \
--H "Content-Type: application/json" \
--X POST \
--d "{\"content\":\"- @ \`$USER\`\n  - IP \`$ip\`\"}" \
-https://discord.com/api/webhooks/0000000000000000000/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa > /dev/null 2>&1
+who="\n  - \` who -swu \` : \` "$(who -swu)" \`";
+pts="\n    - PTS \` "$(who -swu | cut -f 6 -d ' ')" \`";
+hour="\` "$(who -swu | cut -f 14 -d ' ')" \`";
+date="\n    - Depuis \` "$(who -swu | cut -f 13 -d ' ')" \` $hour";
 
 {
-  echo "From: sshrc@altherneum.fr"
+  echo "From: $sender@altherneum.fr"
   echo "To: root@altherneum.fr"
-  echo "Subject: SSHRC - $ip@$USER"
+  echo "Subject: $text - $ip@$USER"
   echo "MIME-Version: 1.0"
   echo "Content-Type: text/html; charset="UTF-8""
   echo "<br>"
@@ -22,6 +28,9 @@ https://discord.com/api/webhooks/0000000000000000000/aaaaaaaaaaaaaaaaaaaaaaaaaaa
   echo "Cet e-mail est un <b style='text-decoration: underline;'>alerte de connexion automatique</b>.<br>"
   echo "<br><br>"
   echo "$ip@$USER"
+  echo "- $who"
+  echo "  - $pts"
+  echo "  - Depuis $date"
   echo "<br><br>"
   echo "Cordialement,<br>"
   echo "- L'administrateur d'Altherneum.fr<br><br>"

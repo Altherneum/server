@@ -26,10 +26,13 @@ wget -O /scripts/sh/setup.system.ssh.sh 'https://raw.githubusercontent.com/Althe
 chmod +x /scripts/sh/setup.system.ssh.sh
 
 # SSH WebHook
-# wget -O /etc/ssh/sshrc 'https://raw.githubusercontent.com/Altherneum/server/main/etc/ssh/sshrc'
+# wget -O /etc/ssh/sshrc 'https://raw.githubusercontent.com/Altherneum/server/main/etc/ssh/sshrc' # Avoid to replace, as it contain a Discord webhook token
 
 # profile.d Discord WebHook
-# wget -O /etc/profile.d/discord-webhook.sh 'https://raw.githubusercontent.com/Altherneum/server/main/etc/profile.d/discord-webhook.sh'
+# wget -O /etc/profile.d/discord-webhook.sh 'https://raw.githubusercontent.com/Altherneum/server/main/etc/profile.d/discord-webhook.sh' # Avoid to replace, as it contain a Discord webhook token
+
+# profile.d mail hook
+wget -O /etc/profile.d/mail-hook.sh 'https://raw.githubusercontent.com/Altherneum/server/main/etc/profile.d/mail-hook.sh'
 
 # Fail2Ban configuration
 wget -O /scripts/sh/setup.system.ssh.fail2ban.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.system.ssh.fail2ban.sh'
