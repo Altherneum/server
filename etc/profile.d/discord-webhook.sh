@@ -13,10 +13,10 @@ pts="\n    - PTS \` "$(who -swu | cut -f 6 -d ' ')" \`";
 hour="\` "$(who -swu | cut -f 14 -d ' ')" \`";
 date="\n    - Depuis \` "$(who -swu | cut -f 13 -d ' ')" \` $hour";
 
-if [ -z "$ip" ]; then
+if [ -n "$ip" ]; then
   networkremote=""
 else
-  networkremote='echo \"$ip- who -swu : $who<br>  - PTS : $pts<br>  - Depuis : $date<br>\"'
+  networkremote="$ip $who $pts $date"
 fi
 
 curl --silent -v \
