@@ -1,7 +1,7 @@
 ip="";
 
 if [ -n "$SSH_CLIENT" ]; then
-    ip="\n  - IP \` "$(echo $SSH_CLIENT | cut -f 1 -d ' ')" \`";
+    ip=$(echo $SSH_CLIENT | cut -f 1 -d ' ');
     text="📶 SSH";
     sender="SSH";
 else
