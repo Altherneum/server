@@ -11,7 +11,7 @@ https://discord.com/api/webhooks/0000000000000000000/aaaaaaaaaaaaaaaaaaaaaaaaaaa
 {
   echo "From: sshrc@altherneum.fr"
   echo "To: root@altherneum.fr"
-  echo "Subject: SSHRC - $ip@$USER"
+  echo "Subject: SSHRC - $ip $USER"
   echo "MIME-Version: 1.0"
   echo "Content-Type: text/html; charset="UTF-8""
   echo "<br>"
@@ -21,7 +21,7 @@ https://discord.com/api/webhooks/0000000000000000000/aaaaaaaaaaaaaaaaaaaaaaaaaaa
   echo "<h1 style='text-decoration: underline;'>Bonjour,</h1><br>"
   echo "Cet e-mail est un <b style='text-decoration: underline;'>alerte de connexion automatique</b>.<br>"
   echo "<br><br>"
-  echo "$ip@$USER<br>"
+  echo "$ip $USER<br>"
   echo "<br><br>"
   echo "Cordialement,<br>"
   echo "- L'administrateur d'Altherneum.fr<br><br>"
