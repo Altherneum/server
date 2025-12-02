@@ -14,6 +14,12 @@ pts=$(who -swu | cut -f 6 -d ' ');
 hour=$(who -swu | cut -f 14 -d ' ');
 date=$(who -swu | cut -f 13 -d ' ')" "$hour;
 
+if [ -z "$ip" ]; then
+  networkremote=""
+else
+  networkremote='echo \"- who -swu : $who<br>  - PTS : $pts<br>  - Depuis : $date<br>\"'
+fi
+
 {
   echo "From: $sender@altherneum.fr"
   echo "To: root@altherneum.fr"
@@ -28,9 +34,7 @@ date=$(who -swu | cut -f 13 -d ' ')" "$hour;
   echo "Cet e-mail est un <b style='text-decoration: underline;'>alerte de connexion automatique</b>.<br>"
   echo "<br><br>"
   echo "$ip@$USER<br>"
-  echo "- who -swu : $who<br>"
-  echo "  - PTS : $pts<br>"
-  echo "  - Depuis : $date<br>"
+  $networkremote
   echo "<br><br>"
   echo "Cordialement,<br>"
   echo "- L'administrateur d'Altherneum.fr<br><br>"
