@@ -1,8 +1,9 @@
 ip="";
-if [ -z "$SUDO_USER" ]; then
+setlogname=$(logname)
+if [ -z "$setlogname" ]; then
   username="@\` "$USER" \`"
 else
-  username="@\` "$SUDO_USER" \` > \` "$USER" \`"
+  username="@\` "$setlogname" \` > \` "$USER" \`"
 fi
 
 if [ -n "$SSH_CLIENT" ]; then
