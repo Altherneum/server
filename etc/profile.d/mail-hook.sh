@@ -1,4 +1,9 @@
 ip="";
+if [ -z "$SUDO_USER" ]; then
+  username="@\` "$USER" \`"
+else
+  username="@\` "$SUDO_USER" \` > \` "$USER" \`"
+fi
 
 if [ -n "$SSH_CLIENT" ]; then
     ip=$(echo $SSH_CLIENT | cut -f 1 -d ' ');
@@ -14,7 +19,7 @@ pts=$(who -swu | cut -f 6 -d ' ');
 hour=$(who -swu | cut -f 14 -d ' ');
 date=$(who -swu | cut -f 13 -d ' ')" "$hour;
 
-if [ -z "$who" ]; then
+if [ -z "$ip" ]; then
   networkremote=""
 else
   networkremote='echo \"- who -swu : $who<br>  - PTS : $pts<br>  - Depuis : $date<br>\"'
@@ -23,7 +28,7 @@ fi
 {
   echo "From: $sender@altherneum.fr"
   echo "To: root@altherneum.fr"
-  echo "Subject: $text - $ip@$USER"
+  echo "Subject: $text - $ip@$username"
   echo "MIME-Version: 1.0"
   echo "Content-Type: text/html; charset="UTF-8""
   echo "<br>"
@@ -33,7 +38,7 @@ fi
   echo "<h1 style='text-decoration: underline;'>Bonjour,</h1><br>"
   echo "Cet e-mail est un <b style='text-decoration: underline;'>alerte de connexion automatique</b>.<br>"
   echo "<br><br>"
-  echo "$ip@$USER<br>"
+  echo "$ip@$username<br>"
   $networkremote
   echo "<br><br>"
   echo "Cordialement,<br>"

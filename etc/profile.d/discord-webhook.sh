@@ -1,5 +1,9 @@
 ip="";
-username="@\` "$USER" \`"
+if [ -z "$SUDO_USER" ]; then
+  username="@\` "$USER" \`"
+else
+  username="@\` "$SUDO_USER" \` > \` "$USER" \`"
+fi
 
 if [ -n "$SSH_CLIENT" ]; then
     ip="\n  - IP \` "$(echo $SSH_CLIENT | cut -f 1 -d ' ')" \`";
@@ -13,7 +17,7 @@ pts="\n    - PTS \` "$(who -swu | cut -f 6 -d ' ')" \`";
 hour="\` "$(who -swu | cut -f 14 -d ' ')" \`";
 date="\n    - Depuis \` "$(who -swu | cut -f 13 -d ' ')" \` $hour";
 
-if [ -z "$who" ]; then
+if [ -z "$ip" ]; then
   networkremote=""
 else
   networkremote="$ip $who $pts $date"
