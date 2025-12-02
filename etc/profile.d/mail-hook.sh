@@ -1,5 +1,10 @@
 ip="";
-setlogname=$(logname)
+
+setlogname=$(ps -o user= $(ps -o ppid= $(ps -o ppid= $PPID)))
+if [ $setlogname == "root" ]; then
+  setlogname=""
+fi
+
 if [ -z "$setlogname" ]; then
   username="@\` "$USER" \`"
 else
