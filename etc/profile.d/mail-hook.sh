@@ -9,10 +9,10 @@ else
     sender="local";
 fi
 
-who="\n  - \` who -swu \` : \` "$(who -swu)" \`";
-pts="\n    - PTS \` "$(who -swu | cut -f 6 -d ' ')" \`";
-hour="\` "$(who -swu | cut -f 14 -d ' ')" \`";
-date="\n    - Depuis \` "$(who -swu | cut -f 13 -d ' ')" \` $hour";
+who=$(who -swu);
+pts=$(who -swu | cut -f 6 -d ' ');
+hour=$(who -swu | cut -f 14 -d ' ');
+date=$(who -swu | cut -f 13 -d ' ')" "$hour;
 
 {
   echo "From: $sender@altherneum.fr"
@@ -28,9 +28,9 @@ date="\n    - Depuis \` "$(who -swu | cut -f 13 -d ' ')" \` $hour";
   echo "Cet e-mail est un <b style='text-decoration: underline;'>alerte de connexion automatique</b>.<br>"
   echo "<br><br>"
   echo "$ip@$USER"
-  echo "- $who"
-  echo "  - $pts"
-  echo "  - Depuis $date"
+  echo "- who -swu : $who"
+  echo "  - PTS : $pts"
+  echo "  - Depuis : $date"
   echo "<br><br>"
   echo "Cordialement,<br>"
   echo "- L'administrateur d'Altherneum.fr<br><br>"
