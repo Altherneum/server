@@ -24,7 +24,7 @@ date=$(who -swu | cut -f 13 -d ' ')" "$hour;
   echo "<html><body>"
   echo "<img src="https://doc.altherneum.fr/assets/gif/banner.gif" alt='Banner' style='width: 80%; border-radius: 25px; margin-left: 5%;'>"
   echo "<br><br>"
-  echo "<h1 style='text-decoration: underline;'>Bonjour</h1>,<br>"
+  echo "<h1 style='text-decoration: underline;'>Bonjour,</h1><br>"
   echo "Cet e-mail est un <b style='text-decoration: underline;'>alerte de connexion automatique</b>.<br>"
   echo "<br><br>"
   echo "$ip@$USER"
