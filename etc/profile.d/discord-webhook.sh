@@ -13,7 +13,7 @@ pts="\n    - PTS \` "$(who -swu | cut -f 6 -d ' ')" \`";
 hour="\` "$(who -swu | cut -f 14 -d ' ')" \`";
 date="\n    - Depuis \` "$(who -swu | cut -f 13 -d ' ')" \` $hour";
 
-if [ -n "$ip" ]; then
+if [ -z "$ip" ]; then
   networkremote=""
 else
   networkremote="$ip $who $pts $date"
