@@ -28,13 +28,13 @@ date=$(who -swu | cut -f 13 -d ' ')" "$hour;
 if [ -z "$ip" ]; then
   networkremote=""
 else
-  networkremote='echo \"- who -swu : $who<br>  - PTS : $pts<br>  - Depuis : $date<br>\"'
+  networkremote="echo - who -swu : $who<br>  - PTS : $pts<br>  - Depuis : $date<br>"
 fi
 
 {
   echo "From: $sender@altherneum.fr"
   echo "To: root@altherneum.fr"
-  echo "Subject: $text - $ip@$username"
+  echo "Subject: $text - $ip $username"
   echo "MIME-Version: 1.0"
   echo "Content-Type: text/html; charset="UTF-8""
   echo "<br>"
@@ -44,7 +44,7 @@ fi
   echo "<h1 style='text-decoration: underline;'>Bonjour,</h1><br>"
   echo "Cet e-mail est un <b style='text-decoration: underline;'>alerte de connexion automatique</b>.<br>"
   echo "<br><br>"
-  echo "$ip@$username<br>"
+  echo "$ip $username<br>"
   $networkremote
   echo "<br><br>"
   echo "Cordialement,<br>"
