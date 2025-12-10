@@ -20,8 +20,8 @@ fi
 
 who="\n  - \` who -swu \` : \` "$(who -swu)" \`";
 pts="\n    - PTS \` "$(who -swu | cut -f 6 -d ' ')" \`";
-hour="\` "$(who -swu | cut -f 14 -d ' ')" \`";
-date="\n    - Depuis \` "$(who -swu | cut -f 13 -d ' ')" \` $hour";
+hour="\` "$(who -swu | cut -f 15 -d ' ')" \`";
+date="\n    - Depuis \` "$(who -swu | cut -f 14 -d ' ')" \` $hour";
 
 if [ -z "$ip" ]; then
   networkremote=""
