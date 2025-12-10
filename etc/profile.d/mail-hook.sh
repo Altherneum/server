@@ -22,8 +22,8 @@ fi
 
 who=$(who -swu);
 pts=$(who -swu | cut -f 6 -d ' ');
-hour=$(who -swu | cut -f 14 -d ' ');
-date=$(who -swu | cut -f 13 -d ' ')" "$hour;
+hour=$(who -swu | cut -f 15 -d ' ');
+date=$(who -swu | cut -f 14 -d ' ')" "$hour;
 
 if [ -z "$ip" ]; then
   networkremote=""
