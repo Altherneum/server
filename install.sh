@@ -20,6 +20,11 @@ wget -O /scripts/sh/setup.system.ssh.fail2ban.sh 'https://raw.githubusercontent.
 chmod +x /scripts/sh/setup.system.ssh.fail2ban.sh
 /scripts/sh/setup.system.ssh.fail2ban.sh
 
+# setup.apache2-sites-available.sh
+wget -O /scripts/sh/setup.apache2-sites-available.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.apache2-sites-available.sh'
+chmod +x /scripts/sh/setup.apache2-sites-available.sh
+/scripts/sh/setup.apache2-sites-available.sh
+
 # azuriom
 wget -O /scripts/sh/setup.azuriom.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.azuriom.sh'
 chmod +x /scripts/sh/setup.azuriom.sh

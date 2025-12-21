@@ -11,10 +11,3 @@ useradd www-data
 chmod -R 755 /var/www/html && chown -R www-data:www-data /var/www/html
 #
 a2enmod rewrite
-#
-wget -O /etc/apache2/sites-available/001.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/apache2/sites-available/001.conf'
-a2ensite 001.conf
-#
-a2dissite 000-default.conf
-#
-service apache2 restart
