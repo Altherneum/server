@@ -214,6 +214,9 @@ Voire le cours sur [screen](/cours/linux#screen)
 - VScode :
   - `/var/log/apache2/vscode.error_log`
   - `/var/log/apache2/vscode.access_log`
+- Forgejo :
+  - `/var/log/apache2/forgejo.error.log`
+  - `/var/log/apache2/forgejo.access_log`
 - Apache2 :
   - `/var/log/apache2/access.log`
   - `/var/log/apache2/error.log`
