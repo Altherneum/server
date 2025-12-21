@@ -507,3 +507,8 @@ A
 - [mc.altherneum.fr](https://mc.altherneum.fr)
 - [minecraft.altherneum.fr](https://minecraft.altherneum.fr)
 - [\* .altherneum.fr](https://\*.altherneum.fr)
+
+### Arch
+- [arch.altherneum.fr](https://arch.altherneum.fr)
+- [archterneum.altherneum.fr](https://archterneum.altherneum.fr)
+- [git.arch.altherneum.fr](https://git.arch.altherneum.fr)
