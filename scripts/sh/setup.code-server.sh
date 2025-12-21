@@ -24,7 +24,7 @@ git config --global user.email "9j2k37st@gmail.com"
 # git config user.email "user.name@email.tld"
 
 # Password file
-password=ABC123!
+password="ABC123!"
 htpasswd -cb /etc/apache2/.htpasswd vscode $password
 
 systemctl restart apache2

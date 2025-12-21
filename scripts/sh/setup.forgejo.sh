@@ -59,8 +59,8 @@ MODE = file
 LEVEL = info
 ROOT_PATH = /var/log/forgejo
 EOF
-chown forgejo:forgejo /etc/forgejo/app.ini
+chown git:git /etc/forgejo/app.ini
 
 # Password file
-password=ABC123!
+password="ABC123!"
 htpasswd -cb /etc/apache2/.htpasswd git $password
