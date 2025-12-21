@@ -25,6 +25,11 @@ wget -O /scripts/sh/setup.apache2-sites-available.sh 'https://raw.githubusercont
 chmod +x /scripts/sh/setup.apache2-sites-available.sh
 /scripts/sh/setup.apache2-sites-available.sh
 
+# setup.apache2-sites-available.sh
+wget -O /scripts/sh/setup.apache2ssl-sites-available.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.apache2ssl-sites-available.sh'
+chmod +x /scripts/sh/setup.apache2ssl-sites-available.sh
+/scripts/sh/setup.apache2ssl-sites-available.sh
+
 # azuriom
 wget -O /scripts/sh/setup.azuriom.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.azuriom.sh'
 chmod +x /scripts/sh/setup.azuriom.sh
