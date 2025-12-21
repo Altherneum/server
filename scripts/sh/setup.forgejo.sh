@@ -9,36 +9,37 @@ FORGEJOFULLFILENAME=$FORGEJOVERSION"/"$FORGEJOFILENAME
 ## Téléchargement
 ### https://forgejo.org/download/
 echo "Downloading : "$FORGEJOFULLFILENAME
-wget -O /tmp/$FORGEJOFILENAME https://code.forgejo.org/forgejo/forgejo/releases/download/$FORGEJOFULLFILENAME
+wget -O /tmp/$FORGEJOVERSIONNAME https://code.forgejo.org/forgejo/forgejo/releases/download/$FORGEJOFULLFILENAME
 
 ## GPG checkup
 gpg --keyserver keys.openpgp.org --recv EB114F5E6C0DC2BCDD183550A4B61A2DC5923710
-wget https://code.forgejo.org/forgejo/forgejo/releases/download/$FORGEJOFULLFILENAME.asc
-gpg --verify /$FORGEJOFILENAME.asc /tmp/$FORGEJOFILENAME
+wget -O /tmp/$FORGEJOVERSIONNAME.asc https://code.forgejo.org/forgejo/forgejo/releases/download/$FORGEJOFULLFILENAME.asc
+gpg --verify /tmp/$FORGEJOVERSIONNAME.asc /tmp/$FORGEJOVERSIONNAME
 ### Vérifier si /$FORGEJOFILENAME.asc to delete or not
 
 ## Copy & chmod
 ### https://forgejo.org/docs/latest/admin/installation/binary/
-cp $FORGEJOFILENAME /usr/local/bin/forgejo
-rm $FORGEJOFILENAME
+cp /tmp/$FORGEJOVERSIONNAME /usr/local/bin/forgejo
+rm $FORGEJOVERSIONNAME
 chmod 755 /usr/local/bin/forgejo
 
 ## User creation
 adduser --system --shell /bin/bash --gecos 'Git Version Control' --group --disabled-password --home /home/git git
 
 ## Folders & chown
-### Forgejo lib
+### lib
 mkdir /var/lib/forgejo
 chown git:git /var/lib/forgejo && chmod 750 /var/lib/forgejo
 ### data & Repo
 mkdir /etc/forgejo
 chown root:git /etc/forgejo && chmod 770 /etc/forgejo
+### log
+mkdir /var/log/forgejo
+chown git:git /var/log/forgejo && chmod 750 /var/log/forgejo
 
 ## SystemD
 wget -O /etc/systemd/system/forgejo.service https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/contrib/systemd/forgejo.service
 systemctl daemon-reload
-systemctl enable forgejo.service
-systemctl start forgejo.service
 
 ## app.ini
 ### https://forgejo.org/docs/latest/admin/config-cheat-sheet/
@@ -64,3 +65,7 @@ chown git:git /etc/forgejo/app.ini
 # Password file
 password="ABC123!"
 htpasswd -cb /etc/apache2/.htpasswd-git git $password
+
+## Start
+systemctl enable forgejo.service
+systemctl start forgejo.service
