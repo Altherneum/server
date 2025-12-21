@@ -63,4 +63,4 @@ chown forgejo:forgejo /etc/forgejo/app.ini
 
 # Password file
 password=ABC123!
-htpasswd -cb /etc/apache2/.htpasswd vscode $password
+htpasswd -cb /etc/apache2/.htpasswd git $password
