@@ -487,8 +487,10 @@ A
 - [info.altherneum.fr](https://info.altherneum.fr)
 
 ### Github.com/altherneum
-- [git.altherneum.fr](https://git.altherneum.fr)
 - [github.altherneum.fr](https://github.altherneum.fr)
+
+### Forgejo
+- [git.altherneum.fr](https://git.altherneum.fr)
 
 ### Code-Server
 - [code.altherneum.fr](https://code.altherneum.fr)
