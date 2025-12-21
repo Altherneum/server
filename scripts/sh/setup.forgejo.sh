@@ -19,6 +19,7 @@ gpg --verify /tmp/$FORGEJOVERSIONNAME.asc /tmp/$FORGEJOVERSIONNAME
 
 ## Copy & chmod
 ### https://forgejo.org/docs/latest/admin/installation/binary/
+### https://forgejo.org/docs/latest/admin/setup/reverse-proxy/
 cp /tmp/$FORGEJOVERSIONNAME /usr/local/bin/forgejo
 rm $FORGEJOVERSIONNAME
 chmod 755 /usr/local/bin/forgejo
