@@ -25,7 +25,7 @@ git config --global user.email "9j2k37st@gmail.com"
 
 # Password file
 password="ABC123!"
-htpasswd -cb /etc/apache2/.htpasswd vscode $password
+htpasswd -cb /etc/apache2/.htpasswd-vscode vscode $password
 
 systemctl restart apache2
 systemctl enable code-server@vscode.service

@@ -63,4 +63,4 @@ chown git:git /etc/forgejo/app.ini
 
 # Password file
 password="ABC123!"
-htpasswd -cb /etc/apache2/.htpasswd git $password
+htpasswd -cb /etc/apache2/.htpasswd-git git $password
