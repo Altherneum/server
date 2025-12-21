@@ -44,6 +44,11 @@ wget -O /scripts/sh/setup.code-server.sh 'https://raw.githubusercontent.com/Alth
 chmod +x /scripts/sh/setup.code-server.sh
 /scripts/sh/setup.code-server.sh
 
+# Forgejo
+wget -O /scripts/sh/setup.forgejo.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.forgejo.sh'
+chmod +x /scripts/sh/setup.forgejo.sh
+/scripts/sh/setup.forgejo.sh
+
 # Sendmail
 wget -O /scripts/sh/setup.sendmail.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.sendmail.sh'
 chmod +x /scripts/sh/setup.sendmail.sh
