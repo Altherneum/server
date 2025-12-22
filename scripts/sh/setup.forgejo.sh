@@ -60,6 +60,12 @@ ROOT = /var/lib/forgejo/data/repositories
 MODE = file
 LEVEL = info
 ROOT_PATH = /var/log/forgejo
+[mailer]
+ENABLED = true
+FROM = git@altherneum.fr
+PROTOCOL = sendmail
+SENDMAIL_PATH = /usr/sbin/sendmail
+SENDMAIL_ARGS = "--"
 EOF
 chown git:git /etc/forgejo/app.ini
 
