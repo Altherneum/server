@@ -87,7 +87,8 @@ printf "💿\tMySQL\t\t\t$(systemctl is-enabled mysql)\t\t$(systemctl check mysq
 
 printf "\n"
 
-printf "💾\tCode-Server\t\t$(systemctl is-enabled code-server@vscode)\t\t$(systemctl check code-server@vscode)\n"
+printf "📝\tCode-Server\t\t$(systemctl is-enabled code-server@vscode)\t\t$(systemctl check code-server@vscode)\n"
+printf "🗃️\tForgejo\t\t\t$(systemctl is-enabled forgejo)\t\t$(systemctl check forgejo)\n"
 
 printf "\n"
 
