@@ -498,6 +498,7 @@ A
 ### Code-Server
 - [code.altherneum.fr](https://code.altherneum.fr)
 - [vscode.altherneum.fr](https://code.altherneum.fr)
+- [3000.code.altherneum.fr](https://3000.code.altherneum.fr) (Live HTML preview server)
 
 ### Youtube.com/watch?v=2zpCOYkdvTQ
 - [windows.altherneum.fr](https://windows.altherneum.fr)
@@ -509,9 +510,15 @@ A
 - [play.altherneum.fr](https://play.altherneum.fr)
 - [mc.altherneum.fr](https://mc.altherneum.fr)
 - [minecraft.altherneum.fr](https://minecraft.altherneum.fr)
-- [\* .altherneum.fr](https://\*.altherneum.fr)
+- [\* .altherneum.fr](https://\*.altherneum.fr) (Any other URL that won't match as wildcard)
 
 ### Arch
 - [arch.altherneum.fr](https://arch.altherneum.fr)
 - [archterneum.altherneum.fr](https://archterneum.altherneum.fr)
 - [git.arch.altherneum.fr](https://git.arch.altherneum.fr)
+
+### KeeWeb
+- [keeweb.altherneum.fr](https://keeweb.altherneum.fr)
+- [keepass.altherneum.fr](https://keepass.altherneum.fr)
+- [keys.altherneum.fr](https://keys.altherneum.fr)
+- [key.altherneum.fr](https://key.altherneum.fr)
