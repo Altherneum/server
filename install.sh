@@ -49,6 +49,11 @@ wget -O /scripts/sh/setup.code-server.sh 'https://raw.githubusercontent.com/Alth
 chmod +x /scripts/sh/setup.code-server.sh
 /scripts/sh/setup.code-server.sh
 
+# KeeWeb
+wget -O /scripts/sh/setup.keeweb.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.code.sh'
+chmod +x /scripts/sh/setup.code.sh
+/scripts/sh/setup.code-server.sh
+
 # Forgejo
 wget -O /scripts/sh/setup.forgejo.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.forgejo.sh'
 chmod +x /scripts/sh/setup.forgejo.sh
