@@ -70,10 +70,10 @@ chmod +x /setup.sh
 - [Admin account Password](/scripts/sh/setup.system.user.sh)
 - [SSH WebHook](/etc/ssh/sshrc)
 - [profile.d Discord WebHook](/etc/profile.d/discord-webhook.sh)
-- [SendMail](/scripts/sh/setup.sendmail.sh)
-- [Code-Server](/scripts/sh/setup.code-server.sh)
-- [Forgejo](/scripts/sh/setup.forgejo.sh)
-- [KeeWeb](/scripts/sh/setup.keeweb.sh)
+- [SendMail](/scripts/sh/setup.sendmail.sh) `/etc/aliases`
+- [Code-Server Apache Password](/scripts/sh/setup.code-server.sh)
+- [Forgejo Apache Password](/scripts/sh/setup.forgejo.sh)
+- [KeeWeb Apache Password](/scripts/sh/setup.keeweb.sh)
 
 ## Lancer l'installation
 `/install.sh`
