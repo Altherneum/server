@@ -106,21 +106,21 @@ printf "🚫\tFail2Ban\t\t$(systemctl is-enabled fail2ban)\t\t$(systemctl check 
 
 printf "\n"
 
-printf "💎\tMinecraft\t\t$(systemctl is-enabled minecraft)\t$(systemctl check minecraft)\n"
+printf "💎\tminecraft\t\t$(systemctl is-enabled minecraft)\t$(systemctl check minecraft)\n"
 
 printf "\n"
 
-printf "☠️\tMinecraft@Anarchie\t$(systemctl is-enabled minecraft@anarchie)\t$(systemctl check minecraft@anarchie)\n"
-printf "🏘️\tMinecraft@Créatif\t$(systemctl is-enabled minecraft@creatif)\t$(systemctl check minecraft@creatif)\n"
-printf "👮\tMinecraft@OPPrison\t$(systemctl is-enabled minecraft@opprison)\t$(systemctl check minecraft@opprison)\n"
-printf "⚔️\tMinecraft@RPG\t\t$(systemctl is-enabled minecraft@rpg)\t$(systemctl check minecraft@rpg)\n"
-printf "🚩\tMinecraft@Hub\t\t$(systemctl is-enabled minecraft@hub)\t\t$(systemctl check minecraft@hub)\n"
-printf "🚡\tMinecraft@Proxy\t\t$(systemctl is-enabled minecraft@proxy)\t\t$(systemctl check minecraft@proxy)\n"
-printf "🎇\tMinecraft@SkyBlock\t$(systemctl is-enabled minecraft@skyblock)\t\t$(systemctl check minecraft@skyblock)\n"
-printf "🍗\tMinecraft@Survie\t$(systemctl is-enabled minecraft@survie)\t\t$(systemctl check minecraft@survie)\n"
+printf "☠️\tminecraft@anarchie\t$(systemctl is-enabled minecraft@anarchie)\t$(systemctl check minecraft@anarchie)\n"
+printf "🏘️\tminecraft@créatif\t$(systemctl is-enabled minecraft@creatif)\t$(systemctl check minecraft@creatif)\n"
+printf "👮\tminecraft@opprison\t$(systemctl is-enabled minecraft@opprison)\t$(systemctl check minecraft@opprison)\n"
+printf "⚔️\tminecraft@rpg\t\t$(systemctl is-enabled minecraft@rpg)\t$(systemctl check minecraft@rpg)\n"
+printf "🚩\tminecraft@hub\t\t$(systemctl is-enabled minecraft@hub)\t\t$(systemctl check minecraft@hub)\n"
+printf "🚡\tminecraft@proxy\t\t$(systemctl is-enabled minecraft@proxy)\t\t$(systemctl check minecraft@proxy)\n"
+printf "🎇\tminecraft@skyblock\t$(systemctl is-enabled minecraft@skyblock)\t\t$(systemctl check minecraft@skyblock)\n"
+printf "🍗\tminecraft@survie\t$(systemctl is-enabled minecraft@survie)\t\t$(systemctl check minecraft@survie)\n"
 
 printf "\n"
 
-printf "🚧\tMinecraft@Test\t\t$(systemctl is-enabled minecraft@test)\t\t$(systemctl check minecraft@test)\n"
+printf "🚧\tminecraft@Test\t\t$(systemctl is-enabled minecraft@test)\t\t$(systemctl check minecraft@test)\n"
 
 printf "\n"
