@@ -98,7 +98,15 @@ printf "💿\tMySQL\t\t\t$(systemctl is-enabled mysql)\t\t$(systemctl check mysq
 printf "\n"
 
 printf "📝\tCode-Server\t\t$(systemctl is-enabled code-server@vscode)\t\t$(systemctl check code-server@vscode)\n"
-printf "🗃️\tForgejo\t\t\t$(systemctl is-enabled forgejo)\t\t$(systemctl check forgejo)\n"
+
+printf "\n"
+
+printf "🐋\tdocker\t\t$(systemctl is-enabled docker)\t\t$(systemctl check docker)\n"
+
+printf "\n"
+
+printf "🗃️\tforgejo\t\t\t$(systemctl is-enabled forgejo)\t\t$(systemctl check forgejo)\n"
+printf "🛠️\tforgejo-runner\t\t\t$(systemctl is-enabled forgejo-runner)\t\t$(systemctl check forgejo-runner)\n"
 
 printf "\n"
 
