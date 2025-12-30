@@ -1,4 +1,5 @@
 # Forgejo actions
+## https://forgejo.org/docs/next/admin/actions/runner-installation/#starting-the-runner
 ## Variables
 ARCH=$(uname -m | sed 's/x86_64/amd64/;s/aarch64/arm64/')
 RUNNER_VERSION=$(curl -X 'GET' https://data.forgejo.org/api/v1/repos/forgejo/runner/releases/latest | jq .name -r | cut -c 2-)
