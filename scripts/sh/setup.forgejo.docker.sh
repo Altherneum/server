@@ -24,6 +24,7 @@ apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker
 
 ## Start & check docker
 systemctl start docker
+systemctl enable docker
 systemctl status docker
 
 ## Test docker install
