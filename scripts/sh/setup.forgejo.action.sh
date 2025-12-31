@@ -31,10 +31,6 @@ useradd --create-home runner
 ### Docker user
 usermod -aG docker runner
 
-# ---------------------------------------
-## Stoped here
-## Every line before has been ran already
-
 ## Switch to runner
 sudo su runner
 whoami
@@ -43,8 +39,8 @@ pwd
 
 ## Register
 TOKEN=""
-### Set this token with https://git.altherneum.fr/user/settings/actions/runners
-forgejo-runner register --no-interactive --token $TOKEN --name self-hosted --instance http://127.0.0.1:3003
+### Set this token with https://git.altherneum.fr/admin/actions/runners
+forgejo-runner register --no-interactive --token $TOKEN --name self-hosted --instance http://127.0.0.1:3003 --labels ubuntu-latest:docker://ubuntu:22.04,docker:docker://node:20-bookworm
 
 ## Leave runner account & go back to root
 exit
@@ -52,7 +48,14 @@ exit
 ## Add SystemD service
 wget -O /etc/systemd/system/forgejo-runner.service https://code.forgejo.org/forgejo/runner/raw/branch/main/contrib/forgejo-runner.service
 
+## forgejo-runner configuration
+mkdir -p /etc/forgejo-runner
+forgejo-runner generate-config > /etc/forgejo-runner/runner.yaml
+
 ## Start with systemD
 systemctl start forgejo-runner
 systemctl enable forgejo-runner
 systemctl status forgejo-runner
+
+## Docker in docker install
+#/scripts/sh/setup.forgejo.dockerindocker.sh
