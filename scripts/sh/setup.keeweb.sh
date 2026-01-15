@@ -46,5 +46,18 @@ EOF
 chown -R www-data:www-data /var/www/keeweb
 chmod 644 /var/www/keeweb/config.json
 
+# Fix icons # See : https://github.com/keeweb/keeweb/issues/1315#issuecomment-3752937692
+## Renaming the folder to a unique name
+mv /var/www/keeweb/icons/ /var/www/keeweb/keeweb-icons
+
+## Update each reference from /icons to /keeweb-icons
+sed -i 's/"keweb-icons\//"keeweb-icons\//g' /var/www/keeweb/manifest.json
+
+## Update reference for BrowserConfig
+sed -i 's/"\/icons\//"\/keeweb-icons\//g' /var/www/keeweb/browserconfig.xml
+
+## Update the index.html
+sed -i 's/"icons\//"keeweb-icons\//g' /var/www/keeweb/index.html 
+
 ## Reload Apache
 systemctl reload apache2
