@@ -51,6 +51,8 @@ wget -O /etc/systemd/system/forgejo-runner.service https://code.forgejo.org/forg
 ## forgejo-runner configuration
 mkdir -p /etc/forgejo-runner
 forgejo-runner generate-config > /etc/forgejo-runner/runner.yaml
+### Add `network: "host"` to the container
+sed -i 's/network: \"\"/network: \"host\"/' /etc/forgejo-runner/runner.yaml
 
 ## Start with systemD
 systemctl start forgejo-runner
