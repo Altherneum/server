@@ -47,10 +47,16 @@ systemctl daemon-reload
 tee /etc/forgejo/app.ini >/dev/null <<EOF
 [server]
 DOMAIN = git.altherneum.fr
-HTTP_ADDR = 127.0.0.1
+HTTP_ADDR = 0.0.0.0
 HTTP_PORT = 3003
 ROOT_URL = https://git.altherneum.fr/
 APP_DATA_PATH = /var/lib/forgejo/data
+SSH_DOMAIN = git.altherneum.fr
+DISABLE_SSH = true
+SSH_PORT = 22
+DISABLE_HTTP_GIT = false
+LFS_START_SERVER = true
+OFFLINE_MODE = true
 [database]
 DB_TYPE = sqlite3
 PATH = /var/lib/forgejo/data/forgejo.db
@@ -66,6 +72,28 @@ FROM = git@altherneum.fr
 PROTOCOL = sendmail
 SENDMAIL_PATH = /usr/sbin/sendmail
 SENDMAIL_ARGS = "--"
+[lfs]
+PATH = /var/lib/forgejo/data/lfs
+[service]
+REGISTER_EMAIL_CONFIRM = true
+ENABLE_NOTIFY_MAIL = true
+DISABLE_REGISTRATION = true
+ALLOW_ONLY_EXTERNAL_REGISTRATION = false
+ENABLE_CAPTCHA = false
+REQUIRE_SIGNIN_VIEW = false
+DEFAULT_KEEP_EMAIL_PRIVATE = false
+DEFAULT_ALLOW_CREATE_ORGANIZATION = true
+DEFAULT_ENABLE_TIMETRACKING = true
+NO_REPLY_ADDRESS = noreply.git.altherneum.fr
+[openid]
+ENABLE_OPENID_SIGNIN = true
+ENABLE_OPENID_SIGNUP = true
+[cron.update_checker]
+ENABLED = true
+[session]
+PROVIDER = file
+
+
 EOF
 chown git:git /etc/forgejo/app.ini
 
