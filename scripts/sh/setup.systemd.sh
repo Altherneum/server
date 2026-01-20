@@ -12,6 +12,9 @@ wget -O /etc/systemd/system/minecraft@rpg.service 'https://raw.githubusercontent
 wget -O /etc/systemd/system/minecraft@skyblock.service 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/minecraft@skyblock.service'
 wget -O /etc/systemd/system/minecraft@survie.service 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/minecraft@survie.service'
 wget -O /etc/systemd/system/minecraft@test.service 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/minecraft@test.service'
+# forgejo & runner services
+wget -O /etc/systemd/system/forgejo.service 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/forgejo.service'
+wget -O /etc/systemd/system/forgejo-runner.service 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/forgejo-runner.service'
 
 # Show service unit
 # systemctl list-unit-files --type=service
@@ -29,6 +32,10 @@ systemctl enable minecraft@proxy
 systemctl enable minecraft@skyblock
 systemctl enable minecraft@survie
 systemctl enable minecraft@test
+#
+systemctl enable forgejo
+systemctl enable forgejo-runner
+
 
 # Check is service is enabled
 # systemctl is-enabled minecraft
@@ -43,5 +50,8 @@ systemctl is-enabled minecraft@proxy
 systemctl is-enabled minecraft@skyblock
 systemctl is-enabled minecraft@survie
 systemctl is-enabled minecraft@test
+#
+systemctl is-enable forgejo
+systemctl is-enable forgejo-runner
 
 systemctl daemon-reload

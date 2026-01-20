@@ -39,7 +39,8 @@ mkdir /var/log/forgejo
 chown git:git /var/log/forgejo && chmod 750 /var/log/forgejo
 
 ## SystemD
-wget -O /etc/systemd/system/forgejo.service https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/contrib/systemd/forgejo.service
+# wget -O /etc/systemd/system/forgejo.service https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/contrib/systemd/forgejo.service
+wget -O /etc/systemd/system/forgejo.service 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/forgejo.service'
 systemctl daemon-reload
 
 ## app.ini

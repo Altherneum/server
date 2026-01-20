@@ -46,7 +46,8 @@ forgejo-runner register --no-interactive --token $TOKEN --name self-hosted --ins
 exit
 
 ## Add SystemD service
-wget -O /etc/systemd/system/forgejo-runner.service https://code.forgejo.org/forgejo/runner/raw/branch/main/contrib/forgejo-runner.service
+# wget -O /etc/systemd/system/forgejo-runner.service https://code.forgejo.org/forgejo/runner/raw/branch/main/contrib/forgejo-runner.service
+wget -O /etc/systemd/system/forgejo-runner.service 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/forgejo-runner.service'
 
 ## forgejo-runner configuration
 mkdir -p /etc/forgejo-runner
