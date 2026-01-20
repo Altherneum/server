@@ -54,6 +54,7 @@ mkdir -p /etc/forgejo-runner
 forgejo-runner generate-config > /etc/forgejo-runner/runner.yaml
 ### Add `network: "host"` to the container
 sed -i 's/network: \"\"/network: \"host\"/' /etc/forgejo-runner/runner.yaml
+sed -i 's/options:/options: --add-host=git.altherneum.fr:127.0.0.1/' /etc/forgejo-runner/runner.yaml
 
 ## Start with systemD
 systemctl start forgejo-runner
