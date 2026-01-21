@@ -499,6 +499,7 @@ A
 
 ### Forgejo
 - [git.altherneum.fr](https://git.altherneum.fr)
+- [repo.altherneum.fr](https://repo.altherneum.fr)
 
 ### Code-Server
 - [code.altherneum.fr](https://code.altherneum.fr)
@@ -515,7 +516,6 @@ A
 - [play.altherneum.fr](https://play.altherneum.fr)
 - [mc.altherneum.fr](https://mc.altherneum.fr)
 - [minecraft.altherneum.fr](https://minecraft.altherneum.fr)
-- [\* .altherneum.fr](https://\*.altherneum.fr) (Any other URL that won't match as wildcard)
 
 ### Arch
 - [arch.altherneum.fr](https://arch.altherneum.fr)
@@ -527,3 +527,17 @@ A
 - [keepass.altherneum.fr](https://keepass.altherneum.fr)
 - [keys.altherneum.fr](https://keys.altherneum.fr)
 - [key.altherneum.fr](https://key.altherneum.fr)
+
+### Brave
+#### Brave Search
+- [search.altherneum.fr](https://search.altherneum.fr)
+- [lost.altherneum.fr](https://lost.altherneum.fr)
+- [\* .altherneum.fr](https://*.altherneum.fr) : [# Wildcard](#wildcard)
+#### Brave Ask
+- [ask.altherneum.fr](https://ask.altherneum.fr)
+- [ai.altherneum.fr](https://ai.altherneum.fr)
+- [ia.altherneum.fr](https://ia.altherneum.fr)
+
+### Wildcard
+- [\* .altherneum.fr](https://\*.altherneum.fr) (Toutes les URLs ne respectant pas les condtions au dessus)
+  - Redirection : [search.brave.com](https://search.brave.com/)
