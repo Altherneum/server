@@ -73,6 +73,7 @@ chmod +x /setup.sh
 - [SendMail](/scripts/sh/setup.sendmail.sh) `/etc/aliases`
 - [Code-Server Apache Password](/scripts/sh/setup.code-server.sh)
 - [Forgejo Apache Password](/scripts/sh/setup.forgejo.sh)
+  - [Forgejo action runner token](/scripts/sh/setup.forgejo.action.sh)
 - [KeeWeb Apache Password](/scripts/sh/setup.keeweb.sh)
 
 ## Lancer l'installation
