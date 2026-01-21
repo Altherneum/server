@@ -1,6 +1,3 @@
-# Altherneum.fr server
-Server configuration files
-
 # Badges
 ![Doc site](https://img.shields.io/website?down_color=red&down_message=offline&style=badge&up_color=green&up_message=online&url=https%3A%2F%2Fdoc.Altherneum.fr)
 ![MC site](https://img.shields.io/website?down_color=red&down_message=offline&style=badge&up_color=green&up_message=online&url=https%3A%2F%2Fmc.Altherneum.fr)
@@ -37,11 +34,16 @@ Server configuration files
 ![Org followers](https://img.shields.io/github/followers/Altherneum?color=red&style=badge)
 ![Org sponsors](https://img.shields.io/github/sponsors/Altherneum?color=red)
 
-# Liens
+# server
+- Server configuration files
+
+# Github
 - [Repository](https://github.com/Altherneum/server)
 - [Tableau](https://github.com/orgs/Altherneum/projects/5/)
 - [Issues](https://github.com/Altherneum/server/issues)
 - [Commits](https://github.com/Altherneum/server/commits/main)
+
+- Git origin : [git.altherneum.fr/altherneum/](git.altherneum.fr/altherneum/)
 
 # Applications
 - Liste des repo d'applications rattachés [github.com /.github /profile /README.md #libs-externes](https://github.com/Altherneum/.github/blob/main/profile/README.md#libs-externes)
