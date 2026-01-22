@@ -101,12 +101,12 @@ printf "📝\tCode-Server\t\t$(systemctl is-enabled code-server@vscode)\t\t$(sys
 
 printf "\n"
 
-printf "🐋\tdocker\t\t$(systemctl is-enabled docker)\t\t$(systemctl check docker)\n"
+printf "🐋\tdocker\t\t\t$(systemctl is-enabled docker)\t\t$(systemctl check docker)\n"
 
 printf "\n"
 
 printf "🗃️\tforgejo\t\t\t$(systemctl is-enabled forgejo)\t\t$(systemctl check forgejo)\n"
-printf "🛠️\tforgejo-runner\t\t\t$(systemctl is-enabled forgejo-runner)\t\t$(systemctl check forgejo-runner)\n"
+printf "🛠️\tforgejo-runner\t\t$(systemctl is-enabled forgejo-runner)\t\t$(systemctl check forgejo-runner)\n"
 
 printf "\n"
 
@@ -125,7 +125,7 @@ printf "⚔️\tminecraft@rpg\t\t$(systemctl is-enabled minecraft@rpg)\t$(system
 printf "🚩\tminecraft@hub\t\t$(systemctl is-enabled minecraft@hub)\t\t$(systemctl check minecraft@hub)\n"
 printf "🚡\tminecraft@proxy\t\t$(systemctl is-enabled minecraft@proxy)\t\t$(systemctl check minecraft@proxy)\n"
 printf "🎇\tminecraft@skyblock\t$(systemctl is-enabled minecraft@skyblock)\t\t$(systemctl check minecraft@skyblock)\n"
-printf "🍗\tminecraft@survie\t$(systemctl is-enabled minecraft@survie)\t\t$(systemctl check minecraft@survie)\n"
+printf "🍗\tminecraft@survie\t$(systemctl is-enabled minecraft@survie)\t$(systemctl check minecraft@survie)\n"
 
 printf "\n"
 
