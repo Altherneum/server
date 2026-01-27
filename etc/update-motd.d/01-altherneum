@@ -92,6 +92,16 @@ fail2ban-client status env
 
 printf "\n"
 
+printf "🚨\tFail2Ban\t👮\t401\n"
+fail2ban-client status 401
+
+printf "\n"
+
+printf "🚨\tFail2Ban\t👮\t405\n"
+fail2ban-client status 405
+
+printf "\n"
+
 printf "🚧\tServices\t\t⚡\t\t💤\n"
 printf "☎️\tDiscord\t\t\t$(systemctl is-enabled discord)\t\t$(systemctl check discord)\n"
 
