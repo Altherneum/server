@@ -10,6 +10,7 @@ wget -O /etc/fail2ban/jail.d/keeweb.conf 'https://raw.githubusercontent.com/Alth
 wget -O /etc/fail2ban/jail.d/404.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/jail.d/404.conf'
 wget -O /etc/fail2ban/jail.d/env.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/jail.d/env.conf'
 wget -O /etc/fail2ban/jail.d/405.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/jail.d/405.conf'
+wget -O /etc/fail2ban/jail.d/401.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/jail.d/401.conf'
 
 # Filter
 ## SSHD filter exist by default
@@ -17,6 +18,7 @@ wget -O /etc/fail2ban/filter.d/apache2auth.conf 'https://raw.githubusercontent.c
 wget -O /etc/fail2ban/filter.d/apache2error.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/filter.d/apache2error.conf'
 wget -O /etc/fail2ban/filter.d/apache2env.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/filter.d/apache2env.conf'
 wget -O /etc/fail2ban/filter.d/apache2notallowed.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/filter.d/apache2notallowed.conf'
+wget -O /etc/fail2ban/filter.d/apache2unauthorized.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/filter.d/apache2unauthorized.conf'
 
 # Relancer Fail2Ban pour appliquer les changements
 systemctl restart fail2ban
