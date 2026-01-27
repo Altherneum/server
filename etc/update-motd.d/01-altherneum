@@ -82,6 +82,11 @@ fail2ban-client status forgejo
 
 printf "\n"
 
+printf "🚨\tFail2Ban\t👮\t404\n"
+fail2ban-client status 404
+
+printf "\n"
+
 printf "🚧\tServices\t\t⚡\t\t💤\n"
 printf "☎️\tDiscord\t\t\t$(systemctl is-enabled discord)\t\t$(systemctl check discord)\n"
 
