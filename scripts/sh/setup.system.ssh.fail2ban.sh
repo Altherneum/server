@@ -30,3 +30,4 @@ fail2ban-client status forgejo
 fail2ban-client status keeweb
 
 fail2ban-client status 404
+fail2ban-client status env
