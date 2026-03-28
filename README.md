@@ -50,6 +50,12 @@
 - Liste des librairies utilisés dans les applications [github.com /Altherneum /.github /profile /README.md #repo](https://github.com/Altherneum/.github/blob/main/profile/README.md#repo)
 
 # Setup
+## Préparation du DNS
+- Créer la zone DNS : [DNS routing](#DNS-routing)
+## Préparation du VPS
+- Créer un VPS
+  - Obtenir l'adresse IP
+  - Obtenir le mot de passe
 ## Se connecter
 - `ssh root@altherneum.fr`
 - Valider avec le mot de passe
@@ -75,8 +81,12 @@ chmod +x /setup.sh
 - [SendMail](/scripts/sh/setup.sendmail.sh) `/etc/aliases`
 - [Code-Server Apache Password](/scripts/sh/setup.code-server.sh)
 - [Forgejo Apache Password](/scripts/sh/setup.forgejo.sh)
+  - Une fois Forgejo installé 
+    - Créer les repository (Cloner ou mirror)
+    - Créer un jeton sur l'interface pour forgejo runner
   - [Forgejo action runner token](/scripts/sh/setup.forgejo.action.sh)
 - [KeeWeb Apache Password](/scripts/sh/setup.keeweb.sh)
+  - Déplacer une base `.kdbx` vers `/webdav/kdbx.kdbx`
 
 ## Lancer l'installation
 `/install.sh`
