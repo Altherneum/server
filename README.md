@@ -52,10 +52,33 @@
 # Setup
 ## Préparation du DNS
 - Créer la zone DNS : [DNS routing](#DNS-routing)
+
 ## Préparation du VPS
 - Créer un VPS
   - Obtenir l'adresse IP
   - Obtenir le mot de passe
+
+## Préparation du bot Discord
+- Créer un bot Discord sur [discord.com /developers /applications](https://discord.com/developers/applications)
+- Changez le nom, photo, description, et tags dans `discord.com/developers/applications/<APP_ID>/information`
+- Ensuite rendez-vous dans `discord.com/developers/applications/<APP_ID>/bot`
+  - Ajouter `Presence Intent`, `Server Members Intent`, `Message Content Intent`
+  - Copiez le token / jeton
+    - Via `Réinitialiser le token` 
+    - `Pour des raisons de sécurité, les tokens ne peuvent être consultés qu'une seule fois [...], merci d'en régénérer un nouveau.`
+- Puis dans `discord.com/developers/applications/<APP_ID>/oauth2`
+  - `Champs d'application` : Ajoutez `bot`
+  - `Permissions du bot` : Ajoutez `Administrateur` ou rien suivant le type de bot
+- Copiez l'URL généré, exemple : `discord.com/oauth2/authorize?client_id=<APP_ID>&permissions=0&integration_type=0&scope=bot` pour ajouter le bot sur un serveur
+- Retournez au besoin une fois fini dans `discord.com/developers/applications/<APP_ID>/bot` pour retirer `Bot public` afin de le rendre privé
+### Description à copier
+```
+:globe_with_meridians: https://Altherneum.fr
+:globe_with_meridians: https://doc.Altherneum.fr
+:trident: https://doc.Altherneum.fr/discord
+:video_game: mc.Altherneum.fr
+```
+
 ## Se connecter
 - `ssh root@altherneum.fr`
 - Valider avec le mot de passe
