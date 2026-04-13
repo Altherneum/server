@@ -1,51 +1,51 @@
 # Apache
-systemctl apache2 enable
-systemctl apache2 start
+systemctl enable apache2
+systemctl start apache2
 
 # mySQL
-systemctl mysql enable
-systemctl mysql start
+systemctl enable mysql
+systemctl start mysql
 
 # Discord
-systemctl discord enable
-systemctl discord start
+systemctl enable discord
+systemctl start discord
 
 # Code-Server
-systemctl code-server@vscode enable
-systemctl code-server@vscode start
+systemctl enable code-server@vscode
+systemctl start code-server@vscode
 
 # fail2ban
-systemctl fail2ban enable
-systemctl fail2ban start
+systemctl enable fail2ban
+systemctl start fail2ban
 
 # SendMail
-systemctl sendmail enable
-systemctl sendmail start
+systemctl enable sendmail
+systemctl start sendmail
 
 # OpenDKIM
-systemctl opendkim enable
-systemctl opendkim start
+systemctl enable opendkim
+systemctl start opendkim
 
 # Forgejo
-systemctl forgejo enable
-systemctl forgejo start
+systemctl enable forgejo
+systemctl start forgejo
 # Forgejo-Runner
-systemctl forgejo-runner start
-systemctl forgejo-runner enable
+systemctl start forgejo-runner
+systemctl enable forgejo-runner
 
 # Docker
-systemctl docker enable
-systemctl docker start
+systemctl enable docker
+systemctl start docker
 
 # Minecraft
-# service minecraft start
+# systemctl start minecraft
 #
-# service minecraft@anarchie start
-# service minecraft@creatif start
-service minecraft@hub start
-# service minecraft@opprison start
-service minecraft@proxy start
-# service minecraft@rpg start
-service minecraft@skyblock start
-# service minecraft@survie start
-# service minecraft@test start
+# systemctl start minecraft@anarchie
+# systemctl start minecraft@creatif
+systemctl start minecraft@hub
+# systemctl start minecraft@opprison
+systemctl start minecraft@proxy
+# systemctl start minecraft@rpg
+systemctl start minecraft@skyblock
+# systemctl start minecraft@survie
+# systemctl start minecraft@test
