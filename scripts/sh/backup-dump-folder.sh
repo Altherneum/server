@@ -5,4 +5,6 @@ folderPATH=$2
 backupPATH=$3
 # backupPATH=/tmp/backup
 
+mkdir -p $backupPATH
+
 tar czf $backupPATH/$folderNAME.tar.gz $folderPATH/$folderNAME
