@@ -1,30 +1,51 @@
 # Apache
-service apache2 enable ; service apache2 start
+systemctl apache2 enable
+systemctl apache2 start
 
 # mySQL
-service mysql enable ; service mysql start
+systemctl mysql enable
+systemctl mysql start
 
 # Discord
-service discord enable ; service discord start
+systemctl discord enable
+systemctl discord start
 
 # Code-Server
-service code-server@vscode enable ; service code-server@vscode start
+systemctl code-server@vscode enable
+systemctl code-server@vscode start
 
 # fail2ban
-service fail2ban enable ; service fail2ban start
+systemctl fail2ban enable
+systemctl fail2ban start
 
 # SendMail
-service sendmail enable ; service sendmail start
+systemctl sendmail enable
+systemctl sendmail start
 
 # OpenDKIM
-service opendkim enable ; service opendkim start
+systemctl opendkim enable
+systemctl opendkim start
 
 # Forgejo
-service forgejo enable ; service forgejo start
-service forgejo-runner start ; service forgejo-runner enable
+systemctl forgejo enable
+systemctl forgejo start
+# Forgejo-Runner
+systemctl forgejo-runner start
+systemctl forgejo-runner enable
 
 # Docker
-service docker enable ; service docker start
+systemctl docker enable
+systemctl docker start
 
 # Minecraft
-/Serveurs/DataFolder/start-auto.sh
+# service minecraft start
+#
+# service minecraft@anarchie start
+# service minecraft@creatif start
+service minecraft@hub start
+# service minecraft@opprison start
+service minecraft@proxy start
+# service minecraft@rpg start
+service minecraft@skyblock start
+# service minecraft@survie start
+# service minecraft@test start
