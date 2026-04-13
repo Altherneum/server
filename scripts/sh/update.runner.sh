@@ -99,7 +99,13 @@ chmod +x /scripts/sh/backup-dump-repo.sh
 ## backup manager
 wget -O /scripts/sh/backup-manager.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/backup-manager.sh'
 chmod +x /scripts/sh/backup-manager.sh
+/scripts/sh/backup-manager.sh /tmp/backup
 
-# Purge backup & redo them
-# rm -rf /tmp/backup/
-# /scripts/sh/backup-manager.sh /tmp/backup
+# Importer
+## code-server import
+wget -O /scripts/sh/setup.code-server.backup.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.code-server.backup.sh'
+chmod +x /scripts/sh/setup.code-server.backup.sh
+
+## forgejo import
+wget -O /scripts/sh/setup.forgejo.backup.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.forgejo.backup.sh'
+chmod +x /scripts/sh/setup.forgejo.backup.sh

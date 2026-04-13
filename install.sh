@@ -76,3 +76,7 @@ service apache2 restart
 wget -O /update.sh 'https://raw.githubusercontent.com/Altherneum/server/main/update.sh'
 chmod +x /update.sh
 /update.sh
+
+# Dump code & repos from backup
+/scripts/sh/setup.forgejo.backup.sh
+/scripts/sh/setup.code-server.backup.sh

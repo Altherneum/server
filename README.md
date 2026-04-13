@@ -104,13 +104,16 @@ chmod +x /setup.sh
 - [SendMail](/scripts/sh/setup.sendmail.sh) `/etc/aliases`
 - [Code-Server Apache Password](/scripts/sh/setup.code-server.sh)
 - [Forgejo Apache Password](/scripts/sh/setup.forgejo.sh)
-  - Une fois Forgejo installé 
-    - Créer les repository (Cloner ou mirror)
+  - Une fois Forgejo installé
+    - ~~Créer les repository (Cloner ou mirror)~~
     - Créer un jeton sur l'interface pour forgejo runner
-  - [Forgejo action runner token](/scripts/sh/setup.forgejo.action.sh)
+      - [Forgejo action runner token](/scripts/sh/setup.forgejo.action.sh)
 - [KeeWeb Apache Password](/scripts/sh/setup.keeweb.sh)
   - Déplacer une base `.kdbx` vers `/webdav/kdbx.kdbx`
-
+- Déplacer le dossier `backup` `/tmp/backup/`
+  - Obtenu via `/scripts/sh/backup-manager.sh`
+  - Permet d'installer les repos sur Forgejo
+  - Permet d'ajouter les repos sur Code-Server
 ## Lancer l'installation
 `/install.sh`
 
@@ -290,10 +293,10 @@ Voire le cours sur [screen](/cours/linux#screen)
 - Commit et Push le changement de fichier dans le repo ![image](https://raw.githubusercontent.com/Altherneum/.github/70ba87580c2dda3f66302a4e50382cf76920753b/note/assets/images/brave_iglXKRSD96.png)
 
 ## Backup manager
-- `/scripts/sh/backup-manager.sh`
-  - Copie les repository via `forgejo` `dump-repo`
+- `/scripts/sh/backup-manager.sh` via `root`, ou `sudo /scripts/sh/backup-manager.sh`
+  - Copie les repository via `forgejo dump`
   - Copie les dossiers importants (`/Serveurs` et `/DiscordBot`)
-- scripts/sh/backup-restore-repo.sh reste à utiliser / importer dans les scripts d'install et copier un template dans le repo /server pour les URL dans le script (voire comment /install faisait et si drop à la main)
+  - Copie les repository dans `/home/vscode/repo/`
 ## Obsolète
 ## Backup targeted
 - `/backup/backuptarget.sh`
