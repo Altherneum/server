@@ -297,6 +297,8 @@ Voire le cours sur [screen](/cours/linux#screen)
   - Copie les repository via `forgejo dump`
   - Copie les dossiers importants (`/Serveurs` et `/DiscordBot`)
   - Copie les repository dans `/home/vscode/repo/`
+- Télécharger en suite les backups sur votre machine : `scp -r admin@altherneum.fr:/tmp/backup/ /home/admin/backup`
+- Déposer une backup vers le serveur via `scp -r /home/admin/backup admin@altherneum.fr:/tmp/backup/` 
 ## Obsolète
 ## Backup targeted
 - `/backup/backuptarget.sh`
