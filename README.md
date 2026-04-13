@@ -244,6 +244,7 @@ Voire le cours sur [screen](/cours/linux#screen)
 - Utilisateur `www-data`
 - Dossier : `/var/www/html/`
   - Permissions : `d rwx r-x r-x`
+- SQL
 ## .bash_history
 - `/home/admin/.bash_history`
 - `/home/vscode/.bash_history`
@@ -288,10 +289,15 @@ Voire le cours sur [screen](/cours/linux#screen)
 - Se rendre sur le code-server via : [code.altherneum.fr](https://code.altherneum.fr) sur le repo [server](https://code.altherneum.fr/?folder=/home/vscode/repo/server)
 - Commit et Push le changement de fichier dans le repo ![image](https://raw.githubusercontent.com/Altherneum/.github/70ba87580c2dda3f66302a4e50382cf76920753b/note/assets/images/brave_iglXKRSD96.png)
 
+## Backup manager
+- `/scripts/sh/backup-manager.sh`
+  - Copie les repository via `forgejo` `dump-repo`
+  - Copie les dossiers importants (`/Serveurs` et `/DiscordBot`)
+- scripts/sh/backup-restore-repo.sh reste à utiliser / importer dans les scripts d'install et copier un template dans le repo /server pour les URL dans le script (voire comment /install faisait et si drop à la main)
+## Obsolète
 ## Backup targeted
 - `/backup/backuptarget.sh`
   - Cible `/Serveurs` et `/DiscordBot`
-## Obsolète
 ### Backup full
 - `/backup/backupfull.sh`
   - Cible tout sauf le fichier `/backup.tar.gz`

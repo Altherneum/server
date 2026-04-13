@@ -88,3 +88,18 @@ wget -O /etc/fail2ban/filter.d/apache2auth.conf 'https://raw.githubusercontent.c
 wget -O /scripts/sh/clean.tmp.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/clean.tmp.sh'
 chmod +x /scripts/sh/clean.tmp.sh
 /scripts/sh/clean.tmp.sh
+
+# backups
+## backup folder
+wget -O /scripts/sh/backup-dump-folder.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/backup-dump-folder.sh'
+chmod +x /scripts/sh/backup-dump-folder.sh
+## backup repo
+wget -O /scripts/sh/backup-dump-repo.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/backup-dump-repo.sh'
+chmod +x /scripts/sh/backup-dump-repo.sh
+## backup manager
+wget -O /scripts/sh/backup-manager.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/backup-manager.sh'
+chmod +x /scripts/sh/backup-manager.sh
+
+# Purge backup & redo them
+# rm -rf /tmp/backup/
+# /scripts/sh/backup-manager.sh /tmp/backup

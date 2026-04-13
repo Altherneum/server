@@ -1,1 +1,1 @@
-tar czf /backup/backuptarget.tar.gz /Serveurs /DiscordBot
+tar czf /backup/backuptarget.tar.gz /Serveurs /DiscordBot /var/lib/forgejo
