@@ -1,6 +1,5 @@
 mkdir -p /DiscordBot
 
-
 wget -O /DiscordBot/stop.sh 'https://raw.githubusercontent.com/Altherneum/server/main/DiscordBot/stop.sh'
 chmod +x /DiscordBot/stop.sh
 #/DiscordBot/stop.sh
@@ -26,9 +25,3 @@ wget -O /DiscordBot/update-start.sh 'https://raw.githubusercontent.com/Altherneu
 chmod +x /DiscordBot/update-start.sh
 
 chown -R discord:discord /DiscordBot
-
-# running discord bot
-# echo ~ Starting Discord Bot
-# /DiscordBot/start.sh
-# systemctl enable discord
-# systemctl start discord
