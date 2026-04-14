@@ -1,5 +1,5 @@
 folderNAME=$1
-# folderNAME=bot
+# folderNAME=DiscordBot
 folderPATH=$2
 # folderPATH=/
 backupPATH=$3
@@ -8,4 +8,4 @@ backupPATH=$3
 mkdir -p $backupPATH
 
 # tar czf $backupPATH/$folderNAME.tar.gz $folderPATH/$folderNAME
-cp $folderPATH/$folderNAME $backupPATH/$folderNAME
+cp -r $folderPATH/$folderNAME $backupPATH/$folderNAME

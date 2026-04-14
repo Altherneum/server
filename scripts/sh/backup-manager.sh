@@ -8,13 +8,14 @@ mkdir -p $BACKUPPATH/forgejo
 /scripts/sh/backup-dump-repo.sh $BACKUPPATH/forgejo/
 
 mkdir -p $BACKUPPATH/bot/files
-/scripts/sh/backup-dump-folder.sh DiscordBot / $BACKUPPATH/DiscordBot/files
+/scripts/sh/backup-dump-folder.sh DiscordBot / $BACKUPPATH/DiscordBot/
 
 mkdir -p $BACKUPPATH/plugin/files
-/scripts/sh/backup-dump-folder.sh Serveurs / $BACKUPPATH/Serveurs/files
+/scripts/sh/backup-dump-folder.sh Serveurs / $BACKUPPATH/Serveurs/
 
 mkdir -p $BACKUPPATH/code-server/
-cp -r /home/vscode/repo/* $BACKUPPATH/code-server/
+# cp -r /home/vscode/repo/* $BACKUPPATH/code-server/
+/scripts/sh/backup-dump-folder.sh repo /home/vscode/ $BACKUPPATH/repo/
 
 # Give admin user permissions
 chown -R admin:admin $BACKUPPATH
