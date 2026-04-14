@@ -7,4 +7,5 @@ backupPATH=$3
 
 mkdir -p $backupPATH
 
-tar czf $backupPATH/$folderNAME.tar.gz $folderPATH/$folderNAME
+# tar czf $backupPATH/$folderNAME.tar.gz $folderPATH/$folderNAME
+cp $folderPATH/$folderNAME $backupPATH/$folderNAME

@@ -15,7 +15,12 @@ sudo -u git forgejo doctor check --all \
 sudo -u git forgejo dump \
   -w /var/lib/forgejo \
   -c /etc/forgejo/app.ini \
-  -f /var/lib/forgejo/backups/forgejo.zip
+  --type tar.gz \
+  -f /var/lib/forgejo/backups/forgejo.tar.gz
+
+# tar -xzf /var/lib/forgejo/backups/forgejo.tar.gz
+## decompress, then move files
+## and finally compress the full backup
 
 # Move backup
 mv /var/lib/forgejo/backups/* $BACKUPPATH
