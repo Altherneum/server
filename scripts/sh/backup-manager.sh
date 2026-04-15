@@ -4,22 +4,16 @@ BACKUPPATH=$1
 # Purge backup & redo them
 rm -rf /tmp/backup/
 
-mkdir -p $BACKUPPATH/forgejo
 /scripts/sh/backup-dump-repo.sh $BACKUPPATH/forgejo/
+/scripts/sh/backup-dump-folder.sh DiscordBot / $BACKUPPATH
+/scripts/sh/backup-dump-folder.sh Serveurs / $BACKUPPATH
+/scripts/sh/backup-dump-folder.sh repo /home/vscode/ $BACKUPPATH
 
-mkdir -p $BACKUPPATH/bot/files
-/scripts/sh/backup-dump-folder.sh DiscordBot / $BACKUPPATH/DiscordBot/
-
-mkdir -p $BACKUPPATH/plugin/files
-/scripts/sh/backup-dump-folder.sh Serveurs / $BACKUPPATH/Serveurs/
-
-mkdir -p $BACKUPPATH/code-server/
-# cp -r /home/vscode/repo/* $BACKUPPATH/code-server/
-/scripts/sh/backup-dump-folder.sh repo /home/vscode/ $BACKUPPATH/repo/
+tar -czf $BACKUPPATH/../backup.tar.gz $BACKUPPATH
 
 # Give admin user permissions
-chown -R admin:admin $BACKUPPATH
-chmod -R 700 $BACKUPPATH
+chown admin:admin $BACKUPPATH/../backup.tar.gz
+chmod 600 $BACKUPPATH/../backup.tar.gz
 
 # Download from server to PC
 # scp -r admin@altherneum.fr:/tmp/backup/ /home/admin/backup

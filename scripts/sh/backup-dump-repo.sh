@@ -1,5 +1,5 @@
 BACKUPPATH=$1
-# BACKUPPATH=/tmp/backup
+# BACKUPPATH=/tmp/backup/forgejo
 
 # Create folders & Chown
 sudo mkdir -p /var/lib/forgejo/backups
@@ -18,9 +18,11 @@ sudo -u git forgejo dump \
   --type tar.gz \
   -f /var/lib/forgejo/backups/forgejo.tar.gz
 
-# tar -xzf /var/lib/forgejo/backups/forgejo.tar.gz
-## decompress, then move files
-## and finally compress the full backup
+# Extract backup and delete archive
+tar -xzf /var/lib/forgejo/backups/forgejo.tar.gz -C $BACKUPPATH/forgejo/
+rm /var/lib/forgejo/backups/forgejo.tar.gz
 
-# Move backup
+# Create destination folder
+mkdir -p $BACKUPPATH
+# Move everything inside the final backup
 mv /var/lib/forgejo/backups/* $BACKUPPATH
