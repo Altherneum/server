@@ -7,6 +7,7 @@ sudo chown git:git /var/lib/forgejo/backups
 sudo chmod 750 /var/lib/forgejo/backups
 
 # Doctor check
+touch $BACKUPPATH/forgejo-doctor-check.txt
 sudo -u git forgejo doctor check --all \
   -w /var/lib/forgejo \
   -c /etc/forgejo/app.ini >> $BACKUPPATH/forgejo-doctor-check.txt
