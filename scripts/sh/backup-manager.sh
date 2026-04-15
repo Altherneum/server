@@ -16,4 +16,4 @@ chown admin:admin $BACKUPPATH/../backup.tar.gz
 chmod 600 $BACKUPPATH/../backup.tar.gz
 
 # Download from server to PC
-# scp -r admin@altherneum.fr:/tmp/backup/ /home/admin/backup
+# scp -r admin@altherneum.fr:/tmp/backup.tar.gz /home/admin/backup
