@@ -9,6 +9,7 @@ rm -rf /tmp/backup/
 /scripts/sh/backup-dump-folder.sh Serveurs / $BACKUPPATH
 /scripts/sh/backup-dump-folder.sh repo /home/vscode/ $BACKUPPATH
 
+echo "Generating final archive..."
 tar -czf $BACKUPPATH/../backup.tar.gz $BACKUPPATH
 
 # Give admin user permissions

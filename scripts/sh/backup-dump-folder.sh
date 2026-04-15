@@ -6,6 +6,10 @@ backupPATH=$3
 # backupPATH=/tmp/backup
 
 mkdir -p $backupPATH/$folderNAME
+echo "Creating folder : " $backupPATH/$folderNAME
 
 # tar czf $backupPATH/$folderNAME.tar.gz $folderPATH/$folderNAME
-cp -r $folderPATH/$folderNAME $backupPATH/$folderNAME
+cp -rp $folderPATH/$folderNAME $backupPATH/$folderNAME
+
+echo "Copy folder : " $folderPATH/$folderNAME
+echo "To destination :" $backupPATH/$folderNAME
