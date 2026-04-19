@@ -37,9 +37,16 @@ chmod +x /scripts/sh/setup.system.user.sh
 
 # SSH WebHook
 wget -O /etc/ssh/sshrc 'https://raw.githubusercontent.com/Altherneum/server/main/etc/ssh/sshrc'
+chmod +x /etc/ssh/sshrc
 
 # profile.d Discord WebHook
 wget -O /etc/profile.d/discord-webhook.sh 'https://raw.githubusercontent.com/Altherneum/server/main/etc/profile.d/discord-webhook.sh'
+chmod +x /etc/profile.d/discord-webhook.sh
 
 # profile.d mail hook
 wget -O /etc/profile.d/mail-hook.sh 'https://raw.githubusercontent.com/Altherneum/server/main/etc/profile.d/mail-hook.sh'
+chmod +x /etc/profile.d/mail-hook.sh
+
+# apache logging
+wget -O /etc/logRedirect.sh 'https://raw.githubusercontent.com/Altherneum/server/main/etc/logRedirect.sh'
+chmod +x /etc/logRedirect.sh
