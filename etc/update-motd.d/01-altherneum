@@ -92,6 +92,11 @@ fail2ban-client status env
 
 printf "\n"
 
+printf "🚨\tFail2Ban\t👮\t400\n"
+fail2ban-client status 400
+
+printf "\n"
+
 printf "🚨\tFail2Ban\t👮\t401\n"
 fail2ban-client status 401
 
