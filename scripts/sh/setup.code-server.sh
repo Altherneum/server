@@ -12,7 +12,7 @@ wget -O /home/vscode/.config/code-server/config.yaml -L 'https://raw.githubuserc
 
 # Apache2
 a2enmod proxy proxy_http
-a2enmod proxy_wstunnel
+a2enmod proxy_wstunnel rewrite ssl
 a2enmod headers
 
 # Git configuration
