@@ -48,10 +48,10 @@
         let pre = "https://www.youtube.com/";
         let suf = "";
 
-        if(checkForName("arch") === true) {
+        if(checkForName("arch") === true || checkForName("linux") === true ) {
             window.location.href = pre + getRandomArrayString(arch) + suf;
         }
-        else if(checkForName("microsoft") === true) {
+        else if(checkForName("microsoft") === true || checkForName("windows") === true) {
             window.location.href = pre + getRandomArrayString(microsoft) + suf;
         }
         else {
