@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme redirector</title>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta property="og:determiner" content="📰" />
+    <meta property="og:title" content="meme.Altherneum.fr/" />
+    <meta property="og:type" content="siteweb" />
+    <meta property="og:image" content="https://doc.Altherneum.fr/assets/gif/small.gif" />
+    <link rel="icon" type="image/x-icon" href="ttps://doc.Altherneum.fr/assets/favicon/rounded-favicon.ico">
+    <meta property="og:image:type" content="image" />
+    <meta property="og:image:alt" content="logo" />
+    <meta property="og:url" content="https://meme.Altherneum.fr/" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Altherneum.fr" />
+    <meta property="profile:username" content="Altherneum.fr" />
+    <meta property="og:description" content="Une URL de gestion des memes" />
+</head>
+<body>
+    <script>
+        function checkForName(name){
+            let pathname = location.pathname; console.log(pathname);
+            let hostname = location.hostname; console.log(hostname);
+            let hash = location.hash; console.log(hash);
+
+            if(hostname === name)
+                return true;
+            else if(pathname === "/" + name)
+                return true;
+            else if(hash === "#" + name)
+                return true;
+            else
+                return false;
+        }
+
+        const global = ["shorts/GPn7zvEiEGA", "shorts/upXQQaDTuFM", "watch?v=czfvEpLfCV0", "shorts/kmP1QuVS7M8", "watch?v=KKhnDzRgsW8"];
+        const arch = ["watch?v=hbhoAr8GV98", "shorts/dpkt1agd4x0", "shorts/xTQPbhxlsio"].concat(global);
+        const microsoft = ["watch?v=2zpCOYkdvTQ", "shorts/fRTzdZcooro", "shorts/OOo0IJlSUc8", "shorts/WpDoFbQMseo"].concat(global);
+
+        function getRandomArrayString(array){
+            return array[Math.floor(Math.random() * array.length)]
+        }
+
+        let pre = "https://www.youtube.com/";
+        let suf = "";
+
+        if(checkForName("arch") === true) {
+            window.location.href = pre + getRandomArrayString(arch) + suf;
+        }
+        else if(checkForName("microsoft") === true) {
+            window.location.href = pre + getRandomArrayString(microsoft) + suf;
+        }
+        else {
+            window.location.href = pre + getRandomArrayString(global) + suf;
+        }
+    </script>
+</body>
+</html>

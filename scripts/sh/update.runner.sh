@@ -86,6 +86,10 @@ wget -O /etc/fail2ban/jail.d/code-server.conf 'https://raw.githubusercontent.com
 ### SSHD filter exist by default
 wget -O /etc/fail2ban/filter.d/apache2auth.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/filter.d/apache2auth.conf'
 
+# setup.apache2-meme.sh
+wget -O /scripts/sh/setup.apache2-meme.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.apache2-meme.sh'
+chmod +x /scripts/sh/setup.apache2-meme.sh
+/scripts/sh/setup.apache2-meme.sh
 
 # Clean /tmp
 wget -O /scripts/sh/clean.tmp.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/clean.tmp.sh'
