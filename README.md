@@ -531,6 +531,7 @@ A
 ```
 
 ## Apache2 redirection
+**__[ < OUTDATED > ]__**
 ### Doc.altherneum.fr
 - [altherneum.fr](https://altherneum.fr)
 
