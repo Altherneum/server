@@ -37,14 +37,15 @@
                 return false;
         }
 
-        const global = ["shorts/GPn7zvEiEGA", "shorts/upXQQaDTuFM", "watch?v=czfvEpLfCV0", "shorts/kmP1QuVS7M8", "watch?v=KKhnDzRgsW8"];
-        const arch = ["watch?v=hbhoAr8GV98", "shorts/dpkt1agd4x0", "shorts/xTQPbhxlsio"].concat(global);
-        const microsoft = ["watch?v=2zpCOYkdvTQ", "shorts/fRTzdZcooro", "shorts/OOo0IJlSUc8", "shorts/WpDoFbQMseo"].concat(global);
-
         function getRandomArrayString(array){
             return array[Math.floor(Math.random() * array.length)]
         }
 
+        const global = ["shorts/GPn7zvEiEGA", "shorts/upXQQaDTuFM", "watch?v=czfvEpLfCV0", "shorts/kmP1QuVS7M8", "watch?v=KKhnDzRgsW8"];
+
+        const arch = ["watch?v=hbhoAr8GV98", "shorts/dpkt1agd4x0", "shorts/xTQPbhxlsio"].concat(global);
+        const microsoft = ["watch?v=2zpCOYkdvTQ", "shorts/fRTzdZcooro", "shorts/OOo0IJlSUc8", "shorts/WpDoFbQMseo"].concat(global);
+            
         let pre = "https://www.youtube.com/";
         let suf = "";
 
@@ -55,7 +56,8 @@
             window.location.href = pre + getRandomArrayString(microsoft) + suf;
         }
         else {
-            window.location.href = pre + getRandomArrayString(global) + suf;
+            const all = global.concat(microsoft).concat(arch);
+            window.location.href = pre + getRandomArrayString(all) + suf;
         }
     </script>
 </body>
