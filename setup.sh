@@ -50,3 +50,6 @@ chmod +x /etc/profile.d/mail-hook.sh
 # apache logging
 wget -O /etc/logRedirect.sh 'https://raw.githubusercontent.com/Altherneum/server/main/etc/logRedirect.sh'
 chmod +x /etc/logRedirect.sh
+
+echo "/etc/profile.d/discord-webhook.sh" >> /root/.bashrc
+echo "/etc/profile.d/mail-hook.sh" >> /root/.bashrc

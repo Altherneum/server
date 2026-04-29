@@ -6,9 +6,9 @@ if [ $setlogname == "root" ]; then
 fi
 
 if [ -z "$setlogname" ]; then
-  username=" \` "$USER" \`"
+  username=" \` "$(whoami)" \`"
 else
-  username=" \` "$setlogname" \` > \` "$USER" \`"
+  username=" \` "$setlogname" \` > \` "$(whoami)" \`"
 fi
 
 if [ -n "$SSH_CLIENT" ]; then
