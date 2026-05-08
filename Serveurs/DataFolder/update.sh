@@ -147,25 +147,25 @@ mkdir -p /Serveurs/DataFolder/structures
 #
 wget -O /Serveurs/DataFolder/structures/spawn.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn.yml' # Spawn
 wget -O /Serveurs/Hub/Spawn.zip 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Hub/Spawn.zip'
-unzip -o /Serveurs/Hub/Spawn.zip -d /Serveurs/Hub
+tar -xvf /Serveurs/Hub/Spawn.zip
 #
 wget -O /Serveurs/DataFolder/structures/spawn_OPPrison.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn_OPPrison.yml'
 #
 wget -O /Serveurs/DataFolder/structures/spawn_Survie.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn_Survie.yml'
 wget -O /Serveurs/Survie/Spawn.zip 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Survie/Spawn.zip'
-unzip -o /Serveurs/Survie/Spawn.zip -d /Serveurs/Survie
+tar -xvf /Serveurs/Survie/Spawn.zip
 #
 wget -O /Serveurs/DataFolder/structures/spawn_Test.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn_Survie.yml'
 wget -O /Serveurs/Test/Spawn.zip 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Survie/Spawn.zip'
-unzip -o /Serveurs/Test/Spawn.zip -d /Serveurs/Test
+tar -xvf /Serveurs/Test/Spawn.zip
 #
 wget -O /Serveurs/DataFolder/structures/spawn_Anarchie.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn_Survie.yml'
 wget -O /Serveurs/Anarchie/Spawn.zip 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Survie/Spawn.zip'
-unzip -o /Serveurs/Anarchie/Spawn.zip -d /Serveurs/Anarchie
+tar -xvf /Serveurs/Anarchie/Spawn.zip
 #
 wget -O /Serveurs/DataFolder/structures/spawn_SB.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn_SB.yml'
 wget -O /Serveurs/SkyBlock/Spawn.zip 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/SkyBlock/Spawn.zip'
-unzip -o /Serveurs/SkyBlock/Spawn.zip -d /Serveurs/SkyBlock
+tar -xvf /Serveurs/SkyBlock/Spawn.zip
 #
 wget -O /Serveurs/DataFolder/structures/Island.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/Island.yml' # Île SkyBlock
 #
