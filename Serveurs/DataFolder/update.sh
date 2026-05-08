@@ -147,24 +147,38 @@ mkdir -p /Serveurs/DataFolder/structures
 #
 wget -O /Serveurs/DataFolder/structures/spawn.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn.yml' # Spawn
 wget -O /Serveurs/Hub/Spawn.zip 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Hub/Spawn.zip'
+tar -acf /Serveurs/Hub/Spawn-latest.zip /Serveurs/Hub/Spawn/
+cp /Serveurs/Hub/Spawn-latest.zip /home/vscode/repo/server/Serveurs/Hub/Spawn-latest.zip
 tar -xvf /Serveurs/Hub/Spawn.zip
 #
 wget -O /Serveurs/DataFolder/structures/spawn_OPPrison.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn_OPPrison.yml'
+wget -O /Serveurs/OPPrison/Spawn.zip 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/OPPrison/Spawn.zip'
+tar -acf /Serveurs/OPPrison/Spawn-latest.zip /Serveurs/OPPrison/Spawn/
+cp /Serveurs/OPPrison/Spawn-latest.zip /home/vscode/repo/server/Serveurs/OPPrison/Spawn-latest.zip
+tar -xvf /Serveurs/OPPrison/Spawn.zip
 #
 wget -O /Serveurs/DataFolder/structures/spawn_Survie.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn_Survie.yml'
 wget -O /Serveurs/Survie/Spawn.zip 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Survie/Spawn.zip'
+tar -acf /Serveurs/Survie/Spawn-latest.zip /Serveurs/Survie/Spawn/
+cp /Serveurs/Survie/Spawn-latest.zip /home/vscode/repo/server/Serveurs/Survie/Spawn-latest.zip
 tar -xvf /Serveurs/Survie/Spawn.zip
 #
 wget -O /Serveurs/DataFolder/structures/spawn_Test.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn_Survie.yml'
 wget -O /Serveurs/Test/Spawn.zip 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Survie/Spawn.zip'
+tar -acf /Serveurs/Test/Spawn-latest.zip /Serveurs/Test/Spawn/
+cp /Serveurs/Test/Spawn-latest.zip /home/vscode/repo/server/Serveurs/Test/Spawn-latest.zip
 tar -xvf /Serveurs/Test/Spawn.zip
 #
 wget -O /Serveurs/DataFolder/structures/spawn_Anarchie.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn_Survie.yml'
 wget -O /Serveurs/Anarchie/Spawn.zip 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Survie/Spawn.zip'
+tar -acf /Serveurs/Anarchie/Spawn-latest.zip /Serveurs/Anarchie/Spawn/
+cp /Serveurs/Anarchie/Spawn-latest.zip /home/vscode/repo/server/Serveurs/Anarchie/Spawn-latest.zip
 tar -xvf /Serveurs/Anarchie/Spawn.zip
 #
 wget -O /Serveurs/DataFolder/structures/spawn_SB.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn_SB.yml'
 wget -O /Serveurs/SkyBlock/Spawn.zip 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/SkyBlock/Spawn.zip'
+tar -acf /Serveurs/SkyBlock/Spawn-latest.zip /Serveurs/SkyBlock/Spawn/
+cp /Serveurs/SkyBlock/Spawn-latest.zip /home/vscode/repo/server/Serveurs/SkyBlock/Spawn-latest.zip
 tar -xvf /Serveurs/SkyBlock/Spawn.zip
 #
 wget -O /Serveurs/DataFolder/structures/Island.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/Island.yml' # Île SkyBlock
