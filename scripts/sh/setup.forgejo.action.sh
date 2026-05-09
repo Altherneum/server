@@ -59,7 +59,7 @@ sed -i 's/options:/options: --add-host=git.altherneum.fr:127.0.0.1/' /etc/forgej
 ## Start with systemD
 systemctl start forgejo-runner
 systemctl enable forgejo-runner
-systemctl status forgejo-runner
+# systemctl status forgejo-runner
 
 ## Docker in docker install
 #/scripts/sh/setup.forgejo.dockerindocker.sh

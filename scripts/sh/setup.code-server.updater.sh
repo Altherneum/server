@@ -7,4 +7,4 @@ sudo dpkg -i code-server_${VERSION}_amd64.deb
 systemctl deamon-reload
 
 systemctl start code-server@vscode
-systemctl status code-server@vscode
+# systemctl status code-server@vscode
