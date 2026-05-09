@@ -4,8 +4,6 @@ VERSION=4.118.0
 curl -fOL https://github.com/coder/code-server/releases/download/v$VERSION/code-server_${VERSION}_amd64.deb
 sudo dpkg -i code-server_${VERSION}_amd64.deb
 
-wget -O /etc/systemd/system/code-server@vscode.service -L 'https://raw.githubusercontent.com/Altherneum/server/refs/heads/main/scripts/code-server@vscode.service'
-
 systemctl deamon-reload
 
 systemctl start code-server@vscode
