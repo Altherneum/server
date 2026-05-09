@@ -30,12 +30,15 @@ chmod +x /scripts/sh/setup.system.ssh.sh
 
 # profile.d Discord WebHook
 # wget -O /etc/profile.d/discord-webhook.sh 'https://raw.githubusercontent.com/Altherneum/server/main/etc/profile.d/discord-webhook.sh' # Avoid to replace, as it contain a Discord webhook token
+chmod +x /etc/profile.d/discord-webhook.sh
 
 # profile.d mail hook
 wget -O /etc/profile.d/mail-hook.sh 'https://raw.githubusercontent.com/Altherneum/server/main/etc/profile.d/mail-hook.sh'
+chmod +x /etc/profile.d/mail-hook.sh
 
 # apache logging
 # wget -O /etc/logRedirect.sh 'https://raw.githubusercontent.com/Altherneum/server/main/etc/logRedirect.sh'
+# chmod +x /etc/logRedirect.sh
 
 # Fail2Ban configuration
 wget -O /scripts/sh/setup.system.ssh.fail2ban.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.system.ssh.fail2ban.sh'
