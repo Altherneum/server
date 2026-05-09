@@ -111,6 +111,10 @@ wget -O /scripts/sh/backup-manager.sh 'https://raw.githubusercontent.com/Althern
 chmod +x /scripts/sh/backup-manager.sh
 /scripts/sh/backup-manager.sh /tmp/backup
 
+# Code-Server updater
+wget -O /scripts/sh/setup.code-server.updater.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.code-server.updater.sh'
+chmod +x /scripts/sh/setup.code-server.updater.sh
+
 # Importer
 ## code-server import
 wget -O /scripts/sh/setup.code-server.backup.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.code-server.backup.sh'
