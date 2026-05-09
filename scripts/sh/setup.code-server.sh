@@ -1,4 +1,4 @@
-VERSION=4.117.0
+VERSION=4.118.0
 curl -fOL https://github.com/coder/code-server/releases/download/v$VERSION/code-server_${VERSION}_amd64.deb
 sudo dpkg -i code-server_${VERSION}_amd64.deb
 
