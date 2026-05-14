@@ -6,3 +6,4 @@ echo "postfix postfix/destinations string altherneum.fr, localhost.localdomain, 
 sudo apt-get update
 sudo apt-get install -y postfix
 sudo systemctl restart postfix
+# Penser à couper sendmail et migrer les scripts
