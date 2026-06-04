@@ -467,6 +467,12 @@ SRV
 0 5 25507 test.altherneum.fr
 ```
 
+```
+_minecraft._udp.bedrock
+3600
+SRV
+0 5 19132 bedrock.altherneum.fr
+```
 ## IP DNS
 ```
 vps
