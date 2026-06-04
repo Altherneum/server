@@ -136,8 +136,8 @@ wget -O /Serveurs/DataFolder/plugins/ViaBackwards.jar 'https://github.com/ViaVer
 wget -O /Serveurs/DataFolder/plugins/ViaVersion.jar 'https://github.com/ViaVersion/ViaVersion/releases/download/5.9.1/ViaVersion-5.9.1.jar'
 wget -O /Serveurs/DataFolder/plugins/WorldEdit.jar 'https://mediafilez.forgecdn.net/files/4586/220/worldedit-bukkit-7.2.15.jar'
 # wget -O /Serveurs/DataFolder/plugins/WorldEdit.jar 'https://dev.bukkit.org/projects/worldedit/files/latest'
-wget -O /Serveurs/DataFolder/plugins/floodgate.jar 'https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/bungee'
-wget -O /Serveurs/DataFolder/plugins/geyser.jar 'https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/bungeecord'
+wget -O /Serveurs/DataFolder/plugins/floodgate.jar 'https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/velocity'
+wget -O /Serveurs/DataFolder/plugins/geyser.jar 'https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/velocity'
 
 # LN-S
 wget -O /Serveurs/DataFolder/ln-s.sh 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/ln-s.sh'
