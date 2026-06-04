@@ -77,6 +77,8 @@ mkdir -p /Serveurs/DataFolder
 
 # Waterfall
 wget -O /Serveurs/Waterfall/config.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Waterfall/config.yml'
+# Velocity
+wget -O /Serveurs/Waterfall/velocity.toml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Waterfall/velocity.toml'
 # Waterfall # Geyser & floodgate
 wget -O /Serveurs/Waterfall/plugins/Geyser-BungeeCord/config.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Waterfall/plugins/Geyser-BungeeCord/config.yml'
 
