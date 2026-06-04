@@ -126,14 +126,11 @@ mkdir -p /Serveurs/DataFolder/plugins
 wget -O /Serveurs/DataFolder/plugins/plugin.jar 'https://github.com/Altherneum/plugin/releases/latest/download/plugin-1.0-fat.jar'
 # wget -O /Serveurs/DataFolder/paper.jar 'https://api.papermc.io/v2/projects/paper/versions/1.21/builds/127/downloads/paper-1.21-127.jar'
 wget -O /Serveurs/DataFolder/paper.jar 'https://api.papermc.io/v2/projects/paper/versions/1.21.7/builds/26/downloads/paper-1.21.7-26.jar'
-wget -O /Serveurs/DataFolder/paper-upgrade.jar 'https://fill-data.papermc.io/v1/objects/d30fae0c74092b10855f0412ca6b265c60301a013d34bc28a2a41bf5682dd80b/paper-26.1.2-69.jar'
+wget -O /Serveurs/DataFolder/paper-upgrade.jar 'https://api.papermc.io/v2/projects/paper/versions/1.21.11/builds/69/downloads/paper-1.21.11-69.jar'
 # wget -O /Serveurs/Waterfall/waterfall.jar 'https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/594/downloads/waterfall-1.21-594.jar'
 wget -O /Serveurs/Waterfall/waterfall.jar 'https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/598/downloads/waterfall-1.21-598.jar'
-
-# WaterFall replacement #
-# wget -O /Serveurs/Velocity/velocity.jar 'https://api.papermc.io/v2/projects/velocity/versions/3.4.0-SNAPSHOT/builds/521/downloads/velocity-3.4.0-SNAPSHOT-521.jar'
-# Need to add folder & related shells & files
-# See config & diff (plugin change ???)
+# wget -O /Serveurs/Waterfall/velocity.jar 'https://api.papermc.io/v2/projects/velocity/versions/3.4.0-SNAPSHOT/builds/521/downloads/velocity-3.4.0-SNAPSHOT-521.jar'
+wget -O /Serveurs/Waterfall/velocity.jar 'https://fill-data.papermc.io/v1/objects/0407642d1ed2883100eb823c2805523f191fa637db1f42ac0ec7ef29cbe455a9/velocity-3.5.0-SNAPSHOT-601.jar'
 
 wget -O /Serveurs/DataFolder/plugins/ViaBackwards.jar 'https://github.com/ViaVersion/ViaBackwards/releases/download/5.9.1/ViaBackwards-5.9.1.jar'
 wget -O /Serveurs/DataFolder/plugins/ViaVersion.jar 'https://github.com/ViaVersion/ViaVersion/releases/download/5.9.1/ViaVersion-5.9.1.jar'
@@ -152,36 +149,42 @@ mkdir -p /Serveurs/DataFolder/structures
 #
 wget -O /Serveurs/DataFolder/structures/spawn.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn.yml' # Spawn
 wget -O /Serveurs/Hub/Spawn.zip 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Hub/Spawn.zip'
+mkdir /Serveurs/Hub/Spawn
 tar -acf /Serveurs/Hub/Spawn-latest.zip /Serveurs/Hub/Spawn/
 cp /Serveurs/Hub/Spawn-latest.zip /home/vscode/repo/server/Serveurs/Hub/Spawn-latest.zip
 tar -xvf /Serveurs/Hub/Spawn.zip
 #
 wget -O /Serveurs/DataFolder/structures/spawn_OPPrison.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn_OPPrison.yml'
 wget -O /Serveurs/OPPrison/Spawn.zip 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/OPPrison/Spawn.zip'
+mkdir /Serveurs/OPPrison/Spawn
 tar -acf /Serveurs/OPPrison/Spawn-latest.zip /Serveurs/OPPrison/Spawn/
 cp /Serveurs/OPPrison/Spawn-latest.zip /home/vscode/repo/server/Serveurs/OPPrison/Spawn-latest.zip
 tar -xvf /Serveurs/OPPrison/Spawn.zip
 #
 wget -O /Serveurs/DataFolder/structures/spawn_Survie.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn_Survie.yml'
 wget -O /Serveurs/Survie/Spawn.zip 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Survie/Spawn.zip'
+mkdir /Serveurs/Survie/Spawn
 tar -acf /Serveurs/Survie/Spawn-latest.zip /Serveurs/Survie/Spawn/
 cp /Serveurs/Survie/Spawn-latest.zip /home/vscode/repo/server/Serveurs/Survie/Spawn-latest.zip
 tar -xvf /Serveurs/Survie/Spawn.zip
 #
 wget -O /Serveurs/DataFolder/structures/spawn_Test.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn_Survie.yml'
 wget -O /Serveurs/Test/Spawn.zip 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Survie/Spawn.zip'
+mkdir /Serveurs/Test/Spawn
 tar -acf /Serveurs/Test/Spawn-latest.zip /Serveurs/Test/Spawn/
 cp /Serveurs/Test/Spawn-latest.zip /home/vscode/repo/server/Serveurs/Test/Spawn-latest.zip
 tar -xvf /Serveurs/Test/Spawn.zip
 #
 wget -O /Serveurs/DataFolder/structures/spawn_Anarchie.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn_Survie.yml'
 wget -O /Serveurs/Anarchie/Spawn.zip 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Survie/Spawn.zip'
+mkdir /Serveurs/Anarchie/Spawn
 tar -acf /Serveurs/Anarchie/Spawn-latest.zip /Serveurs/Anarchie/Spawn/
 cp /Serveurs/Anarchie/Spawn-latest.zip /home/vscode/repo/server/Serveurs/Anarchie/Spawn-latest.zip
 tar -xvf /Serveurs/Anarchie/Spawn.zip
 #
 wget -O /Serveurs/DataFolder/structures/spawn_SB.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/structures/spawn_SB.yml'
 wget -O /Serveurs/SkyBlock/Spawn.zip 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/SkyBlock/Spawn.zip'
+mkdir /Serveurs/SkyBlock/Spawn
 tar -acf /Serveurs/SkyBlock/Spawn-latest.zip /Serveurs/SkyBlock/Spawn/
 cp /Serveurs/SkyBlock/Spawn-latest.zip /home/vscode/repo/server/Serveurs/SkyBlock/Spawn-latest.zip
 tar -xvf /Serveurs/SkyBlock/Spawn.zip
