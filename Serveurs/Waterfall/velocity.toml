@@ -1,27 +1,15 @@
-# Config version. Do not change this
 config-version = "2.8"
 
-# What port should the proxy be bound to? By default, we'll bind to all addresses on port 25565.
-bind = "0.0.0.0:25565"
+bind = "0.0.0.0:25500"
 
 # What should be the MOTD? This gets displayed when the player adds your server to
 # their server list. Only MiniMessage format is accepted.
 motd = "<#09add3>A Velocity Server"
 
-# What should we display for the maximum number of players? (Velocity does not support a cap
-# on the number of players online.)
 show-max-players = 500
-
-# Should we authenticate players with Mojang? By default, this is on.
 online-mode = true
-
-# Should the proxy enforce the new public key security standard? By default, this is on.
 force-key-authentication = true
-
-# If client's ISP/AS sent from this proxy is different from the one from Mojang's
-# authentication server, the player is kicked. This disallows some VPN and proxy
-# connections but is a weak form of protection.
-prevent-client-proxy-connections = false
+prevent-client-proxy-connections = true
 
 # Should we forward IP addresses and other data to backend servers?
 # Available options:
@@ -34,22 +22,16 @@ prevent-client-proxy-connections = false
 #                  unable to implement network level firewalling (on a shared host).
 # - "modern":      Forward player IPs and UUIDs as part of the login process using
 #                  Velocity's native forwarding. Only applicable for Minecraft 1.13 or higher.
-player-info-forwarding-mode = "NONE"
+player-info-forwarding-mode = "MODERN"
 
 # If you are using modern or BungeeGuard IP forwarding, configure a file that contains a unique secret here.
 # The file is expected to be UTF-8 encoded and not empty.
 forwarding-secret-file = "forwarding.secret"
 
-# Announce whether or not your server supports Forge. If you run a modded server, we
-# suggest turning this on.
-# 
-# If your network runs one modpack consistently, consider using ping-passthrough = "mods"
-# instead for a nicer display in the server list.
 announce-forge = false
 
-# If enabled (default is false) and the proxy is in online mode, Velocity will kick
-# any existing player who is online if a duplicate connection attempt is made.
-kick-existing-players = false
+
+kick-existing-players = true
 
 # Should Velocity pass server list ping requests to a backend server?
 # Available options:
@@ -64,14 +46,13 @@ kick-existing-players = false
 #                  description and mod list.
 # - "all":         Uses the backend server's response as the proxy response. The Velocity
 #                  configuration is used if no servers could be contacted.
-ping-passthrough = "DISABLED"
+ping-passthrough = "all"
 
 # If enabled (default is false), then a sample of the online players on the proxy will be visible
 # when hovering over the player count in the server list.
 # This doesn't have any effect when ping passthrough is set to either "description" or "all".
 sample-players-in-ping = false
 
-# If not enabled (default is true) player IP addresses will be replaced by <ip address withheld> in logs
 enable-player-address-logging = true
 
 [packet-limiter]
@@ -88,28 +69,30 @@ bytes-per-second = -1
 decompressed-bytes-per-second = 5242880
 
 [servers]
-# Configure your servers here. Each key represents the server's name, and the value
-# represents the IP address of the server to connect to.
-lobby = "127.0.0.1:30066"
-factions = "127.0.0.1:30067"
-minigames = "127.0.0.1:30068"
+hub = "localhost:25560"
+test = "localhost:25567"
+survie = "localhost:25565"
+anarchie = "localhost:25564"
+rpg = "localhost:25562"
+skyblock = "localhost:25563"
+creatif = "localhost:25561"
+opprison = "localhost:25566"
 
 # In what order we should try servers when a player logs in or is kicked from a server.
 try = [
-    "lobby"
+    "hub"
 ]
 
 [forced-hosts]
 # Configure your forced hosts here.
-"lobby.example.com" = [
-    "lobby"
-]
-"factions.example.com" = [
-    "factions"
-]
-"minigames.example.com" = [
-    "minigames"
-]
+"hub.altherneum.fr" = ["hub"]
+"test.altherneum.fr" = ["test"]
+"survie.altherneum.fr" = ["survie"]
+"anarchie.altherneum.fr" = ["anarchie"]
+"rpg.altherneum.fr" = ["rpg"]
+"skyblock.altherneum.fr" = ["skyblock"]
+"creatif.altherneum.fr" = ["creatif"]
+"opprison.altherneum.fr" = ["opprison"]
 
 [advanced]
 # How large a Minecraft packet has to be before we compress it. Setting this to zero will
@@ -153,7 +136,7 @@ failover-on-unexpected-server-disconnect = true
 announce-proxy-commands = true
 
 # Enables the logging of commands
-log-command-executions = false
+log-command-executions = true
 
 # Enables logging of player connections when connecting to the proxy, switching servers
 # and disconnecting from the proxy.
