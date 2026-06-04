@@ -194,7 +194,7 @@ advanced:
     # Selects which BungeeCord listener Geyser should connect to, based on the listener's bind address and port.
     # This config option must only be set when there are more than one listeners configured in the BungeeCord config.
     # Example: "0.0.0.0:25577"
-    bungee-listener: '25560'
+    bungee-listener: '0.0.0.0:25500'
 
     # Whether to connect directly into the Java server without creating a TCP connection.
     # This should only be disabled if a plugin that interfaces with packets or the network does not work correctly with Geyser.
