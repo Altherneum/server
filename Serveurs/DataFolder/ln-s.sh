@@ -20,7 +20,8 @@ ln -s /Serveurs/DataFolder/plugins/ViaVersion.jar /Serveurs/Hub/plugins
 ln -s /Serveurs/DataFolder/server-icon.png /Serveurs/Hub
 ln -s /Serveurs/DataFolder/eula.txt /Serveurs/Hub
 ln -s /Serveurs/DataFolder/ops.json /Serveurs/Hub
-ln -s /Serveurs/DataFolder/paper.jar /Serveurs/Hub
+# ln -s /Serveurs/DataFolder/paper.jar /Serveurs/Hub
+ln -s /Serveurs/DataFolder/paper-upgrade.jar /Serveurs/Hub/paper.jar
 ln -s /Serveurs/DataFolder/bukkit.yml /Serveurs/Hub
 ln -s /Serveurs/DataFolder/spigot.yml /Serveurs/Hub
 mkdir -p /Serveurs/Hub/config
