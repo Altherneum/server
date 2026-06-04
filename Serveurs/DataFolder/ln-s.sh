@@ -115,3 +115,5 @@ ln -s /Serveurs/DataFolder/paper-config/paper-world-defaults.yml /Serveurs/OPPri
 mkdir -p /Serveurs/Waterfall
 ln -s /Serveurs/DataFolder/server-icon.png /Serveurs/Waterfall
 ln -s /Serveurs/DataFolder/eula.txt /Serveurs/Waterfall
+ln -s /Serveurs/DataFolder/plugins/geyser.jar /Serveurs/Waterfall/plugins
+ln -s /Serveurs/DataFolder/plugins/floodgate.jar /Serveurs/Waterfall/plugins
