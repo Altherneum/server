@@ -75,12 +75,13 @@ chmod +x /Serveurs/OPPrison/stop.sh
 mkdir -p /Serveurs/DataFolder
 # wget -O /Serveurs/DataFolder/tokens.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/tokens.yml'
 
-# Waterfall
+# Waterfall config
 wget -O /Serveurs/Waterfall/config.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Waterfall/config.yml'
-# Velocity
+# Velocity config
 wget -O /Serveurs/Waterfall/velocity.toml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Waterfall/velocity.toml'
-# Waterfall # Geyser & floodgate
+# Geyser-Config
 wget -O /Serveurs/Waterfall/plugins/Geyser-BungeeCord/config.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Waterfall/plugins/Geyser-BungeeCord/config.yml'
+
 
 # global config
 mkdir -p /Serveurs/DataFolder
@@ -133,6 +134,7 @@ wget -O /Serveurs/DataFolder/paper-upgrade.jar 'https://api.papermc.io/v2/projec
 wget -O /Serveurs/Waterfall/waterfall.jar 'https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/598/downloads/waterfall-1.21-598.jar'
 # wget -O /Serveurs/Waterfall/velocity.jar 'https://api.papermc.io/v2/projects/velocity/versions/3.4.0-SNAPSHOT/builds/521/downloads/velocity-3.4.0-SNAPSHOT-521.jar'
 wget -O /Serveurs/Waterfall/velocity.jar 'https://fill-data.papermc.io/v1/objects/0407642d1ed2883100eb823c2805523f191fa637db1f42ac0ec7ef29cbe455a9/velocity-3.5.0-SNAPSHOT-601.jar'
+wget -O /Serveurs/DataFolder/plugins/floodgate-paper.jar 'https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/spigot'
 
 wget -O /Serveurs/DataFolder/plugins/ViaBackwards.jar 'https://github.com/ViaVersion/ViaBackwards/releases/download/5.9.1/ViaBackwards-5.9.1.jar'
 wget -O /Serveurs/DataFolder/plugins/ViaVersion.jar 'https://github.com/ViaVersion/ViaVersion/releases/download/5.9.1/ViaVersion-5.9.1.jar'
