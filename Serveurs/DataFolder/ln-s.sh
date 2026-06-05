@@ -13,7 +13,8 @@ mkdir -p /Serveurs/Creatif/config
 ln -s /Serveurs/DataFolder/paper-config/paper-global.yml /Serveurs/Creatif/config/paper-global.yml
 ln -s /Serveurs/DataFolder/paper-config/paper-world-defaults.yml /Serveurs/Creatif/config/paper-world-defaults.yml
 ln -s /Serveurs/DataFolder/plugins/floodgate-paper.jar /Serveurs/Creatif/plugins/floodgate.jar
-
+mkdir -p /Serveurs/Creatif/plugins/floodgate/
+ln -s /Serveurs/Waterfall/plugins/floodgate/key.pem /Serveurs/Creatif/plugins/floodgate/key.pem
 
 mkdir -p /Serveurs/Hub/plugins
 ln -s /Serveurs/DataFolder/plugins/plugin.jar /Serveurs/Hub/plugins
@@ -30,6 +31,8 @@ mkdir -p /Serveurs/Hub/config
 ln -s /Serveurs/DataFolder/paper-config/paper-global.yml /Serveurs/Hub/config/paper-global.yml
 ln -s /Serveurs/DataFolder/paper-config/paper-world-defaults.yml /Serveurs/Hub/config/paper-world-defaults.yml
 ln -s /Serveurs/DataFolder/plugins/floodgate-paper.jar /Serveurs/Hub/plugins/floodgate.jar
+mkdir -p /Serveurs/Hub/plugins/floodgate/
+ln -s /Serveurs/Waterfall/plugins/floodgate/key.pem /Serveurs/Hub/plugins/floodgate/key.pem
 
 mkdir -p /Serveurs/RPG/plugins
 # ln -s /Serveurs/DataFolder/plugins/ImageOnMap.jar /Serveurs/RPG/plugins
@@ -46,6 +49,8 @@ mkdir -p /Serveurs/RPG/config
 ln -s /Serveurs/DataFolder/paper-config/paper-global.yml /Serveurs/RPG/config/paper-global.yml
 ln -s /Serveurs/DataFolder/paper-config/paper-world-defaults.yml /Serveurs/RPG/config/paper-world-defaults.yml
 ln -s /Serveurs/DataFolder/plugins/floodgate-paper.jar /Serveurs/RPG/plugins/floodgate.jar
+mkdir -p /Serveurs/RPG/plugins/floodgate/
+ln -s /Serveurs/Waterfall/plugins/floodgate/key.pem /Serveurs/RPG/plugins/floodgate/key.pem
 
 mkdir -p /Serveurs/SkyBlock/plugins
 ln -s /Serveurs/DataFolder/plugins/plugin.jar /Serveurs/SkyBlock/plugins
@@ -61,6 +66,8 @@ mkdir -p /Serveurs/SkyBlock/config
 ln -s /Serveurs/DataFolder/paper-config/paper-global.yml /Serveurs/SkyBlock/config/paper-global.yml
 ln -s /Serveurs/DataFolder/paper-config/paper-world-defaults.yml /Serveurs/SkyBlock/config/paper-world-defaults.yml
 ln -s /Serveurs/DataFolder/plugins/floodgate-paper.jar /Serveurs/SkyBlock/plugins/floodgate.jar
+mkdir -p /Serveurs/SkyBlock/plugins/floodgate/
+ln -s /Serveurs/Waterfall/plugins/floodgate/key.pem /Serveurs/SkyBlock/plugins/floodgate/key.pem
 
 mkdir -p /Serveurs/Anarchie/plugins
 ln -s /Serveurs/DataFolder/plugins/plugin.jar /Serveurs/Anarchie/plugins
@@ -76,6 +83,8 @@ mkdir -p /Serveurs/Anarchie/config
 ln -s /Serveurs/DataFolder/paper-config/paper-global.yml /Serveurs/Anarchie/config/paper-global.yml
 ln -s /Serveurs/DataFolder/paper-config/paper-world-defaults.yml /Serveurs/Anarchie/config/paper-world-defaults.yml
 ln -s /Serveurs/DataFolder/plugins/floodgate-paper.jar /Serveurs/Anarchie/plugins/floodgate.jar
+mkdir -p /Serveurs/Anarchie/plugins/floodgate/
+ln -s /Serveurs/Waterfall/plugins/floodgate/key.pem /Serveurs/Anarchie/plugins/floodgate/key.pem
 
 mkdir -p /Serveurs/Survie/plugins
 ln -s /Serveurs/DataFolder/plugins/plugin.jar /Serveurs/Survie/plugins
@@ -91,6 +100,8 @@ mkdir -p /Serveurs/Survie/config
 ln -s /Serveurs/DataFolder/paper-config/paper-global.yml /Serveurs/Survie/config/paper-global.yml
 ln -s /Serveurs/DataFolder/paper-config/paper-world-defaults.yml /Serveurs/Survie/config/paper-world-defaults.yml
 ln -s /Serveurs/DataFolder/plugins/floodgate-paper.jar /Serveurs/Survie/plugins/floodgate.jar
+mkdir -p /Serveurs/Survie/plugins/floodgate/
+ln -s /Serveurs/Waterfall/plugins/floodgate/key.pem /Serveurs/Survie/plugins/floodgate/key.pem
 
 mkdir -p /Serveurs/Test/plugins
 ln -s /Serveurs/DataFolder/plugins/plugin.jar /Serveurs/Test/plugins
@@ -106,6 +117,8 @@ mkdir -p /Serveurs/Test/config
 ln -s /Serveurs/DataFolder/paper-config/paper-global.yml /Serveurs/Test/config/paper-global.yml
 ln -s /Serveurs/DataFolder/paper-config/paper-world-defaults.yml /Serveurs/Test/config/paper-world-defaults.yml
 ln -s /Serveurs/DataFolder/plugins/floodgate-paper.jar /Serveurs/Test/plugins/floodgate.jar
+mkdir -p /Serveurs/Test/plugins/floodgate/
+ln -s /Serveurs/Waterfall/plugins/floodgate/key.pem /Serveurs/Test/plugins/floodgate/key.pem
 
 mkdir -p /Serveurs/OPPrison/plugins
 ln -s /Serveurs/DataFolder/plugins/plugin.jar /Serveurs/OPPrison/plugins
@@ -121,6 +134,8 @@ mkdir -p /Serveurs/OPPrison/config
 ln -s /Serveurs/DataFolder/paper-config/paper-global.yml /Serveurs/OPPrison/config/paper-global.yml
 ln -s /Serveurs/DataFolder/paper-config/paper-world-defaults.yml /Serveurs/OPPrison/config/paper-world-defaults.yml
 ln -s /Serveurs/DataFolder/plugins/floodgate-paper.jar /Serveurs/OPPrison/plugins/floodgate.jar
+mkdir -p /Serveurs/OPPrison/plugins/floodgate/
+ln -s /Serveurs/Waterfall/plugins/floodgate/key.pem /Serveurs/OPPrison/plugins/floodgate/key.pem
 
 mkdir -p /Serveurs/Waterfall
 ln -s /Serveurs/DataFolder/server-icon.png /Serveurs/Waterfall
