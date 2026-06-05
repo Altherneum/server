@@ -468,11 +468,12 @@ SRV
 ```
 
 ```
-_minecraft._udp.bedrock
+bedrock
 3600
-SRV
-0 5 19132 bedrock.altherneum.fr
+CNAME
+Altherneum.fr.
 ```
+
 ## IP DNS
 ```
 vps
