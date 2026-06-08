@@ -13,12 +13,4 @@ rm /etc/apache2/conf-enabled/phpmyadmin.conf
 
 htpasswd -cb /etc/apache2/.htpasswd-phpmyadmin phpmyadmin $PHP_APACHE_PWD
 
-echo "\$cfg['PmaAbsoluteUri'] = 'https://phpmyadmin.altherneum.fr/';" >> /etc/phpmyadmin/config.inc.php
-echo "\$cfg['ForceSSL'] = true;" >> /etc/phpmyadmin/config.inc.php
-
-touch /usr/share/phpmyadmin/.htaccess
-echo "RewriteEngine On" >> /usr/share/phpmyadmin/.htaccess
-echo "RewriteCond %{HTTPS} off" >> /usr/share/phpmyadmin/.htaccess
-echo "RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]" >> /usr/share/phpmyadmin/.htaccess
-
 systemctl reload apache2
