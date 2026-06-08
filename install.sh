@@ -2,9 +2,21 @@
 hostnamectl set-hostname altherneum.fr
 
 # Update + APT
-apt update
-apt install -y mysql-server phpmyadmin screen vsftpd openjdk-21-jdk openjdk-25-jdk curl wget unzip php php-fpm php-mysql php-pgsql php-sqlite3 php-bcmath php-mbstring php-xml php-curl php-zip php-gd apache2 sendmail sendmail-cf mailutils opendkim opendkim-tools fail2ban git git-lfs jq maven
+apt autoremove
+## PHP 8.4 install
+apt install -y software-properties-common
+add-apt-repository -y ppa:ondrej/php ; apt update
+apt install -y php8.4
+## Old PHP install
+apt install -y php php-fpm php-mysql php-pgsql php-sqlite3 php-bcmath php-mbstring php-xml php-curl php-zip php-gd phpmyadmin
+### Enable PHP 8.4
+sudo a2dismod php*
+sudo a2enmod php8.4
+sudo systemctl restart apache2
+## Generics packages
+apt install -y mysql-server screen vsftpd openjdk-21-jdk openjdk-25-jdk curl wget unzip apache2 sendmail sendmail-cf mailutils opendkim opendkim-tools fail2ban git git-lfs jq maven
 
+# Scripts
 mkdir -p /scripts/sh
 
 # user creation
