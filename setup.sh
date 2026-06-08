@@ -5,6 +5,8 @@ mkdir -p /scripts/sh
 #
 wget -O /scripts/sh/setup.mysql.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.mysql.sh'
 #
+wget -O /scripts/sh/setup.phpmyadmin.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.phpmyadmin.sh'
+#
 mkdir -p /DiscordBot/data
 wget -O /DiscordBot/data/tokens.yml 'https://raw.githubusercontent.com/Altherneum/server/main/DiscordBot/data/tokens.yml'
 #

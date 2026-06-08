@@ -80,6 +80,10 @@ chmod +x /scripts/sh/setup.sendmail.sh
 chmod +x /scripts/sh/setup.mysql.sh
 /scripts/sh/setup.mysql.sh
 
+# mysql
+chmod +x /scripts/sh/setup.phpmyadmin.sh
+/scripts/sh/setup.phpmyadmin.sh
+
 #
 service apache2 restart
 #

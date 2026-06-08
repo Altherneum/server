@@ -95,6 +95,7 @@ chmod +x /setup.sh
 
 ## Configuration
 - [MySQL password](/scripts/sh/setup.mysql.sh)
+- [PhpMyAdmin password](/scripts/sh/setup.phpmyadmin.sh)
 - [Discord token](/DiscordBot/data/tokens.yml)
 - [Minecraft Discord token](/Serveurs/DataFolder/tokens.yml)
 - [Minecraft RCON Password](/Serveurs/SERVERNAME/server.properties) | [exemple](/Serveurs/Hub/server.properties)
@@ -550,6 +551,9 @@ A
 
 ### Github.com/altherneum
 - [github.altherneum.fr](https://github.altherneum.fr)
+
+### PhpMyAdmin
+- [phpmyadmin.altherneum.fr](https://phpmyadmin.altherneum.fr)
 
 ### Forgejo
 - [git.altherneum.fr](https://git.altherneum.fr)

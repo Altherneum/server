@@ -59,6 +59,10 @@ chmod +x /scripts/sh/setup.certbot.sh
 wget -O /scripts/sh/setup.mysql.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.mysql.sh'
 chmod +x /scripts/sh/setup.mysql.sh
 
+# PhpMyAdmin
+wget -O /scripts/sh/setup.phpmyadmin.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.phpmyadmin.sh'
+chmod +x /scripts/sh/setup.phpmyadmin.sh
+
 # systemctl
 wget -O /scripts/sh/setup.systemd.sh 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/sh/setup.systemd.sh'
 chmod +x /scripts/sh/setup.systemd.sh
