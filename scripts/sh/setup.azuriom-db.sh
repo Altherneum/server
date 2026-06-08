@@ -46,4 +46,10 @@ mysql site < /scripts/database/servers.sql
 # wget -O '/scripts/database/users.sql' 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/database/users.sql'
 mysql site < /scripts/database/users.sql
 #
+wget -O '/scripts/database/roles.sql' 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/database/roles.sql'
+mysql site < /scripts/database/roles.sql
+#
+wget -O '/scripts/database/permissions.sql' 'https://raw.githubusercontent.com/Altherneum/server/main/scripts/database/permissions.sql'
+mysql site < /scripts/database/permissions.sql
+#
 # Clean Azuriom cache after this to update website
