@@ -539,7 +539,10 @@ A
 ```
 
 ## Apache2 redirection
-**__[ < OUTDATED > ]__**
+### discord.altherneum.fr
+- [discord.altherneum.fr](https://discord.altherneum.fr)
+### vocal.altherneum.fr
+- [vocal.altherneum.fr](https://vocal.altherneum.fr)
 ### Doc.altherneum.fr
 - [altherneum.fr](https://altherneum.fr)
 
@@ -564,11 +567,11 @@ A
 - [vscode.altherneum.fr](https://code.altherneum.fr)
 - [3000.code.altherneum.fr](https://3000.code.altherneum.fr) (Live HTML preview server)
 
-### Youtube.com/watch?v=2zpCOYkdvTQ
+### meme.altherneum.fr
 - [windows.altherneum.fr](https://windows.altherneum.fr)
 - [microsoft.altherneum.fr](https://microsoft.altherneum.fr)
-- [fuckwindows.altherneum.fr](https://windows.altherneum.fr)
-- [fuckmicrosoft.altherneum.fr](https://microsoft.altherneum.fr)
+- [linux.altherneum.fr](https://linux.altherneum.fr)
+- [arch.altherneum.fr](https://arch.altherneum.fr)
 
 ### Minecraft
 - [play.altherneum.fr](https://play.altherneum.fr)
@@ -576,7 +579,7 @@ A
 - [minecraft.altherneum.fr](https://minecraft.altherneum.fr)
 
 ### Arch
-- [arch.altherneum.fr](https://arch.altherneum.fr)
+- [myarch.altherneum.fr](https://myarch.altherneum.fr)
 - [archterneum.altherneum.fr](https://archterneum.altherneum.fr)
 - [git.arch.altherneum.fr](https://git.arch.altherneum.fr)
 
