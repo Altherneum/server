@@ -97,8 +97,8 @@ fail2ban-client status 403
 
 printf "\n"
 
-printf "🚨\tFail2Ban\t👮\twp-include\n"
-fail2ban-client status wp
+printf "🚨\tFail2Ban\t👮\tWP include\n"
+fail2ban-client status wpinclude
 
 printf "\n"
 
