@@ -10,7 +10,7 @@ wget -O /etc/fail2ban/jail.d/405.conf 'https://raw.githubusercontent.com/Althern
 wget -O /etc/fail2ban/jail.d/401.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/jail.d/401.conf'
 wget -O /etc/fail2ban/jail.d/403.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/jail.d/403.conf'
 wget -O /etc/fail2ban/jail.d/400.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/jail.d/400.conf'
-wget -O /etc/fail2ban/jail.d/wp.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/jail.d/wp.conf'
+wget -O /etc/fail2ban/jail.d/wpinclude.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/jail.d/wpinclude.conf'
 
 # Filter
 ## SSHD filter exist by default
