@@ -88,7 +88,6 @@ chmod +x /Serveurs/DataFolder/update.sh
 # Fail2Ban
 ## Jails
 wget -O /etc/fail2ban/jail.d/sshd.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/jail.d/sshd.conf'
-wget -O /etc/fail2ban/jail.d/code-server.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/jail.d/code-server.conf'
 ## Filter
 ### SSHD filter exist by default
 wget -O /etc/fail2ban/filter.d/apache2auth.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/filter.d/apache2auth.conf'

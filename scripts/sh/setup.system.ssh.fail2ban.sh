@@ -4,9 +4,6 @@ systemctl enable fail2ban
 
 # Jails
 wget -O /etc/fail2ban/jail.d/sshd.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/jail.d/sshd.conf'
-wget -O /etc/fail2ban/jail.d/code-server.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/jail.d/code-server.conf'
-wget -O /etc/fail2ban/jail.d/forgejo.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/jail.d/forgejo.conf'
-wget -O /etc/fail2ban/jail.d/keeweb.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/jail.d/keeweb.conf'
 wget -O /etc/fail2ban/jail.d/env.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/jail.d/env.conf'
 wget -O /etc/fail2ban/jail.d/404.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/jail.d/404.conf'
 wget -O /etc/fail2ban/jail.d/405.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/jail.d/405.conf'
@@ -32,10 +29,6 @@ fail2ban-client status
 fail2ban-client -d
 # Vérification avec status
 fail2ban-client status sshd
-
-fail2ban-client status code-server
-fail2ban-client status forgejo
-fail2ban-client status keeweb
 
 fail2ban-client status 404
 fail2ban-client status env

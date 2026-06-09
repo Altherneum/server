@@ -67,21 +67,6 @@ fail2ban-client status sshd
 
 printf "\n"
 
-printf "🚨\tFail2Ban\t👮\tCode-Server\n"
-fail2ban-client status code-server
-
-printf "\n"
-
-printf "🚨\tFail2Ban\t👮\tKeeweb\n"
-fail2ban-client status keeweb
-
-printf "\n"
-
-printf "🚨\tFail2Ban\t👮\tForgejo\n"
-fail2ban-client status forgejo
-
-printf "\n"
-
 printf "🚨\tFail2Ban\t👮\t404\n"
 fail2ban-client status 404
 
