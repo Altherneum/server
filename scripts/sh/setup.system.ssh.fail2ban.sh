@@ -10,6 +10,7 @@ wget -O /etc/fail2ban/jail.d/405.conf 'https://raw.githubusercontent.com/Althern
 wget -O /etc/fail2ban/jail.d/401.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/jail.d/401.conf'
 wget -O /etc/fail2ban/jail.d/403.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/jail.d/403.conf'
 wget -O /etc/fail2ban/jail.d/400.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/jail.d/400.conf'
+wget -O /etc/fail2ban/jail.d/wp.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/jail.d/wp.conf'
 
 # Filter
 ## SSHD filter exist by default
@@ -20,6 +21,7 @@ wget -O /etc/fail2ban/filter.d/apache2notallowed.conf 'https://raw.githubusercon
 wget -O /etc/fail2ban/filter.d/apache2unauthorized.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/filter.d/apache2unauthorized.conf'
 wget -O /etc/fail2ban/filter.d/apache2forbidden.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/filter.d/apache2forbidden.conf'
 wget -O /etc/fail2ban/filter.d/apache2badrequest.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/filter.d/apache2badrequest.conf'
+wget -O /etc/fail2ban/filter.d/wpinclude.conf 'https://raw.githubusercontent.com/Altherneum/server/main/etc/fail2ban/filter.d/wpinclude.conf'
 
 # Relancer Fail2Ban pour appliquer les changements
 systemctl restart fail2ban

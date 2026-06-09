@@ -97,6 +97,11 @@ fail2ban-client status 403
 
 printf "\n"
 
+printf "🚨\tFail2Ban\t👮\twp-include\n"
+fail2ban-client status wp
+
+printf "\n"
+
 printf "🚧\tServices\t\t⚡\t\t💤\n"
 printf "☎️\tDiscord\t\t\t$(systemctl is-enabled discord)\t\t$(systemctl check discord)\n"
 
