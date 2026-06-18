@@ -117,6 +117,7 @@ wget -O /Serveurs/DataFolder/paper-config/paper-global.yml 'https://raw.githubus
 # Paste secret into config
 SECRET=$(cat /Serveurs/Waterfall/forwarding.secret) && \
 sed -i "s|^    secret: '.*'|    secret: '$SECRET'|" /Serveurs/DataFolder/paper-config/paper-global.yml   
+SECRET="" # Empty secret
 
 # server.properties
 # wget -O /Serveurs/Anarchie/server.properties 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Anarchie/server.properties'
