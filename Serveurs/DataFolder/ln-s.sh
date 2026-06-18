@@ -151,3 +151,4 @@ ln -s /Serveurs/DataFolder/eula.txt /Serveurs/Waterfall
 ln -s /Serveurs/DataFolder/plugins/geyser.jar /Serveurs/Waterfall/plugins
 ln -s /Serveurs/DataFolder/plugins/floodgate.jar /Serveurs/Waterfall/plugins
 ln -s /Serveurs/DataFolder/flood-gate.config.yml /Serveurs/Waterfall/plugins/floodgate/config.yml
+ln -s /Serveurs/DataFolder/plugins/floodgate-sqlite.jar /Serveurs/Waterfall/plugins/floodgate/floodgate-sqlite.jar
