@@ -10,6 +10,6 @@ service minecraft@hub start
 # service minecraft@opprison start
 service minecraft@proxy start
 # service minecraft@rpg start
-service minecraft@skyblock start
-# service minecraft@survie start
+# service minecraft@skyblock start
+service minecraft@survie start
 # service minecraft@test start
