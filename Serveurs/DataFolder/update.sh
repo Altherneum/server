@@ -114,6 +114,9 @@ wget -O /Serveurs/DataFolder/players/d0d42ff0-e2d1-4fb8-81e5-d14c9a22c97b/tag.ym
 mkdir -p /Serveurs/DataFolder/paper-config
 wget -O /Serveurs/DataFolder/paper-config/paper-world-defaults.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/paper-config/paper-world-defaults.yml'
 wget -O /Serveurs/DataFolder/paper-config/paper-global.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/DataFolder/paper-config/paper-global.yml'
+# Paste secret into config
+SECRET=$(cat /Serveurs/Waterfall/forwarding.secret) && \
+sed -i "s|^    secret: '.*'|    secret: '$SECRET'|" /Serveurs/DataFolder/paper-config/paper-global.yml   
 
 # server.properties
 # wget -O /Serveurs/Anarchie/server.properties 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Anarchie/server.properties'
