@@ -15,6 +15,7 @@ ln -s /Serveurs/DataFolder/paper-config/paper-world-defaults.yml /Serveurs/Creat
 ln -s /Serveurs/DataFolder/plugins/floodgate-paper.jar /Serveurs/Creatif/plugins/floodgate.jar
 mkdir -p /Serveurs/Creatif/plugins/floodgate/
 ln -s /Serveurs/Waterfall/plugins/floodgate/key.pem /Serveurs/Creatif/plugins/floodgate/key.pem
+ln -s /Serveurs/Waterfall/forwarding.secret /Serveurs/Creatif/forwarding.secret
 ln -s /Serveurs/DataFolder/flood-gate.config.yml /Serveurs/Creatif/plugins/floodgate/config.yml
 
 mkdir -p /Serveurs/Hub/plugins
@@ -34,6 +35,7 @@ ln -s /Serveurs/DataFolder/paper-config/paper-world-defaults.yml /Serveurs/Hub/c
 ln -s /Serveurs/DataFolder/plugins/floodgate-paper.jar /Serveurs/Hub/plugins/floodgate.jar
 mkdir -p /Serveurs/Hub/plugins/floodgate/
 ln -s /Serveurs/Waterfall/plugins/floodgate/key.pem /Serveurs/Hub/plugins/floodgate/key.pem
+ln -s /Serveurs/Waterfall/forwarding.secret /Serveurs/Hub/forwarding.secret
 ln -s /Serveurs/DataFolder/flood-gate.config.yml /Serveurs/Hub/plugins/floodgate/config.yml
 
 mkdir -p /Serveurs/RPG/plugins
@@ -53,6 +55,7 @@ ln -s /Serveurs/DataFolder/paper-config/paper-world-defaults.yml /Serveurs/RPG/c
 ln -s /Serveurs/DataFolder/plugins/floodgate-paper.jar /Serveurs/RPG/plugins/floodgate.jar
 mkdir -p /Serveurs/RPG/plugins/floodgate/
 ln -s /Serveurs/Waterfall/plugins/floodgate/key.pem /Serveurs/RPG/plugins/floodgate/key.pem
+ln -s /Serveurs/Waterfall/forwarding.secret /Serveurs/RPG/forwarding.secret
 ln -s /Serveurs/DataFolder/flood-gate.config.yml /Serveurs/RPG/plugins/floodgate/config.yml
 
 mkdir -p /Serveurs/SkyBlock/plugins
@@ -71,6 +74,7 @@ ln -s /Serveurs/DataFolder/paper-config/paper-world-defaults.yml /Serveurs/SkyBl
 ln -s /Serveurs/DataFolder/plugins/floodgate-paper.jar /Serveurs/SkyBlock/plugins/floodgate.jar
 mkdir -p /Serveurs/SkyBlock/plugins/floodgate/
 ln -s /Serveurs/Waterfall/plugins/floodgate/key.pem /Serveurs/SkyBlock/plugins/floodgate/key.pem
+ln -s /Serveurs/Waterfall/forwarding.secret /Serveurs/SkyBlock/forwarding.secret
 ln -s /Serveurs/DataFolder/flood-gate.config.yml /Serveurs/SkyBlock/plugins/floodgate/config.yml
 
 mkdir -p /Serveurs/Anarchie/plugins
@@ -89,6 +93,7 @@ ln -s /Serveurs/DataFolder/paper-config/paper-world-defaults.yml /Serveurs/Anarc
 ln -s /Serveurs/DataFolder/plugins/floodgate-paper.jar /Serveurs/Anarchie/plugins/floodgate.jar
 mkdir -p /Serveurs/Anarchie/plugins/floodgate/
 ln -s /Serveurs/Waterfall/plugins/floodgate/key.pem /Serveurs/Anarchie/plugins/floodgate/key.pem
+ln -s /Serveurs/Waterfall/forwarding.secret /Serveurs/Anarchie/forwarding.secret
 ln -s /Serveurs/DataFolder/flood-gate.config.yml /Serveurs/Anarchie/plugins/floodgate/config.yml
 
 mkdir -p /Serveurs/Survie/plugins
@@ -107,6 +112,7 @@ ln -s /Serveurs/DataFolder/paper-config/paper-world-defaults.yml /Serveurs/Survi
 ln -s /Serveurs/DataFolder/plugins/floodgate-paper.jar /Serveurs/Survie/plugins/floodgate.jar
 mkdir -p /Serveurs/Survie/plugins/floodgate/
 ln -s /Serveurs/Waterfall/plugins/floodgate/key.pem /Serveurs/Survie/plugins/floodgate/key.pem
+ln -s /Serveurs/Waterfall/forwarding.secret /Serveurs/Survie/forwarding.secret
 ln -s /Serveurs/DataFolder/flood-gate.config.yml /Serveurs/Survie/plugins/floodgate/config.yml
 
 mkdir -p /Serveurs/Test/plugins
@@ -125,6 +131,7 @@ ln -s /Serveurs/DataFolder/paper-config/paper-world-defaults.yml /Serveurs/Test/
 ln -s /Serveurs/DataFolder/plugins/floodgate-paper.jar /Serveurs/Test/plugins/floodgate.jar
 mkdir -p /Serveurs/Test/plugins/floodgate/
 ln -s /Serveurs/Waterfall/plugins/floodgate/key.pem /Serveurs/Test/plugins/floodgate/key.pem
+ln -s /Serveurs/Waterfall/forwarding.secret /Serveurs/Test/forwarding.secret
 ln -s /Serveurs/DataFolder/flood-gate.config.yml /Serveurs/Test/plugins/floodgate/config.yml
 
 mkdir -p /Serveurs/OPPrison/plugins
@@ -143,6 +150,7 @@ ln -s /Serveurs/DataFolder/paper-config/paper-world-defaults.yml /Serveurs/OPPri
 ln -s /Serveurs/DataFolder/plugins/floodgate-paper.jar /Serveurs/OPPrison/plugins/floodgate.jar
 mkdir -p /Serveurs/OPPrison/plugins/floodgate/
 ln -s /Serveurs/Waterfall/plugins/floodgate/key.pem /Serveurs/OPPrison/plugins/floodgate/key.pem
+ln -s /Serveurs/Waterfall/forwarding.secret /Serveurs/OPPrison/forwarding.secret
 ln -s /Serveurs/DataFolder/flood-gate.config.yml /Serveurs/OPPrison/plugins/floodgate/config.yml
 
 mkdir -p /Serveurs/Waterfall
