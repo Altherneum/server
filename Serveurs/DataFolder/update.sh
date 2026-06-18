@@ -81,7 +81,8 @@ wget -O /Serveurs/Waterfall/config.yml 'https://raw.githubusercontent.com/Alther
 wget -O /Serveurs/Waterfall/velocity.toml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Waterfall/velocity.toml'
 # Geyser-Config
 wget -O /Serveurs/Waterfall/plugins/Geyser-BungeeCord/config.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Waterfall/plugins/Geyser-BungeeCord/config.yml'
-
+# Flood gate config
+wget -O /Serveurs/Waterfall/DataFolder/flood-gate.config.yml 'https://raw.githubusercontent.com/Altherneum/server/main/Serveurs/Waterfall/DataFolder/flood-gate.config.yml'
 
 # global config
 mkdir -p /Serveurs/DataFolder
