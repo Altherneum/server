@@ -539,6 +539,7 @@ A
 ```
 
 ## Apache2 redirection
+- [altherneum.fr](https://altherneum.fr) ➡️ [#discord.altherneum.fr](#discordaltherneumfr)
 ### discord.altherneum.fr
 - [discord.altherneum.fr](https://discord.altherneum.fr)
 ### vocal.altherneum.fr
